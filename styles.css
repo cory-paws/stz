@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: green;
+    font-size: 250%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+}
+
+h2 {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+a:link, a:visited {
+    color: lightseagreen;
+    text-decoration: none;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    color: grey;
+    text-decoration: none;
+  }
+
+  .red {
+      color: maroon;
+  }
