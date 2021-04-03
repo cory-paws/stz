@@ -1,0 +1,25 @@
+{
+    "title": "An intense tent",
+    "lines": [
+        "So any way.......  ",
+        "Around a week ago, you decided to go solo camping in the middle of nowhere.",
+        "The week is at it's end. Time to go back to civilizations."
+    ],
+    "options": [
+        {
+            "id": "cake",
+            "link": "cake.json",
+            "desc": "1. Eat chocolate cake"
+        },
+        {
+            "id": "sleep",
+            "link": "sleep.json",
+            "desc": "2. Go Back to sleep"
+        },
+        {
+            "id": "hill",
+            "link": "hill.json",
+            "desc": "3. Pack up the tent and leave"
+        }
+    ]
+}
