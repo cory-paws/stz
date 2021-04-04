@@ -60,6 +60,11 @@ const build = (data) =>{
     const descElement = document.getElementById('desc');
     removeChilds(descElement);
     titleElement.innerHTML = data.title;
+    if (data.type == 'DEAD'){
+        titleElement.classList.add('red');
+    } else {
+        titleElement.classList.remove('red');
+    }
     data.lines.forEach(line =>{
         const div = document.createElement('div');
         div.innerHTML=line;
