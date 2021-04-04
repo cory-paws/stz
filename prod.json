@@ -1,0 +1,12 @@
+{
+    "title": "You have picked up the cattle prod",
+    "type": "PICKEDUP",
+    "lines": [],
+    "options": [
+        {
+            "id": "back",
+            "link": "hill.json",
+            "desc": "Ok, lets go back"
+        }
+    ]
+}

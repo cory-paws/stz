@@ -1,0 +1,26 @@
+{
+    "title": "The Hill",
+    "lines": [
+        "You have packed up your tent in your backpack and you're looking down the hill.",
+        "There is a path down to the village to the left, you can also see a farmer acting",
+        "strangely on his mobile phone to the field to the right. It also looks like a good",
+        "spot for a picnic."
+    ],
+    "options": [
+        {
+            "id": "picnic",
+            "link": "picnic.json",
+            "desc": "1. Have a picnic"
+        },
+        {
+            "id": "village",
+            "link": "village.json",
+            "desc": "2. Go to the village"
+        },
+        {
+            "id": "farmer",
+            "link": "farmer.json",
+            "desc": "3. See what's up with the farmer"
+        }
+    ]
+}

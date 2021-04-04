@@ -15,6 +15,22 @@ const removeChilds = (parent) => {
     }
 };
 
+const remove = id => {
+    const el = document.getElementById(id);
+    el.parentNode.removeChild(el);
+}
+
+const oldway = () =>{
+    const prod = localStorage.getItem('cattlePod');
+    if (prod){
+        remove('prodDrop');
+        remove('prod');
+    } else {
+        remove('back');
+    }
+    
+}
+
 const build = (data) =>{
     const titleElement = document.getElementById('title');
     const descElement = document.getElementById('desc');
@@ -32,9 +48,11 @@ const build = (data) =>{
         const li = document.createElement('li');
         li.innerHTML = option.desc;
         const json = option.link;
-        document.addEventListener("click", ()=>{
+        const action = (event)=>{
             go(json);
-        });
+            document.removeEventListener("click", li);
+        }
+        li.addEventListener("click", action);
         optionsElement.appendChild(li);
     });
 }

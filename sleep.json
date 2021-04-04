@@ -1,0 +1,14 @@
+{
+    "title": "OH NO",
+    "type": "DEAD",
+    "lines": [
+        "Whilst you were sleeping a zombie farmer falls into your tent and eats you"
+    ],
+    "options": [
+        {
+            "id": "return",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}
