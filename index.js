@@ -65,6 +65,9 @@ const build = (data) =>{
     } else {
         titleElement.classList.remove('red');
     }
+    if (data.type == 'PICKEDUP') {
+        localStorage.setItem(data.objectName, data);
+    }
     data.lines.forEach(line =>{
         const div = document.createElement('div');
         div.innerHTML=line;

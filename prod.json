@@ -1,6 +1,7 @@
 {
     "title": "You have picked up the cattle prod",
     "type": "PICKEDUP",
+    "objectName": "cattleprod",
     "lines": [],
     "options": [
         {
