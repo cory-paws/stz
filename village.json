@@ -1,0 +1,23 @@
+{
+    "title": "The village",
+    "lines": [
+        "You walk into the village square. There are people approaching you creepily. They look a bit strange."
+    ],
+    "options": [
+        {
+            "id": "Hide",
+            "link": "hide.json",
+            "desc": "1. Hide in a shop"
+        },
+        {
+            "id": "leavetown",
+            "link": "road.json",
+            "desc": "2. Quickly leave the village"
+        },
+        {
+            "id": "speak",
+            "link": "talk.json",
+            "desc": "3. Talk to the villages"
+        }
+    ]
+}
