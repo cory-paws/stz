@@ -21,8 +21,8 @@
             "desc": "2. Talk to him and see what's wrong"
         },
         {
-            "id": "picnic",
-            "link": "picnic.json",
+            "id": "hurry",
+            "link": "hurry.json",
             "desc": "3. Hurry away, so you don't catch anything"
         }
     ]

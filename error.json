@@ -1,0 +1,16 @@
+{
+    "title": "OOOPS",
+    "type": "DEAD",
+    "lines": [
+        "So any way.......  ",
+        "There's been an error.. Ooooooooooopppsie",
+        "The week is at it's end. Time to go back to civilizations."
+    ],
+    "options": [
+        {
+            "id": "sindex",
+            "link": "index.json",
+            "desc": "1. Please take me back to the start"
+        }
+    ]
+}
