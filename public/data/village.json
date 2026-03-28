@@ -1,0 +1,24 @@
+{
+    "title": "The village",
+    "image": "/images/hill.png",
+    "lines": [
+        "You walk into the village square. There are people approaching you creepily. They look a bit strange."
+    ],
+    "options": [
+        {
+            "id": "Hide",
+            "link": "village_death.json",
+            "desc": "1. Hide in a shop"
+        },
+        {
+            "id": "sewer",
+            "link": "sewer_entrance.json",
+            "desc": "2. Pry open a manhole cover and enter the sewers"
+        },
+        {
+            "id": "speak",
+            "link": "village_death.json",
+            "desc": "3. Talk to the villagers"
+        }
+    ]
+}

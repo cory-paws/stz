@@ -1,0 +1,13 @@
+{
+    "title": "You picked up the cheese",
+    "type": "PICKEDUP",
+    "objectName": "cheese",
+    "lines": [],
+    "options": [
+        {
+            "id": "back",
+            "link": "sewer_entrance.json",
+            "desc": "Return to the tunnels with the cheese"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "title": "A Fatal Mistake",
+    "type": "DEAD",
+    "lines": [
+        "The villagers aren't normal. They swarm you with unnatural speed and viciousness.",
+        "You are dragged down into the mob. It's over."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "The Dank Sewers",
+    "lines": [
+        "With the twisted villagers closing in, you pry open a heavy iron manhole cover and drop into the darkness.",
+        "The smell is awful, and you can't see much. The tunnel splits in two directions.",
+        "There's also a pile of garbage and rubble near the pipe you dropped out of."
+    ],
+    "options": [
+        {
+            "id": "rubble",
+            "link": "sewer_rubble.json",
+            "desc": "Search the rubble"
+        },
+        {
+            "id": "left",
+            "link": "sewer_left.json",
+            "desc": "Take the left tunnel"
+        },
+        {
+            "id": "right",
+            "link": "sewer_right.json",
+            "desc": "Take the right tunnel"
+        }
+    ]
+}

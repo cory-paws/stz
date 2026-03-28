@@ -1,0 +1,15 @@
+{
+    "title": "OH NO",
+    "image": "/images/picnic.png",
+    "type": "DEAD",
+    "lines": [
+        "As you put your blanket down for a picnic, a zombie farmer comes up behind you and eats you"
+    ],
+    "options": [
+        {
+            "id": "return",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Fried",
+    "type": "DEAD",
+    "lines": [
+        "In a complete panic as the room temperature peaks, you reach down and grab the conductor coils.",
+        "A massive surge of residual electricity shoots through your body.",
+        "Your heart stops instantly."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}
