@@ -1,0 +1,16 @@
+{
+    "title": "The Deep Things",
+    "type": "DEAD",
+    "lines": [
+        "You foolishly step into the freezing black water, trying to conserve your energy by swimming.",
+        "You don't make it five feet before something impossibly massive latches onto your leg.",
+        "Giant, slimy tentacles drag you down into the crushing depths forever."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "The Abyss Lake",
+    "lines": [
+        "You inch past the cracking ice monoliths, breathing a sigh of relief as you arrive in an absolutely massive, unlit cavern.",
+        "Stretching before you is an inky, black underground lake. Massive, unseen creatures are causing huge, rhythmic ripples in the slick water.",
+        "There is a very narrow, dangerous-looking stone ledge encircling the water's edge."
+    ],
+    "options": [
+        {
+            "id": "swim",
+            "link": "cave_tentacle_death.json",
+            "desc": "Try to swim barefoot across the lake to save time"
+        },
+        {
+            "id": "ledge",
+            "link": "cave_shrine.json",
+            "desc": "Carefully inch your way along the narrow sliver of stone ledge"
+        }
+    ]
+}

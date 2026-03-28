@@ -1,0 +1,15 @@
+{
+    "title": "A Sudden Drop",
+    "lines": [
+        "You lay your blanket down on what seems like a sturdy spot for a picnic.",
+        "Suddenly, a massive crack echoes beneath you. The ground collapses entirely!",
+        "You tumble down a steep, rocky sinkhole into absolute darkness."
+    ],
+    "options": [
+        {
+            "id": "fall",
+            "link": "cave_drop.json",
+            "desc": "Brace for impact!"
+        }
+    ]
+}

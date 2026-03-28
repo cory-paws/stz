@@ -1,17 +1,19 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { GameData, InventoryState, DroppedItemsState } from '../types/game';
+import { GameData, InventoryState, DroppedItemsState, VisitedLocation } from '../types/game';
 import { useProceduralAudio } from '../hooks/useProceduralAudio';
 import { LocationDisplay } from '../components/LocationDisplay';
 import { OptionsList } from '../components/OptionsList';
 import InventoryManager from '../components/InventoryManager';
+import MapTracker from '../components/MapTracker';
 
 export default function Game() {
   const [data, setData] = useState<GameData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [inventory, setInventory] = useState<InventoryState>({});
   const [droppedItems, setDroppedItems] = useState<DroppedItemsState>({});
+  const [visitedLocations, setVisitedLocations] = useState<VisitedLocation[]>([]);
   const [currentLocation, setCurrentLocation] = useState<string>('index.json');
   const [isLoading, setIsLoading] = useState(true);
 
@@ -20,7 +22,7 @@ export default function Game() {
   const loadGameData = async (filename: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch(`/data/${filename}`);
+      const response = await fetch(`/api/data/${filename}`);
       if (!response.ok) {
         if (filename === 'error.json') {
           throw new Error('Critical error: could not load error.json');
@@ -30,6 +32,15 @@ export default function Game() {
       const jsonData: GameData = await response.json();
       setData(jsonData);
       setCurrentLocation(filename);
+
+      setVisitedLocations((prev) => {
+        if (!prev.some(loc => loc.filename === filename)) {
+          const newVisited = [...prev, { filename, title: jsonData.title }];
+          localStorage.setItem('visitedLocations', JSON.stringify(newVisited));
+          return newVisited;
+        }
+        return prev;
+      });
 
       // Trigger zombie sound if player is dead
       if (jsonData.type === 'DEAD') {
@@ -63,9 +74,11 @@ export default function Game() {
       localStorage.setItem('inventory', JSON.stringify(savedInventory));
     }
     const savedDropped = JSON.parse(localStorage.getItem('droppedItems') || '{}');
+    const savedVisited = JSON.parse(localStorage.getItem('visitedLocations') || '[]');
 
     setInventory(savedInventory);
     setDroppedItems(savedDropped);
+    setVisitedLocations(savedVisited);
     loadGameData(savedCurrent);
   }, []);
 
@@ -167,6 +180,8 @@ export default function Game() {
       {data && data.type !== 'DEAD' && (
         <InventoryManager inventory={inventory} onDropItem={handleDropItem} />
       )}
+
+      <MapTracker visitedLocations={visitedLocations} />
     </main>
   );
 }
