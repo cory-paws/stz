@@ -4,10 +4,10 @@ import path from 'path';
 
 export async function GET(
   request: Request,
-  { params }: { params: { filename: string } }
+  { params }: { params: Promise<{ filename: string }> }
 ) {
   try {
-    const filename = params.filename;
+    const { filename } = await params;
     
     // Security check: Only allow .json files and prevent directory traversal
     if (!filename.endsWith('.json') || filename.includes('..') || filename.includes('/')) {
@@ -19,7 +19,7 @@ export async function GET(
     
     return NextResponse.json(JSON.parse(fileContents));
   } catch (error) {
-    console.error(`Failed to read game data file ${params.filename}:`, error);
+    console.error(`Failed to read a game data file:`, error);
     return NextResponse.json({ error: 'Location not found' }, { status: 404 });
   }
 }

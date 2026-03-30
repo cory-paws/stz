@@ -1,0 +1,18 @@
+{
+    "title": "The Mountains of Madness",
+    "image": "/images/mountains_madness.png",
+    "lines": [
+        "You step through the swirling amethyst tear in reality.",
+        "Gravity shifts violently. The damp cave air is instantly replaced by a blinding, sub-zero blizzard.",
+        "You look up and the nightmare truly begins. Carved into the impossible, jagged peaks piercing the clouds are cyclopean, ancient ruins.",
+        "Above them, entirely alien, black stars cast a sickly glow over the frozen wasteland.",
+        "You escaped the zombie apocalypse... only to arrive at the Mountains of Madness."
+    ],
+    "options": [
+        {
+            "id": "venture",
+            "link": "wasp_factory.json",
+            "desc": "Venture deeper into the frozen mountain pass"
+        }
+    ]
+}

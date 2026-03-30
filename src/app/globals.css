@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;600;700&display=swap');
+@import "tailwindcss";
 
 :root {
   --bg-primary: #050a05;
@@ -38,13 +38,13 @@ body {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow-x: hidden;
 }
 
 main {
   max-width: 1500px;
   width: 100%;
+  min-height: 90vh;
   background: var(--glass-bg);
   backdrop-filter: blur(10px);
   border: 1px solid var(--glass-border);

@@ -5,7 +5,8 @@ import { useCallback } from 'react';
 export function useProceduralAudio() {
     const playClickSound = useCallback(() => {
         try {
-            const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+            const audioCtx = new AudioContextClass();
             const oscillator = audioCtx.createOscillator();
             const gainNode = audioCtx.createGain();
 
@@ -28,7 +29,8 @@ export function useProceduralAudio() {
 
     const playZombieSound = useCallback(() => {
         try {
-            const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+            const audioCtx = new AudioContextClass();
             const oscillator = audioCtx.createOscillator();
             const gainNode = audioCtx.createGain();
             const filter = audioCtx.createBiquadFilter();

@@ -6,7 +6,7 @@ import { useProceduralAudio } from '../hooks/useProceduralAudio';
 import { LocationDisplay } from '../components/LocationDisplay';
 import { OptionsList } from '../components/OptionsList';
 import InventoryManager from '../components/InventoryManager';
-import MapTracker from '../components/MapTracker';
+import VisualMap from '../components/VisualMap';
 
 export default function Game() {
   const [data, setData] = useState<GameData | null>(null);
@@ -181,7 +181,7 @@ export default function Game() {
         <InventoryManager inventory={inventory} onDropItem={handleDropItem} />
       )}
 
-      <MapTracker visitedLocations={visitedLocations} />
+      <VisualMap visitedLocations={visitedLocations} />
     </main>
   );
 }

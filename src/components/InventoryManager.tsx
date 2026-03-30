@@ -13,7 +13,7 @@ export default function InventoryManager({ inventory, onDropItem }: InventoryMan
     }
 
     return (
-        <div className="mt-12 pt-6 border-t border-green-500/20">
+        <div className="mt-24 pt-6 border-t border-green-500/20">
             <h3 className="text-sm uppercase tracking-widest text-[#00ff41]/60 mb-6 font-sans">
                 Inventory
             </h3>
