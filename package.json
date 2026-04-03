@@ -3,33 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "24.14.1"
+    "node": ">=20.10.0"
   },
   "scripts": {
-    "dev": "next dev -p 3033",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "next lint",
     "test": "vitest"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.1",
-    "next": "16.1.6",
+    "next": "^15.1.0",
     "postcss": "^8.5.8",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
-    "@types/node": "^25.3.5",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
     "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "^15.1.0",
     "happy-dom": "^20.8.9",
     "typescript": "^5.9.3",
     "vitest": "^2.1.9"
