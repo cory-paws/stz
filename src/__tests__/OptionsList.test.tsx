@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
 import { OptionsList } from '../components/OptionsList';
-
 describe('OptionsList Component', () => {
     const mockOptions = [
         { id: '1', desc: 'Go North', link: 'north.json' },
@@ -9,7 +9,7 @@ describe('OptionsList Component', () => {
     ];
 
     it('renders base options and handles click', () => {
-        const handleClick = jest.fn();
+        const handleClick = vi.fn();
         render(
             <OptionsList
                 options={[mockOptions[0]]}
@@ -17,7 +17,7 @@ describe('OptionsList Component', () => {
                 droppedItems={[]}
                 linesCount={1}
                 onOptionClick={handleClick}
-                onPickupDroppedItem={jest.fn()}
+                onPickupDroppedItem={vi.fn()}
             />
         );
 
@@ -35,8 +35,8 @@ describe('OptionsList Component', () => {
                 inventory={{}}
                 droppedItems={[]}
                 linesCount={1}
-                onOptionClick={jest.fn()}
-                onPickupDroppedItem={jest.fn()}
+                onOptionClick={vi.fn()}
+                onPickupDroppedItem={vi.fn()}
             />
         );
 
@@ -52,8 +52,8 @@ describe('OptionsList Component', () => {
                 inventory={{ 'key': true }}
                 droppedItems={[]}
                 linesCount={1}
-                onOptionClick={jest.fn()}
-                onPickupDroppedItem={jest.fn()}
+                onOptionClick={vi.fn()}
+                onPickupDroppedItem={vi.fn()}
             />
         );
 
@@ -63,14 +63,14 @@ describe('OptionsList Component', () => {
     });
 
     it('renders dropped items and handles pickup', () => {
-        const handlePickup = jest.fn();
+        const handlePickup = vi.fn();
         render(
             <OptionsList
                 options={[]}
                 inventory={{}}
                 droppedItems={['cattleprod']}
                 linesCount={1}
-                onOptionClick={jest.fn()}
+                onOptionClick={vi.fn()}
                 onPickupDroppedItem={handlePickup}
             />
         );

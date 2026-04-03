@@ -1,9 +1,10 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { InventoryManager } from '../components/InventoryManager';
+import { describe, it, expect, vi } from 'vitest';
+import InventoryManager from '../components/InventoryManager';
 
 describe('InventoryManager Component', () => {
     it('does not render when inventory is empty', () => {
-        const { container } = render(<InventoryManager inventory={{}} onDropItem={jest.fn()} />);
+        const { container } = render(<InventoryManager inventory={{}} onDropItem={vi.fn()} />);
         expect(container.firstChild).toBeNull();
     });
 
@@ -13,7 +14,7 @@ describe('InventoryManager Component', () => {
             'apple': true,
             'key': false
         };
-        render(<InventoryManager inventory={inventory} onDropItem={jest.fn()} />);
+        render(<InventoryManager inventory={inventory} onDropItem={vi.fn()} />);
 
         expect(screen.getByText('Inventory')).toBeInTheDocument();
         expect(screen.getByText('cattleprod')).toBeInTheDocument();
@@ -22,7 +23,7 @@ describe('InventoryManager Component', () => {
     });
 
     it('calls onDropItem when Drop button is clicked', () => {
-        const handleDropItem = jest.fn();
+        const handleDropItem = vi.fn();
         const inventory = { 'cattleprod': true };
 
         render(<InventoryManager inventory={inventory} onDropItem={handleDropItem} />);
