@@ -1,0 +1,31 @@
+{
+    "title": "The Oven Room",
+    "lines": [
+        "Suddenly, the ceiling glows bright orange. Massive industrial heat coils power on.",
+        "The barn is basically a giant oven, and the temperature is rising rapidly!",
+        "In the center of the room sits a massive block of ice. There is also a keypad near the door.",
+        "You also notice some debris scattered in the corner of the room."
+    ],
+    "options": [
+        {
+            "id": "door",
+            "link": "barn_door.json",
+            "desc": "Push on the steel doors"
+        },
+        {
+            "id": "keypad",
+            "link": "barn_keypad.json",
+            "desc": "Check the electronic keypad"
+        },
+        {
+            "id": "search",
+            "link": "barn_search.json",
+            "desc": "Search the debris in the corner"
+        },
+        {
+            "id": "ice",
+            "link": "barn_ice.json",
+            "desc": "Examine the huge block of ice"
+        }
+    ]
+}

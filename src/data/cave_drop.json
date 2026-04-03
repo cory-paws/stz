@@ -1,0 +1,16 @@
+{
+    "title": "The Abyss",
+    "lines": [
+        "You land hard, bruised but unbroken.",
+        "The air down here is unnervingly cold. A thick, unnatural frost covers the cavern walls.",
+        "Looking up, the hole you fell through is far too high to climb back out of.",
+        "The only way forward is deeper into the freezing cave system."
+    ],
+    "options": [
+        {
+            "id": "walk",
+            "link": "cave_frozen.json",
+            "desc": "Walk deeper into the icy darkness"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Too Hot!",
+    "lines": [
+        "You push against the steel doors, but they are already blistering hot.",
+        "Your skin singes slightly. There is no way you are breaking through these manualy."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "barn_hub.json",
+            "desc": "Keep looking around, the heat is rising!"
+        }
+    ]
+}

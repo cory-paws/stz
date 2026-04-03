@@ -1,0 +1,15 @@
+{
+    "title": "A Coward's Retreat",
+    "lines": [
+        "You turn your back on the ancient gateway and the sleeping god.",
+        "Scrambling back along the narrow ledge, you eventually find a sloping, icy chimney in the rock and begin the long, terrifying climb back to the surface.",
+        "You emerge onto the Hill, bruised, terrified, and back where you started."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "index.json",
+            "desc": "Go back and rethink your life choices"
+        }
+    ]
+}

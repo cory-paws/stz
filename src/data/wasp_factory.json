@@ -1,0 +1,16 @@
+{
+    "title": "The Wasp Factory",
+    "lines": [
+        "You trudge through the knee-deep snow of a narrow pass between the towering peaks.",
+        "Breaking through the blizzard, a colossal, unnatural structure looms ahead.",
+        "Built into the cliffside is a massive biomechanical hive. It looks like a terrifying, alien 'Wasp Factory.'",
+        "A deep, low buzzing vibrates the very ice beneath your boots. Something ancient and terrible is being manufactured inside."
+    ],
+    "options": [
+        {
+            "id": "enter",
+            "link": "index.json",
+            "desc": "Enter the Wasp Factory (To Be Continued... Play Again!)"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "title": "The Origin",
+    "lines": [
+        "You follow the trail of glowing green goo deeper into the subterranean maze. The rats scurry alongside you, almost escorting you.",
+        "The tunnel finally ends at a massive, rusted storm drain leading vertically upward.",
+        "The goo is thickest here, dripping from the rusty grate above."
+    ],
+    "options": [
+        {
+            "id": "climb",
+            "link": "chemical_plant.json",
+            "desc": "Climb up through the storm drain grate"
+        }
+    ]
+}

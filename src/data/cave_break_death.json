@@ -1,0 +1,16 @@
+{
+    "title": "The Thaw",
+    "type": "DEAD",
+    "lines": [
+        "You strike the ice as hard as you can, hoping to crush the zombie inside.",
+        "Instead, the impact sends a chain-reaction of structural fractures through the entire glacial wall.",
+        "The ice shatters inward. Dozens of furious, freezing zombies spill out of the walls and rip you apart."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}

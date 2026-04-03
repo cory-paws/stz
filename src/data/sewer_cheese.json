@@ -1,0 +1,23 @@
+{
+    "title": "A Tight Squeeze",
+    "lines": [
+        "You flick on the heavy-duty flashlight. The beam cuts through the darkness.",
+        "Just a few feet ahead of you, the tunnel is completely choked with massive, sticky spider webs.",
+        "You saved your own life. You carefully step back.",
+        "On the ground near the edge of the webs, you spot an unopened, vacuum-sealed block of cheese."
+    ],
+    "options": [
+        {
+            "id": "pickup",
+            "link": "pickup_cheese.json",
+            "without": "cheese",
+            "desc": "Pick up the block of cheese"
+        },
+        {
+            "id": "back",
+            "link": "sewer_entrance.json",
+            "with": "cheese",
+            "desc": "Go back to the start of the tunnels"
+        }
+    ]
+}

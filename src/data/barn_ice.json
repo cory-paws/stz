@@ -1,0 +1,23 @@
+{
+    "title": "Melting Fast",
+    "image": "/images/barn_ice.png",
+    "lines": [
+        "You approach the massive block of ice. The blistering heat from the ceiling is causing it to melt into a rapidly spreading puddle.",
+        "Through the frosty surface, you can see a heavy metallic hatch set into the floor beneath it.",
+        "You need to smash the ice covering the hatch before you cook to death, but your hands aren't strong enough."
+    ],
+    "options": [
+        {
+            "id": "smash",
+            "link": "barn_panel.json",
+            "with": "metalrod",
+            "desc": "Smash the ice with the heavy metal rod!"
+        },
+        {
+            "id": "back",
+            "link": "barn_hub.json",
+            "without": "metalrod",
+            "desc": "Go back and look for something to smash it with..."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "A Sticky End",
+    "type": "DEAD",
+    "lines": [
+        "You press forward into the dark.",
+        "Suddenly, you walk face-first into something thick and sticky.",
+        "You are tangled in a massive, thick web. Six red eyes open in the darkness above you. A mutated sewer spider descends."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Go back to the beginning"
+        }
+    ]
+}

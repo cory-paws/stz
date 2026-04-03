@@ -1,0 +1,22 @@
+{
+    "title": "The Mad Shrine",
+    "image": "/images/cosmic_shrine.png",
+    "lines": [
+        "You hug the cavern wall and step off the ledge into a vast chamber with twisted, non-Euclidean geometry. The angles make your eyes hurt.",
+        "In the center of the room sits an abandoned stone altar.",
+        "Engraved deeply into the green stone below horrible, alien symbols reads exactly this: 'He that sleeps will never die.'",
+        "Behind the altar, a swirling tear in reality hums with an unnerving, amethyst light."
+    ],
+    "options": [
+        {
+            "id": "read",
+            "link": "cave_madness_death.json",
+            "desc": "Stand and try to decipher the alien symbols on the walls"
+        },
+        {
+            "id": "portal",
+            "link": "cave_portal.json",
+            "desc": "Approach the swirling amethyst tear in reality"
+        }
+    ]
+}

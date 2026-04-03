@@ -1,0 +1,15 @@
+{
+    "title": "The Quiet Fields",
+    "lines": [
+        "You walk through the dark, quiet fields, leaving the psychotic trap-maker and his deadly barn far behind you.",
+        "You are exhausted, bruised, and slightly singed, but you are alive.",
+        "You have survived the nightmare... for now."
+    ],
+    "options": [
+        {
+            "id": "win",
+            "link": "index.json",
+            "desc": "Start Over (You Win!)"
+        }
+    ]
+}
