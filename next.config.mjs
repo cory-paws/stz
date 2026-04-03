@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  outputFileTracingIncludes: {
-    '/api/data/**/*': ['./src/data/**/*'],
-  },
+  /* No more tracing needed, data is baked into JS bundle */
 };
 
 export default nextConfig;

@@ -2,6 +2,9 @@
   "name": "stz",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.14.1"
+  },
   "scripts": {
     "dev": "next dev -p 3033",
     "build": "next build",
