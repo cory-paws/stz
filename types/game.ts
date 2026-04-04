@@ -21,6 +21,9 @@ export type InventoryState = Record<string, boolean>;
 // Tracks items dropped per location. Key is location filename (e.g. "hill.json"), value is an array of item IDs.
 export type DroppedItemsState = Record<string, string[]>;
 
+// Tracks your own corpse's items per location from previous deaths.
+export type CorpseItemsState = Record<string, string[]>;
+
 export interface VisitedLocation {
     filename: string;
     title: string;

@@ -6,11 +6,11 @@ interface InventoryManagerProps {
 }
 
 export default function InventoryManager({ inventory, onDropItem }: InventoryManagerProps) {
-    const items = Object.keys(inventory).filter((key) => inventory[key] && key !== 'undefined');
+    const items = Object.entries(inventory)
+        .filter(([key, val]) => val && key !== 'undefined')
+        .map(([key]) => key);
 
-    if (items.length === 0) {
-        return null;
-    }
+    if (items.length === 0) return null;
 
     return (
         <div className="mt-24 pt-6 border-t border-green-500/20">
