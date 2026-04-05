@@ -18,6 +18,8 @@ import cave_lake from './cave_lake.json';
 import cave_madness_death from './cave_madness_death.json';
 import cave_portal from './cave_portal.json';
 import cave_shrine from './cave_shrine.json';
+import cave_stone_death from './cave_stone_death.json';
+import cave_altar_death from './cave_altar_death.json';
 import cave_tentacle_death from './cave_tentacle_death.json';
 import chemical_plant from './chemical_plant.json';
 import error from './error.json';
@@ -87,6 +89,8 @@ export const allGameData: Record<string, GameData> = {
   'cave_madness_death.json': cave_madness_death as unknown as GameData,
   'cave_portal.json': cave_portal as unknown as GameData,
   'cave_shrine.json': cave_shrine as unknown as GameData,
+  'cave_stone_death.json': cave_stone_death as unknown as GameData,
+  'cave_altar_death.json': cave_altar_death as unknown as GameData,
   'cave_tentacle_death.json': cave_tentacle_death as unknown as GameData,
   'chemical_plant.json': chemical_plant as unknown as GameData,
   'error.json': error as unknown as GameData,
