@@ -1,0 +1,27 @@
+{
+    "title": "The Abandoned Zoo",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[140deg] brightness-75 saturate-150 contrast-125",
+    "lines": [
+        "The gates of the local wildlife park have been bent outward, and the roar from inside doesn't sound human.",
+        "Overgrown ivy chokes the snack bars, and several cages are shattered. The air is thick with a smell you recognize from the barn...",
+        "Something is pacing in the shadows of the Big Cat exhibit ahead."
+    ],
+    "options": [
+        {
+            "id": "explore",
+            "link": "zoo_entrance.json",
+            "desc": "1. Search for items in the visitor center"
+        },
+        {
+            "id": "listen",
+            "link": "zoo_entrance.json",
+            "desc": "2. Listen quietly to the sounds of the zoo"
+        },
+        {
+            "id": "lion",
+            "link": "zoo_lion.json",
+            "desc": "3. Walk toward the Lion Exhibit"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "title": "The Muddy Rugby Field",
+    "image": "/images/hill.png",
+    "imageClass": "sepia brightness-90 saturate-50 contrast-125 hue-rotate-[10deg]",
+    "lines": [
+        "Just outside the village lies a floodlit rugby field, though the lights have been shattered for weeks.",
+        "A group of zombies in tattered, blood-stained jerseys stands between you and the far corner of the pitch.",
+        "If you want to get to the Zoo on the other side, you'll have to break their line and score a try."
+    ],
+    "options": [
+        {
+            "id": "tackle",
+            "link": "rugby_field.json",
+            "desc": "1. Attempt a low tackle on the closest zombie"
+        },
+        {
+            "id": "kick",
+            "link": "rugby_field.json",
+            "desc": "2. Grunt and kick the mud at them"
+        },
+        {
+            "id": "sprint",
+            "link": "pickup_bat.json",
+            "desc": "3. Sprint for the corner flag with all your speed"
+        }
+    ]
+}

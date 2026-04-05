@@ -1,0 +1,20 @@
+{
+    "title": "Barbed Wire Bat!",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-125 saturate-150 contrast-125",
+    "type": "PICKEDUP",
+    "objectName": "baseball_bat",
+    "lines": [
+        "You dive for the far corner flag and a cloud of mud and blood sprays into the air. You scored the try!",
+        "The zombies grope at the ground where you just were, but you are already crawling out of the pitch and into a small equipment shed.",
+        "Leaning against the wall is something beautiful: a heavy wooden baseball bat wrapped in thick, rusted barbed wire.",
+        "This is exactly what you'll need at the Zoo ahead."
+    ],
+    "options": [
+        {
+            "id": "zoo",
+            "link": "zoo_entrance.json",
+            "desc": "1. Head toward the overgrown Zoo entrance"
+        }
+    ]
+}

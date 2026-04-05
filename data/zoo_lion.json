@@ -1,0 +1,27 @@
+{
+    "title": "The Zombie Lion",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[140deg] brightness-50 saturate-150 contrast-125",
+    "lines": [
+        "A massive, rotted lion leaps from the shadows of its enclosure. Its mane is matted with dry gore, and its eyes glow with a sickly yellow light.",
+        "It lets out a gutteral, wet roar and prepares to pounce. There is no running from this beast; it is faster than any human."
+    ],
+    "options": [
+        {
+            "id": "fight",
+            "link": "zoo_capybara.json",
+            "with": "baseball_bat",
+            "desc": "1. Swing the Barbed-Wire Bat with everything you've got"
+        },
+        {
+            "id": "shout",
+            "link": "zoo_lion_death.json",
+            "desc": "2. Try to intimidate the lion by shouting"
+        },
+        {
+            "id": "run",
+            "link": "zoo_lion_death.json",
+            "desc": "3. Turn and run for the exit"
+        }
+    ]
+}
