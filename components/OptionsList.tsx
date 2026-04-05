@@ -5,6 +5,7 @@ interface OptionsListProps {
     inventory: InventoryState;
     droppedItems: string[]; // Items currently dropped at this location
     linesCount: number;
+    totalScore: number;
     onOptionClick: (link: string) => void;
     onPickupDroppedItem: (itemId: string) => void;
 }
@@ -14,12 +15,14 @@ export function OptionsList({
     inventory,
     droppedItems,
     linesCount,
+    totalScore,
     onOptionClick,
     onPickupDroppedItem,
 }: OptionsListProps) {
-    const shouldSkipOption = ({ with: w, without: wo }: GameOption) => {
+    const shouldSkipOption = ({ with: w, without: wo, scoreRequirement: sr }: GameOption) => {
         const hasItem = (req?: string) => req ? !!inventory[req] : false;
-        return (w && !hasItem(w)) || (wo && hasItem(wo));
+        const meetsScore = sr ? totalScore >= sr : true;
+        return (w && !hasItem(w)) || (wo && hasItem(wo)) || !meetsScore;
     };
 
     return (

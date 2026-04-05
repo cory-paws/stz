@@ -7,6 +7,7 @@ import { LocationDisplay } from '../components/LocationDisplay';
 import { OptionsList } from '../components/OptionsList';
 import InventoryManager from '../components/InventoryManager';
 import VisualMap from '../components/VisualMap';
+import ScoreDisplay from '../components/ScoreDisplay';
 
 export default function Game() {
   const [data, setData] = useState<GameData | null>(null);
@@ -16,6 +17,8 @@ export default function Game() {
   const [corpses, setCorpses] = useState<CorpseItemsState>({});
   const [visitedLocations, setVisitedLocations] = useState<VisitedLocation[]>([]);
   const [currentLocation, setCurrentLocation] = useState<string>('index.json');
+  const [discoveredEndings, setDiscoveredEndings] = useState<string[]>([]);
+  const [totalScore, setTotalScore] = useState<number>(0);
   const [isLoading, setIsLoading] = useState(true);
 
   const { playClickSound, playZombieSound } = useProceduralAudio();
@@ -67,17 +70,35 @@ export default function Game() {
         return next;
       });
 
-      // Handle Death
-      if (jsonData.type === 'DEAD') {
-        playZombieSound();
-        const inventoryKeys = Object.keys(inventory);
-        if (inventoryKeys.length > 0) {
-          setCorpses((prev) => {
-            const next = { ...prev, [currentLocation]: [...(prev[currentLocation] || []), ...inventoryKeys] };
-            save('corpses', next);
+      // Handle Death & Discovery
+      if (jsonData.type === 'DEAD' || jsonData.type === 'WIN') {
+        if (jsonData.type === 'DEAD') playZombieSound();
+        
+        // Award Score if first time discovering this ending
+        if (!discoveredEndings.includes(filename)) {
+          const scoreValue = jsonData.discoveryScore || 50;
+          setTotalScore(prev => {
+            const next = prev + scoreValue;
+            save('totalScore', next);
             return next;
           });
-          updateInventory(() => ({}));
+          setDiscoveredEndings(prev => {
+            const next = [...prev, filename];
+            save('discoveredEndings', next);
+            return next;
+          });
+        }
+
+        if (jsonData.type === 'DEAD') {
+          const inventoryKeys = Object.keys(inventory);
+          if (inventoryKeys.length > 0) {
+            setCorpses((prev) => {
+              const next = { ...prev, [currentLocation]: [...(prev[currentLocation] || []), ...inventoryKeys] };
+              save('corpses', next);
+              return next;
+            });
+            updateInventory(() => ({}));
+          }
         }
       }
 
@@ -100,6 +121,8 @@ export default function Game() {
     setDroppedItems(load('droppedItems', {}));
     setCorpses(load('corpses', {}));
     setVisitedLocations(load('visitedLocations', []));
+    setDiscoveredEndings(load('discoveredEndings', []));
+    setTotalScore(load('totalScore', 0));
     loadGameData(savedCurrent);
   }, []);
 
@@ -181,6 +204,8 @@ export default function Game() {
 
   return (
     <main className="w-full max-w-[1500px] bg-[#0d1a0d]/70 backdrop-blur-md border border-[#00ff41]/20 rounded-xl p-8 md:p-16 shadow-[0_0_40px_rgba(0,255,65,0.1),inset_0_0_20px_rgba(0,255,65,0.05)] relative animate-[flicker_0.15s_infinite_alternate] flex flex-col gap-16">
+      <ScoreDisplay score={totalScore} discoveredCount={discoveredEndings.length} />
+      
       <LocationDisplay data={data}>
         {data && data.options && (
           <OptionsList
@@ -188,6 +213,7 @@ export default function Game() {
             inventory={inventory}
             droppedItems={currentDroppedItems}
             linesCount={data.lines ? data.lines.length : 0}
+            totalScore={totalScore}
             onOptionClick={handleOptionClick}
             onPickupDroppedItem={(id) => pickupItem(id, 'dropped')}
           />
