@@ -199,9 +199,9 @@ export default function Game() {
               <span className="text-xl">💀</span> Search Player Corpse
             </h3>
             <div className="flex flex-wrap gap-3">
-              {corpses[currentLocation].map((itemId) => (
+              {corpses[currentLocation].map((itemId, index) => (
                 <button
-                  key={itemId}
+                  key={`${itemId}-${index}`}
                   onClick={() => pickupItem(itemId, 'corpse')}
                   className="px-4 py-2 bg-[#ffde00]/20 hover:bg-[#ffde00]/40 border border-[#ffde00]/50 rounded text-[#ffde00] text-sm font-medium transition-all duration-300 hover:scale-105"
                 >

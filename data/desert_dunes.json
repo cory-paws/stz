@@ -1,0 +1,21 @@
+{
+    "title": "The Endless Dunes",
+    "image": "/images/hill.png",
+    "lines": [
+        "The sand is deep and hot, dragging at your boots. Behind you, the wooden door remains firmly vanished.",
+        "Under the strange, bruised-purple sky, the desert seems to stretch forever in every direction.",
+        "To the north, you see the metallic shimmer of something partially buried in the sand. To the west, a hazy patch of green suggests an oasis."
+    ],
+    "options": [
+        {
+            "id": "van",
+            "link": "desert_crashed_van.json",
+            "desc": "1. Investigate the metallic shimmer"
+        },
+        {
+            "id": "mirage",
+            "link": "desert_mirage.json",
+            "desc": "2. Head toward the patch of green"
+        }
+    ]
+}

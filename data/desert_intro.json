@@ -9,9 +9,9 @@
     ],
     "options": [
         {
-            "id": "restart",
-            "link": "index.json",
-            "desc": "The End for now... (Restart to Village)"
+            "id": "continue",
+            "link": "desert_dunes.json",
+            "desc": "Venture deeper into the orange sands"
         }
     ]
 }

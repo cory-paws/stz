@@ -1,0 +1,22 @@
+{
+    "title": "The Heat Mirage",
+    "image": "/images/hill.png",
+    "lines": [
+        "You walk for hours toward the patch of green, but it never gets any closer. It shimmers and shifts, mocking you.",
+        "The heat is intensified by the violet sky. You begin to hear voices on the wind—the voices of everyone you left behind in the village.",
+        "Your vision blurs. You realize you are walking in circles."
+    ],
+    "options": [
+        {
+            "id": "focus",
+            "link": "desert_dunes.json",
+            "desc": "Blink and focus your mind (Go back)"
+        },
+        {
+            "id": "oasis",
+            "link": "desert_oasis.json",
+            "with": "flashlight",
+            "desc": "Use your flashlight's beam to cut through the haze"
+        }
+    ]
+}

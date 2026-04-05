@@ -1,0 +1,16 @@
+{
+    "title": "You found a Canteen!",
+    "image": "/images/hill.png",
+    "type": "PICKEDUP",
+    "objectName": "canteen",
+    "lines": [
+        "You find a sturdy plastic canteen. It's bone-dry, but it will keep you alive if you find water."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "desert_crashed_van.json",
+            "desc": "Check the rest of the van"
+        }
+    ]
+}

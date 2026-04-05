@@ -1,0 +1,22 @@
+{
+    "title": "The Hidden Oasis",
+    "image": "/images/hill.png",
+    "lines": [
+        "The violet light from your flashlight reflects off something real. The mirage shatters, revealing a small, hidden pool of water surrounded by black, twisted palms.",
+        "The water is dark and still, reflecting the bruised sky above.",
+        "There is a sense of ancient peace here, but the sand around the pool is covered in hundreds of tiny, bleached-white bones."
+    ],
+    "options": [
+        {
+            "id": "fill",
+            "link": "desert_night.json",
+            "with": "canteen",
+            "desc": "Fill your canteen and rest"
+        },
+        {
+            "id": "run",
+            "link": "desert_dunes.json",
+            "desc": "This place feels wrong. Leave quickly."
+        }
+    ]
+}

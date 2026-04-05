@@ -1,0 +1,22 @@
+{
+    "title": "The Crashed News Van",
+    "image": "/images/hill.png",
+    "lines": [
+        "You reach the shimmer. It's an old, overturned media van from the city, half-buried in a dune.",
+        "The satellite dish on top is bent and useless. The words 'CHANNEL 5 NEWS' are barely visible through the grime.",
+        "Inside, the van is empty of people, but you see some supplies scattered in the back."
+    ],
+    "options": [
+        {
+            "id": "canteen",
+            "link": "pickup_canteen.json",
+            "without": "canteen",
+            "desc": "1. Scavenge the supplies"
+        },
+        {
+            "id": "back",
+            "link": "desert_dunes.json",
+            "desc": "2. Go back to the dunes"
+        }
+    ]
+}

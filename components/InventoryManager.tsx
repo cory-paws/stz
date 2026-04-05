@@ -18,9 +18,9 @@ export default function InventoryManager({ inventory, onDropItem }: InventoryMan
                 Inventory
             </h3>
             <div className="flex flex-wrap gap-4">
-                {items.map((item) => (
+                {items.map((item, index) => (
                     <div
-                        key={item}
+                        key={`${item}-${index}`}
                         className="flex flex-row items-center justify-between gap-4 min-w-[200px] px-5 py-4 bg-[#00ff41]/5 border border-[#00ff41]/20 rounded-md shadow-sm transition-all hover:bg-[#00ff41]/10 hover:border-[#00ff41]/40"
                     >
                         <span className="font-semibold tracking-wide text-[1.1rem] capitalize truncate flex-1">{item}</span>

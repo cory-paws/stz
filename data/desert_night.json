@@ -1,0 +1,17 @@
+{
+    "title": "Nightfall",
+    "image": "/images/hill.png",
+    "lines": [
+        "The eternal twilight finally deepens into a true, pitch-black night. The temperature drops instantly, freezing your breath.",
+        "From beneath the sand dunes, long, skeletal fingers begin to emerge. The desert isn't just a place—it's a graveyard.",
+        "The silhouettes you saw earlier are closing in. They aren't just zombies; they are something older, something made of sand and hunger.",
+        "To Be Continued..."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Restart Adventure"
+        }
+    ]
+}
