@@ -217,12 +217,19 @@ export default function Game() {
   const currentDroppedItems = droppedItems[currentLocation] || [];
 
   return (
-    <main className="w-full max-w-[1500px] bg-[#0d1a0d]/70 backdrop-blur-md border border-[#00ff41]/20 rounded-xl p-8 md:p-16 shadow-[0_0_40px_rgba(0,255,65,0.1),inset_0_0_20px_rgba(0,255,65,0.05)] relative animate-[flicker_0.15s_infinite_alternate] flex flex-col gap-16">
-      <ScoreDisplay 
-        score={totalScore} 
-        discoveredCount={discoveredEndings.length} 
-        sanity={sanity}
-      />
+    <main className="w-full max-w-[1500px] bg-[#0d1a0d]/70 backdrop-blur-md border border-[#00ff41]/20 rounded-2xl p-6 md:p-12 shadow-[0_0_50px_rgba(0,255,65,0.15),inset_0_0_30px_rgba(0,255,65,0.05)] relative animate-[flicker_0.15s_infinite_alternate] flex flex-col gap-6">
+      <div className="w-full flex flex-col items-center gap-1 mb-2">
+        {currentLocation === 'index.json' && (
+          <h1 className={`${data?.type === 'DEAD' ? 'text-red-500 drop-shadow-[0_0_10px_rgba(255,49,49,0.8)]' : 'text-[#00ff41] drop-shadow-[0_0_10px_rgba(0,255,65,0.8)]'} font-black text-[10px] md:text-xs uppercase tracking-[0.8em] text-center antialiased mb-2`}>
+            STZ: SURVIVE THE ZOMBIES
+          </h1>
+        )}
+        <ScoreDisplay 
+          score={totalScore} 
+          discoveredCount={discoveredEndings.length} 
+          sanity={sanity}
+        />
+      </div>
       
       <LocationDisplay data={data}>
         {data && data.options && (
