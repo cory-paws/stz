@@ -1,0 +1,21 @@
+{
+    "title": "A Gentle Guardian",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[140deg] brightness-125 saturate-150 contrast-75",
+    "type": "WIN",
+    "discoveryScore": 500,
+    "lines": [
+        "CRACK! You swing the barbed-wire bat with a desperate roar. The rusted metal bites into the lion's skull, and the beast crumples into the dirt.",
+        "You don't wait for it to get up. You sprint through the exit of the lion exhibit and find yourself in a quiet, sun-drenched petting area.",
+        "A large, calm Capybara sits by a small pond, seemingly invisible to the zombies. It looks at you with ancient, peaceful eyes.",
+        "It nudges a hidden latch on the back gate with its nose. You slip through the fence and into the safety of the woods beyond.",
+        "The Capybara remains behind, a silent guardian of the sanctuary."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Restart from the tent"
+        }
+    ]
+}

@@ -1,15 +1,26 @@
 {
     "title": "A Fatal Mistake",
-    "type": "DEAD",
+    "sanityChange": -15,
     "lines": [
-        "The villagers aren't normal. They swarm you with unnatural speed and viciousness.",
-        "You are dragged down into the mob. It's over."
+        "You step into the square, hoping for assistance. But as the nearest 'villager' shambles into the light, you see the missing chunk in its neck.",
+        "A low, wet rattle comes from its throat. These are not people—they are a swarm, and they have just noticed you.",
+        "The entire square erupts into movement. You have a few heartbeats to choose a direction!"
     ],
     "options": [
         {
-            "id": "restart",
-            "link": "index.json",
-            "desc": "Go back to the beginning"
+            "id": "rugby",
+            "link": "rugby_field.json",
+            "desc": "1. Run for the rugby pitch"
+        },
+        {
+            "id": "shop",
+            "link": "shop_entrance.json",
+            "desc": "2. Bolt toward the shop"
+        },
+        {
+            "id": "stand",
+            "link": "village_shred_death.json",
+            "desc": "3. Stand your ground"
         }
     ]
 }

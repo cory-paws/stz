@@ -19,6 +19,11 @@
             "id": "speak",
             "link": "village_death.json",
             "desc": "3. Talk to the villagers"
+        },
+        {
+            "id": "rugby",
+            "link": "rugby_field.json",
+            "desc": "4. Hike toward the lights of the local rugby pitch"
         }
     ]
 }

@@ -49,6 +49,7 @@ import sewer_spider_death from './sewer_spider_death.json';
 import sleep from './sleep.json';
 import talk from './talk.json';
 import village_death from './village_death.json';
+import village_shred_death from './village_shred_death.json';
 import village from './village.json';
 import wasp_death from './wasp_death.json';
 import wasp_factory from './wasp_factory.json';
@@ -72,6 +73,12 @@ import desert_thirst_death from './desert_thirst_death.json';
 import pickup_crowbar from './pickup_crowbar.json';
 import pickup_matches from './pickup_matches.json';
 import pickup_canteen from './pickup_canteen.json';
+import rugby_field from './rugby_field.json';
+import pickup_bat from './pickup_bat.json';
+import zoo_entrance from './zoo_entrance.json';
+import zoo_lion from './zoo_lion.json';
+import zoo_lion_death from './zoo_lion_death.json';
+import zoo_capybara from './zoo_capybara.json';
 
 export const allGameData: Record<string, GameData> = {
   'barn_cook_death.json': barn_cook_death as unknown as GameData,
@@ -123,6 +130,7 @@ export const allGameData: Record<string, GameData> = {
   'sleep.json': sleep as unknown as GameData,
   'talk.json': talk as unknown as GameData,
   'village_death.json': village_death as unknown as GameData,
+  'village_shred_death.json': village_shred_death as unknown as GameData,
   'village.json': village as unknown as GameData,
   'wasp_death.json': wasp_death as unknown as GameData,
   'wasp_factory.json': wasp_factory as unknown as GameData,
@@ -146,4 +154,10 @@ export const allGameData: Record<string, GameData> = {
   'pickup_crowbar.json': pickup_crowbar as unknown as GameData,
   'pickup_matches.json': pickup_matches as unknown as GameData,
   'pickup_canteen.json': pickup_canteen as unknown as GameData,
+  'rugby_field.json': rugby_field as unknown as GameData,
+  'pickup_bat.json': pickup_bat as unknown as GameData,
+  'zoo_entrance.json': zoo_entrance as unknown as GameData,
+  'zoo_lion.json': zoo_lion as unknown as GameData,
+  'zoo_lion_death.json': zoo_lion_death as unknown as GameData,
+  'zoo_capybara.json': zoo_capybara as unknown as GameData,
 };

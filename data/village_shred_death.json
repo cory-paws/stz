@@ -1,0 +1,20 @@
+{
+    "title": "Violent Realization",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-50 saturate-200 contrast-150",
+    "type": "DEAD",
+    "discoveryScore": 50,
+    "sanityChange": -30,
+    "lines": [
+        "You stood your ground, hoping for a conversation that would never happen.",
+        "The first villager reaches you, its jaw unhinging with a sickening crack. It doesn't want to talk.",
+        "Before you can even scream, the rest of the pack is upon you. The 'conversation' is short, brutal, and final."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up back in the safety of your tent"
+        }
+    ]
+}
