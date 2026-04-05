@@ -19,6 +19,7 @@ export default function Game() {
   const [currentLocation, setCurrentLocation] = useState<string>('index.json');
   const [discoveredEndings, setDiscoveredEndings] = useState<string[]>([]);
   const [totalScore, setTotalScore] = useState<number>(0);
+  const [sanity, setSanity] = useState<number>(100);
   const [isLoading, setIsLoading] = useState(true);
 
   const { playClickSound, playZombieSound } = useProceduralAudio();
@@ -70,6 +71,18 @@ export default function Game() {
         return next;
       });
 
+      // Handle Sanity Changes
+      if (jsonData.sanityChange) {
+        setSanity(prev => {
+          const next = Math.max(0, Math.min(100, prev + (jsonData.sanityChange || 0)));
+          if (next <= 0) {
+            // Trigger Madness
+            loadGameData('cave_madness_death.json');
+          }
+          return next;
+        });
+      }
+
       // Handle Death & Discovery
       if (jsonData.type === 'DEAD' || jsonData.type === 'WIN') {
         if (jsonData.type === 'DEAD') playZombieSound();
@@ -90,6 +103,7 @@ export default function Game() {
         }
 
         if (jsonData.type === 'DEAD') {
+          setSanity(100); // Reset sanity on death
           const inventoryKeys = Object.keys(inventory);
           if (inventoryKeys.length > 0) {
             setCorpses((prev) => {
@@ -204,7 +218,11 @@ export default function Game() {
 
   return (
     <main className="w-full max-w-[1500px] bg-[#0d1a0d]/70 backdrop-blur-md border border-[#00ff41]/20 rounded-xl p-8 md:p-16 shadow-[0_0_40px_rgba(0,255,65,0.1),inset_0_0_20px_rgba(0,255,65,0.05)] relative animate-[flicker_0.15s_infinite_alternate] flex flex-col gap-16">
-      <ScoreDisplay score={totalScore} discoveredCount={discoveredEndings.length} />
+      <ScoreDisplay 
+        score={totalScore} 
+        discoveredCount={discoveredEndings.length} 
+        sanity={sanity}
+      />
       
       <LocationDisplay data={data}>
         {data && data.options && (
