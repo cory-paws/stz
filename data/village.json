@@ -7,7 +7,7 @@
     "options": [
         {
             "id": "Hide",
-            "link": "village_death.json",
+            "link": "shop_entrance.json",
             "desc": "1. Hide in a shop"
         },
         {

@@ -1,6 +1,6 @@
 {
     "title": "You have picked up the cattle prod",
-    "image": "/images/cake.png",
+    "image": "/images/cattleprod.png",
     "type": "PICKEDUP",
     "objectName": "cattleprod",
     "lines": [],

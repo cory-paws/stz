@@ -1,0 +1,16 @@
+{
+    "title": "The Impossible Attic",
+    "image": "/images/shop_attic.png",
+    "lines": [
+        "You slam the attic hatch shut and bolt it just as the first zombie reaches the top of the stairs. The pounding on the wood is relentless.",
+        "You turn around and freeze. The attic is filled with strange, charcoal drawings of multi-eyed monsters and impossible geometry.",
+        "On the far wall, a section of wallpaper is peeling away, revealing a faint, unearthly violet light glowing from the gaps in the wood."
+    ],
+    "options": [
+        {
+            "id": "scrape",
+            "link": "shop_wallpaper.json",
+            "desc": "Scrape back the peeling wallpaper"
+        }
+    ]
+}

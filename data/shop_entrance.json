@@ -1,0 +1,28 @@
+{
+    "title": "Abandoned Shop",
+    "image": "/images/shop_interior.png",
+    "lines": [
+        "You slide into a dark, dusty general store and bolt the door behind you. The village square is filled with the groans of the approaching dead.",
+        "The air inside is stale, smelling of dry rot and old canned goods. Moonlight filters through the grimy windows, revealing ransacked shelves.",
+        "You take a breath, scanning the shadows for anything useful."
+    ],
+    "options": [
+        {
+            "id": "crowbar",
+            "link": "pickup_crowbar.json",
+            "without": "crowbar",
+            "desc": "1. Search near the counter for a tool"
+        },
+        {
+            "id": "matches",
+            "link": "pickup_matches.json",
+            "without": "matches",
+            "desc": "2. Rummage through the survival shelf"
+        },
+        {
+            "id": "stay",
+            "link": "shop_chase.json",
+            "desc": "3. Wait here for a moment to catch your breath"
+        }
+    ]
+}

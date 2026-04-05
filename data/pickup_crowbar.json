@@ -1,0 +1,16 @@
+{
+    "title": "You found a Crowbar!",
+    "image": "/images/shop_interior.png",
+    "type": "PICKEDUP",
+    "objectName": "crowbar",
+    "lines": [
+        "You find a heavy iron crowbar under a pile of newspapers. This should be useful for opening locked doors... or smashing heads."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "shop_entrance.json",
+            "desc": "Continue searching the shop"
+        }
+    ]
+}

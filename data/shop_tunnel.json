@@ -1,0 +1,15 @@
+{
+    "title": "The Narrow Tunnel",
+    "image": "/images/shop_tunnel.png",
+    "lines": [
+        "The tunnel is impossibly narrow. You can barely move your arms. The air is cold and smells of dry sand.",
+        "As you crawl, the wooden walls press closer and closer against your shoulders. You can't turn back now."
+    ],
+    "options": [
+        {
+            "id": "forward",
+            "link": "shop_door.json",
+            "desc": "Keep pushing forward through the dark"
+        }
+    ]
+}

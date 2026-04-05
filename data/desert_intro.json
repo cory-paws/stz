@@ -1,0 +1,17 @@
+{
+    "title": "The Zombie Desert",
+    "image": "/images/hill.png", 
+    "lines": [
+        "You stumble out onto shifting, orange sand. The sky is a bruised, eternal twilight.",
+        "You turn around to look at the door, but there is nothing but sand behind you. The wooden portal has vanished into thin air.",
+        "In the distance, you see a lone silhouette stumbling across a dune. You are no longer in the village.",
+        "Your adventure in the desert has begun."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "The End for now... (Restart to Village)"
+        }
+    ]
+}
