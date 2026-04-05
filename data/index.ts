@@ -47,6 +47,21 @@ import talk from './talk.json';
 import village_death from './village_death.json';
 import village from './village.json';
 import wasp_factory from './wasp_factory.json';
+import shop_entrance from './shop_entrance.json';
+import shop_chase from './shop_chase.json';
+import shop_attic from './shop_attic.json';
+import shop_wallpaper from './shop_wallpaper.json';
+import shop_tunnel from './shop_tunnel.json';
+import shop_door from './shop_door.json';
+import desert_intro from './desert_intro.json';
+import desert_dunes from './desert_dunes.json';
+import desert_crashed_van from './desert_crashed_van.json';
+import desert_mirage from './desert_mirage.json';
+import desert_oasis from './desert_oasis.json';
+import desert_night from './desert_night.json';
+import pickup_crowbar from './pickup_crowbar.json';
+import pickup_matches from './pickup_matches.json';
+import pickup_canteen from './pickup_canteen.json';
 
 export const allGameData: Record<string, GameData> = {
   'barn_cook_death.json': barn_cook_death as unknown as GameData,
@@ -96,4 +111,19 @@ export const allGameData: Record<string, GameData> = {
   'village_death.json': village_death as unknown as GameData,
   'village.json': village as unknown as GameData,
   'wasp_factory.json': wasp_factory as unknown as GameData,
+  'shop_entrance.json': shop_entrance as unknown as GameData,
+  'shop_chase.json': shop_chase as unknown as GameData,
+  'shop_attic.json': shop_attic as unknown as GameData,
+  'shop_wallpaper.json': shop_wallpaper as unknown as GameData,
+  'shop_tunnel.json': shop_tunnel as unknown as GameData,
+  'shop_door.json': shop_door as unknown as GameData,
+  'desert_intro.json': desert_intro as unknown as GameData,
+  'desert_dunes.json': desert_dunes as unknown as GameData,
+  'desert_crashed_van.json': desert_crashed_van as unknown as GameData,
+  'desert_mirage.json': desert_mirage as unknown as GameData,
+  'desert_oasis.json': desert_oasis as unknown as GameData,
+  'desert_night.json': desert_night as unknown as GameData,
+  'pickup_crowbar.json': pickup_crowbar as unknown as GameData,
+  'pickup_matches.json': pickup_matches as unknown as GameData,
+  'pickup_canteen.json': pickup_canteen as unknown as GameData,
 };
