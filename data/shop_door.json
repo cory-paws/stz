@@ -9,7 +9,17 @@
         {
             "id": "open",
             "link": "desert_intro.json",
-            "desc": "Open the door and step through"
+            "desc": "1. Open the simple wooden door and step through"
+        },
+        {
+            "id": "listen",
+            "link": "shop_door.json",
+            "desc": "2. Press your ear against the keyhole"
+        },
+        {
+            "id": "kick",
+            "link": "shop_door_death.json",
+            "desc": "3. Kick the door open with all your strength"
         }
     ]
 }

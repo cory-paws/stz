@@ -9,7 +9,17 @@
         {
             "id": "enter",
             "link": "shop_tunnel.json",
-            "desc": "Crawl into the strange tunnel"
+            "desc": "1. Crawl into the glowing violet tunnel"
+        },
+        {
+            "id": "listen",
+            "link": "shop_wallpaper.json",
+            "desc": "2. Listen to the low hum coming from the wall"
+        },
+        {
+            "id": "stare",
+            "link": "shop_wallpaper.json",
+            "desc": "3. Stare into the amethyst light until it hurts"
         }
     ]
 }

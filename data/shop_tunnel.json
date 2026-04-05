@@ -9,7 +9,17 @@
         {
             "id": "forward",
             "link": "shop_door.json",
-            "desc": "Keep pushing forward through the dark"
+            "desc": "1. Continue pushing forward through the dark"
+        },
+        {
+            "id": "panic",
+            "link": "shop_tunnel_death.json",
+            "desc": "2. Try to force your way through faster"
+        },
+        {
+            "id": "touch",
+            "link": "shop_tunnel.json",
+            "desc": "3. Feel along the jagged wooden walls"
         }
     ]
 }

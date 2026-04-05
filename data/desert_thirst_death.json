@@ -1,0 +1,18 @@
+{
+    "title": "A Gritty End",
+    "type": "DEAD",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[220deg] saturate-200 brightness-50 contrast-150",
+    "lines": [
+        "The madness of the desert takes you. You fall to your knees, filling your mouth with dry, burning sand.",
+        "As the lungs fill with silica, the voices on the wind finally grow silent.",
+        "You are now part of the dunes."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up back at the tent"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Trapped and Forgotten",
+    "type": "DEAD",
+    "image": "/images/shop_interior.png",
+    "lines": [
+        "You dive behind the heavy wooden counter, hoping to remain unseen. You can hear the damp slapping of feet on the floorboards as the villagers enter.",
+        "They don't move like people. They sniff the air, their heads twitching with predatory precision.",
+        "One of them reaches over the counter. Their cold, grey fingers sink into your throat before you can even scream."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Restart from the tent"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "title": "A Violent Entry",
+    "type": "DEAD",
+    "image": "/images/shop_tunnel.png",
+    "lines": [
+        "In a fit of panic, you try to kick the simple wooden door off its frame instead of just opening it.",
+        "Your foot connects, but instead of the door flying open, your bones shatter as your leg meets the density of infinite matter.",
+        "As you fall, the door creaks open on its own, and a blast of superheated desert air incinerates your broken body."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up back at the tent"
+        }
+    ]
+}

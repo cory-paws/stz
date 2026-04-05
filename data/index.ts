@@ -37,6 +37,7 @@ import rat_death from './rat_death.json';
 import rat_friend from './rat_friend.json';
 import sewer_cheese from './sewer_cheese.json';
 import sewer_entrance from './sewer_entrance.json';
+import sewer_goo_death from './sewer_goo_death.json';
 import sewer_goo from './sewer_goo.json';
 import sewer_left from './sewer_left.json';
 import sewer_right from './sewer_right.json';
@@ -47,18 +48,22 @@ import talk from './talk.json';
 import village_death from './village_death.json';
 import village from './village.json';
 import wasp_factory from './wasp_factory.json';
+import shop_door_death from './shop_door_death.json';
+import shop_door from './shop_door.json';
 import shop_entrance from './shop_entrance.json';
-import shop_chase from './shop_chase.json';
+import shop_hide_death from './shop_hide_death.json';
+import shop_trunk_death from './shop_trunk_death.json';
+import shop_tunnel_death from './shop_tunnel_death.json';
+import shop_tunnel from './shop_tunnel.json';
 import shop_attic from './shop_attic.json';
 import shop_wallpaper from './shop_wallpaper.json';
-import shop_tunnel from './shop_tunnel.json';
-import shop_door from './shop_door.json';
 import desert_intro from './desert_intro.json';
 import desert_dunes from './desert_dunes.json';
 import desert_crashed_van from './desert_crashed_van.json';
 import desert_mirage from './desert_mirage.json';
 import desert_oasis from './desert_oasis.json';
 import desert_night from './desert_night.json';
+import desert_thirst_death from './desert_thirst_death.json';
 import pickup_crowbar from './pickup_crowbar.json';
 import pickup_matches from './pickup_matches.json';
 import pickup_canteen from './pickup_canteen.json';
@@ -101,6 +106,7 @@ export const allGameData: Record<string, GameData> = {
   'rat_friend.json': rat_friend as unknown as GameData,
   'sewer_cheese.json': sewer_cheese as unknown as GameData,
   'sewer_entrance.json': sewer_entrance as unknown as GameData,
+  'sewer_goo_death.json': sewer_goo_death as unknown as GameData,
   'sewer_goo.json': sewer_goo as unknown as GameData,
   'sewer_left.json': sewer_left as unknown as GameData,
   'sewer_right.json': sewer_right as unknown as GameData,
@@ -111,18 +117,22 @@ export const allGameData: Record<string, GameData> = {
   'village_death.json': village_death as unknown as GameData,
   'village.json': village as unknown as GameData,
   'wasp_factory.json': wasp_factory as unknown as GameData,
+  'shop_door_death.json': shop_door_death as unknown as GameData,
+  'shop_door.json': shop_door as unknown as GameData,
   'shop_entrance.json': shop_entrance as unknown as GameData,
-  'shop_chase.json': shop_chase as unknown as GameData,
+  'shop_hide_death.json': shop_hide_death as unknown as GameData,
+  'shop_trunk_death.json': shop_trunk_death as unknown as GameData,
+  'shop_tunnel_death.json': shop_tunnel_death as unknown as GameData,
+  'shop_tunnel.json': shop_tunnel as unknown as GameData,
   'shop_attic.json': shop_attic as unknown as GameData,
   'shop_wallpaper.json': shop_wallpaper as unknown as GameData,
-  'shop_tunnel.json': shop_tunnel as unknown as GameData,
-  'shop_door.json': shop_door as unknown as GameData,
   'desert_intro.json': desert_intro as unknown as GameData,
   'desert_dunes.json': desert_dunes as unknown as GameData,
   'desert_crashed_van.json': desert_crashed_van as unknown as GameData,
   'desert_mirage.json': desert_mirage as unknown as GameData,
   'desert_oasis.json': desert_oasis as unknown as GameData,
   'desert_night.json': desert_night as unknown as GameData,
+  'desert_thirst_death.json': desert_thirst_death as unknown as GameData,
   'pickup_crowbar.json': pickup_crowbar as unknown as GameData,
   'pickup_matches.json': pickup_matches as unknown as GameData,
   'pickup_canteen.json': pickup_canteen as unknown as GameData,

@@ -11,7 +11,17 @@
         {
             "id": "enter",
             "link": "index.json",
-            "desc": "Enter the Wasp Factory (To Be Continued... Play Again!)"
+            "desc": "1. Enter the Wasp Factory (To Be Continued...)"
+        },
+        {
+            "id": "search",
+            "link": "wasp_factory.json",
+            "desc": "2. Search the rusted machinery for signs of life"
+        },
+        {
+            "id": "shout",
+            "link": "wasp_death.json",
+            "desc": "3. Shout toward the entrance of the massive hive"
         }
     ]
 }

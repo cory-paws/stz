@@ -11,6 +11,7 @@ export interface GameData {
     type?: 'DEAD' | 'PICKEDUP' | string;
     objectName?: string; // present when type === 'PICKEDUP'
     image?: string;
+    imageClass?: string; // Optional CSS classes for custom filters/styling
     lines: string[];
     options: GameOption[];
 }

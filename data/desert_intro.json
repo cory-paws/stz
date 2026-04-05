@@ -1,6 +1,7 @@
 {
     "title": "The Zombie Desert",
-    "image": "/images/hill.png", 
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
     "lines": [
         "You stumble out onto shifting, orange sand. The sky is a bruised, eternal twilight.",
         "You turn around to look at the door, but there is nothing but sand behind you. The wooden portal has vanished into thin air.",
@@ -11,7 +12,17 @@
         {
             "id": "continue",
             "link": "desert_dunes.json",
-            "desc": "Venture deeper into the orange sands"
+            "desc": "1. Venture deeper into the orange sands"
+        },
+        {
+            "id": "listen",
+            "link": "desert_intro.json",
+            "desc": "2. Pause and listen to the haunting desert wind"
+        },
+        {
+            "id": "sand",
+            "link": "desert_night.json",
+            "desc": "3. Dig a shallow pit in the sand to rest (Wait for night)"
         }
     ]
 }

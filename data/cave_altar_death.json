@@ -1,0 +1,18 @@
+{
+    "title": "Sacrificial Lamb",
+    "type": "DEAD",
+    "image": "/images/cosmic_shrine.png",
+    "lines": [
+        "In a moment of arrogance and exhaustion, you sit atop the ancient stone altar in the center of the Mad Shrine.",
+        "The green stone beneath you begins to heat up rapidly, glowing with a nauseating light.",
+        "You try to stand, but you are frozen to the altar as the non-Euclidean symbols on the walls begin to scream.",
+        "Your life is drained into the hungry stone."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up back at the tent"
+        }
+    ]
+}

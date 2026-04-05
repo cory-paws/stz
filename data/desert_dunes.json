@@ -1,6 +1,7 @@
 {
     "title": "The Endless Dunes",
     "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
     "lines": [
         "The sand is deep and hot, dragging at your boots. Behind you, the wooden door remains firmly vanished.",
         "Under the strange, bruised-purple sky, the desert seems to stretch forever in every direction.",
@@ -16,6 +17,11 @@
             "id": "mirage",
             "link": "desert_mirage.json",
             "desc": "2. Head toward the patch of green"
+        },
+        {
+            "id": "tracks",
+            "link": "desert_dunes.json",
+            "desc": "3. Look for footprints in the sand"
         }
     ]
 }

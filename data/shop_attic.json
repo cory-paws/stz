@@ -10,7 +10,17 @@
         {
             "id": "scrape",
             "link": "shop_wallpaper.json",
-            "desc": "Scrape back the peeling wallpaper"
+            "desc": "1. Scrape back the peeling wallpaper"
+        },
+        {
+            "id": "sketches",
+            "link": "shop_attic.json",
+            "desc": "2. Examine the disturbing monster sketches"
+        },
+        {
+            "id": "trunks",
+            "link": "shop_trunk_death.json",
+            "desc": "3. Search the old, iron-strapped trunks"
         }
     ]
 }

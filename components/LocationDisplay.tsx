@@ -32,7 +32,7 @@ export function LocationDisplay({ data, children }: LocationDisplayProps) {
                             <img
                                 src={data.image}
                                 alt={data.title}
-                                className="w-full h-auto object-cover block mx-auto sepia hue-rotate-[80deg] brightness-80 contrast-125 transition-transform duration-500 ease-out hover:scale-105"
+                                className={`w-full h-auto object-cover block mx-auto transition-transform duration-500 ease-out hover:scale-105 ${data.imageClass || 'sepia hue-rotate-[80deg] brightness-80 contrast-125'}`}
                             />
                         </div>
                     </div>

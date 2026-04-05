@@ -1,6 +1,7 @@
 {
     "title": "The Crashed News Van",
     "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
     "lines": [
         "You reach the shimmer. It's an old, overturned media van from the city, half-buried in a dune.",
         "The satellite dish on top is bent and useless. The words 'CHANNEL 5 NEWS' are barely visible through the grime.",
@@ -17,6 +18,11 @@
             "id": "back",
             "link": "desert_dunes.json",
             "desc": "2. Go back to the dunes"
+        },
+        {
+            "id": "break",
+            "link": "desert_night.json",
+            "desc": "3. Smash the rear window and wait inside for shade"
         }
     ]
 }

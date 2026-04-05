@@ -14,10 +14,22 @@
             "desc": "1. Search near the counter for a tool"
         },
         {
+            "id": "crowbar_held",
+            "link": "shop_entrance.json",
+            "with": "crowbar",
+            "desc": "1. Run your hand over the dusty, cold metal counter"
+        },
+        {
             "id": "matches",
             "link": "pickup_matches.json",
             "without": "matches",
             "desc": "2. Rummage through the survival shelf"
+        },
+        {
+            "id": "matches_held",
+            "link": "shop_entrance.json",
+            "with": "matches",
+            "desc": "2. Note the empty space where the matches were"
         },
         {
             "id": "stay",

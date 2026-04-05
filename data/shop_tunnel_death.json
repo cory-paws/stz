@@ -1,0 +1,17 @@
+{
+    "title": "The Crushing Dark",
+    "type": "DEAD",
+    "image": "/images/shop_tunnel.png",
+    "lines": [
+        "Thinking for a moment that speed is your only chance, you try to force your way through the narrowest part of the wooden tunnel.",
+        "Your shoulders get jammed. You struggle, but only wedge yourself tighter into the splintery planks.",
+        "Your ribs eventually buckle as you can no longer even take a full breath. The tunnel, or whatever is made of, slowly contracts."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up back at the tent"
+        }
+    ]
+}

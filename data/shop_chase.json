@@ -10,7 +10,17 @@
         {
             "id": "up",
             "link": "shop_attic.json",
-            "desc": "Run upstairs to the attic"
+            "desc": "1. Run upstairs toward the attic"
+        },
+        {
+            "id": "hide",
+            "link": "shop_hide_death.json",
+            "desc": "2. Duck behind the heavy wooden counter"
+        },
+        {
+            "id": "barricade",
+            "link": "shop_chase.json",
+            "desc": "3. Attempt to push a shelf against the stairs"
         }
     ]
 }

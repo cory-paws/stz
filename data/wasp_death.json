@@ -1,0 +1,16 @@
+{
+    "title": "Hive Rejection",
+    "type": "DEAD",
+    "lines": [
+        "Your voice echoes through the biomechanical halls. For a moment, there is silence.",
+        "Then, a thousands of translucent, razor-sharp wings begin to vibrate at once.",
+        "A swarm of metallic insects descends from the ceiling. You are shredded before you can even turn to run."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up back at the tent"
+        }
+    ]
+}
