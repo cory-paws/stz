@@ -79,6 +79,24 @@ import zoo_entrance from './zoo_entrance.json';
 import zoo_lion from './zoo_lion.json';
 import zoo_lion_death from './zoo_lion_death.json';
 import zoo_capybara from './zoo_capybara.json';
+import shop_counter_check from './shop_counter_check.json';
+import rugby_scrum from './rugby_scrum.json';
+import attic_detail from './attic_detail.json';
+import zoo_sounds from './zoo_sounds.json';
+import sewer_ripple from './sewer_ripple.json';
+import wasp_hum from './wasp_hum.json';
+import wallpaper_stare from './wallpaper_stare.json';
+import tunnel_creak from './tunnel_creak.json';
+import desert_glimmer from './desert_glimmer.json';
+import desert_thirst from './desert_thirst.json';
+import shop_door_check from './shop_door_check.json';
+import desert_mirage_palace from './desert_mirage_palace.json';
+import desert_oasis_party from './desert_oasis_party.json';
+import desert_flying_carpet from './desert_flying_carpet.json';
+import waterpark_entrance from './waterpark_entrance.json';
+import waterpark_flume from './waterpark_flume.json';
+import pickup_necronomicon from './pickup_necronomicon.json';
+import grand_ending from './grand_ending.json';
 
 export const allGameData: Record<string, GameData> = {
   'barn_cook_death.json': barn_cook_death as unknown as GameData,
@@ -160,4 +178,21 @@ export const allGameData: Record<string, GameData> = {
   'zoo_lion.json': zoo_lion as unknown as GameData,
   'zoo_lion_death.json': zoo_lion_death as unknown as GameData,
   'zoo_capybara.json': zoo_capybara as unknown as GameData,
+  'shop_counter_check.json': shop_counter_check as unknown as GameData,
+  'rugby_scrum.json': rugby_scrum as unknown as GameData,
+  'attic_detail.json': attic_detail as unknown as GameData,
+  'zoo_sounds.json': zoo_sounds as unknown as GameData,
+  'sewer_ripple.json': sewer_ripple as unknown as GameData,
+  'wasp_hum.json': wasp_hum as unknown as GameData,
+  'wallpaper_stare.json': wallpaper_stare as unknown as GameData,
+  'tunnel_creak.json': tunnel_creak as unknown as GameData,
+  'desert_glimmer.json': desert_glimmer as unknown as GameData,
+  'desert_thirst.json': desert_thirst as unknown as GameData,
+  'desert_mirage_palace.json': desert_mirage_palace as unknown as GameData,
+  'desert_oasis_party.json': desert_oasis_party as unknown as GameData,
+  'desert_flying_carpet.json': desert_flying_carpet as unknown as GameData,
+  'waterpark_entrance.json': waterpark_entrance as unknown as GameData,
+  'waterpark_flume.json': waterpark_flume as unknown as GameData,
+  'pickup_necronomicon.json': pickup_necronomicon as unknown as GameData,
+  'grand_ending.json': grand_ending as unknown as GameData,
 };

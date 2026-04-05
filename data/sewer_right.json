@@ -18,6 +18,16 @@
             "desc": "Try to scare them away and push through"
         },
         {
+            "id": "explore",
+            "link": "sewer_rubble.json",
+            "desc": "2. Squeeze through the gap in the crumbling brickwork"
+        },
+        {
+            "id": "secret",
+            "link": "waterpark_entrance.json",
+            "desc": "3. Crawl through the wide, slime-covered ventilation pipe"
+        },
+        {
             "id": "back",
             "link": "sewer_entrance.json",
             "desc": "Slowly back away to the entrance"

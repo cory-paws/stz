@@ -1,0 +1,29 @@
+{
+    "title": "An Impossible Gathering",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[240deg] brightness-110 saturate-150 contrast-110",
+    "sanityChange": 40,
+    "discoveryScore": 150,
+    "lines": [
+        "Inside the palace, you find a world that shouldn't exist. Large night fires burn without smoke, casting a warm glow over a crowd of robed figures.",
+        "They offer you dates and cool water, and for the first time in weeks, you hear laughter. There isn't a zombie in sight.",
+        "On a silk rug in the courtyard, an old man beckons you over. Behind him, several colorful carpets seem to be hovering inches off the ground."
+    ],
+    "options": [
+        {
+            "id": "eat",
+            "link": "desert_oasis_party.json",
+            "desc": "1. Accept the dates and water"
+        },
+        {
+            "id": "stare",
+            "link": "desert_mirage_palace.json",
+            "desc": "2. Step back toward the gates"
+        },
+        {
+            "id": "carpet",
+            "link": "desert_flying_carpet.json",
+            "desc": "3. Step onto the hovering rug"
+        }
+    ]
+}

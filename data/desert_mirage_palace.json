@@ -1,0 +1,29 @@
+{
+    "title": "The Glimmering Palace",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[240deg] brightness-125 saturate-200 contrast-125",
+    "sanityChange": 10,
+    "discoveryScore": 100,
+    "lines": [
+        "Against all reason, the shifting heat reveals a marble palace rising from the dunes. Its domes are made of polished turquoise, and the air around it is impossibly cool.",
+        "You see robed figures moving through the gardens, and the faint sound of a flute carries across the sand.",
+        "This is no ordinary mirage; it feels more real than the village you left behind."
+    ],
+    "options": [
+        {
+            "id": "enter",
+            "link": "desert_oasis_party.json",
+            "desc": "1. Approach the shimmering gates"
+        },
+        {
+            "id": "stare",
+            "link": "desert_glimmer.json",
+            "desc": "2. Stand in awe of the turquoise domes"
+        },
+        {
+            "id": "back",
+            "link": "desert_dunes.json",
+            "desc": "3. Retreat back to the heat of the dunes"
+        }
+    ]
+}

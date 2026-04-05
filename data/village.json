@@ -1,29 +1,37 @@
 {
-    "title": "The village",
-    "image": "/images/hill.png",
+    "title": "The Village Square",
+    "image": "/images/village_square.png",
     "lines": [
-        "You walk into the village square. There are people approaching you creepily. They look a bit strange."
+        "The once-familiar village square is now a labyrinth of barricades and abandoned cars. You can hear the groans of the undead echoing off the buildings.",
+        "To the north, the neon sign of a general store flickers fitfully. To the south, a large tunnel entrance marks the descent into the sewers.",
+        "The air is thick with the smell of smoke and fear. You must move quickly."
     ],
     "options": [
         {
-            "id": "Hide",
+            "id": "shop",
             "link": "shop_entrance.json",
-            "desc": "1. Hide in a shop"
+            "desc": "1. Run for the general store"
         },
         {
             "id": "sewer",
             "link": "sewer_entrance.json",
-            "desc": "2. Pry open a manhole cover and enter the sewers"
+            "desc": "2. Descend into the sewers"
         },
         {
-            "id": "speak",
+            "id": "talk",
             "link": "village_death.json",
-            "desc": "3. Talk to the villagers"
+            "desc": "3. Attempt to help a huddle of survivors"
         },
         {
             "id": "rugby",
             "link": "rugby_field.json",
             "desc": "4. Hike toward the lights of the local rugby pitch"
+        },
+        {
+            "id": "restricted",
+            "link": "grand_ending.json",
+            "scoreRequirement": 1000,
+            "desc": "5. Enter the Restricted Zone"
         }
     ]
 }

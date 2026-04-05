@@ -1,27 +1,27 @@
 {
-    "title": "The Wasp Factory",
-    "image": "/images/wasp_factory.png",
+    "title": "Humming Vats",
+    "image": "/images/factory.png",
+    "imageClass": "hue-rotate-[30deg] brightness-90 saturate-150 contrast-110",
     "lines": [
-        "You trudge through the knee-deep snow of a narrow pass between the towering peaks.",
-        "Breaking through the blizzard, a colossal, unnatural structure looms ahead.",
-        "Built into the cliffside is a massive biomechanical hive. It looks like a terrifying, alien 'Wasp Factory.'",
-        "A deep, low buzzing vibrates the very ice beneath your boots. Something ancient and terrible is being manufactured inside."
+        "The interior of the factory is a maze of copper vats and humming machinery. The sound here isn't just noise; it's a vibration you feel in your teeth.",
+        "Yellow-striped blurs zip through the high rafters. You're in the heart of the hive now.",
+        "A thick, sweet smell of mutated nectar hangs in the air."
     ],
     "options": [
         {
-            "id": "enter",
-            "link": "index.json",
-            "desc": "1. Enter the Wasp Factory (To Be Continued...)"
+            "id": "listen",
+            "link": "wasp_hum.json",
+            "desc": "1. Listen to the rhythmic hum of the machinery"
         },
         {
-            "id": "search",
+            "id": "continue",
             "link": "wasp_factory.json",
-            "desc": "2. Search the rusted machinery for signs of life"
+            "desc": "2. Move carefully toward the loading docks"
         },
         {
-            "id": "shout",
+            "id": "death",
             "link": "wasp_death.json",
-            "desc": "3. Shout toward the entrance of the massive hive"
+            "desc": "3. Investigate a leaking vat"
         }
     ]
 }

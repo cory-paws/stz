@@ -1,26 +1,26 @@
 {
-    "title": "The Impossible Attic",
+    "title": "A Dust-Caked Attic",
     "image": "/images/shop_attic.png",
     "lines": [
-        "You slam the attic hatch shut and bolt it just as the first zombie reaches the top of the stairs. The pounding on the wood is relentless.",
-        "You turn around and freeze. The attic is filled with strange, charcoal drawings of multi-eyed monsters and impossible geometry.",
-        "On the far wall, a section of wallpaper is peeling away, revealing a faint, unearthly violet light glowing from the gaps in the wood."
+        "You scramble up a rickety ladder into a low-ceilinged storage space. The smell of cedar and stale air is thick here.",
+        "Your flashlight beam catches dust motes dancing in the dark. Piles of boxes and old furniture create a labyrinth of shadows.",
+        "On the wall, several frantic, charcoal sketches show silhouettes of creatures that look nothing like humans."
     ],
     "options": [
         {
-            "id": "scrape",
+            "id": "examine",
+            "link": "attic_detail.json",
+            "desc": "1. Examine the dust-caked sketches"
+        },
+        {
+            "id": "wall",
             "link": "shop_wallpaper.json",
-            "desc": "1. Scrape back the peeling wallpaper"
+            "desc": "2. Step toward the peeling wallpaper"
         },
         {
-            "id": "sketches",
-            "link": "shop_attic.json",
-            "desc": "2. Examine the disturbing monster sketches"
-        },
-        {
-            "id": "trunks",
+            "id": "trunk",
             "link": "shop_trunk_death.json",
-            "desc": "3. Search the old, iron-strapped trunks"
+            "desc": "3. Open the heavy trunk beneath the sketches"
         }
     ]
 }

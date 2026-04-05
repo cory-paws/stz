@@ -1,0 +1,28 @@
+{
+    "title": "The Infinite Descent",
+    "image": "/images/sewer.png",
+    "imageClass": "hue-rotate-[180deg] brightness-25 saturate-200 contrast-150",
+    "sanityChange": -30,
+    "lines": [
+        "You climb to the top of the wooden log flume. Below, the track is covered in a thick, black ichor that seems to be moving of its own accord.",
+        "Your flashlight flickers and dies for several seconds. In the darkness, you hear a chanting that isn't human. It's coming from the bottom of the ride.",
+        "You feel a strange, hollow sensation in your chest, as if your own heart is being replaced by something cold and rhythmic."
+    ],
+    "options": [
+        {
+            "id": "slide",
+            "link": "pickup_necronomicon.json",
+            "desc": "1. Slide down into the chanting dark"
+        },
+        {
+            "id": "jump",
+            "link": "sewer_goo_death.json",
+            "desc": "2. Jump into the green sludge pool below"
+        },
+        {
+            "id": "return",
+            "link": "waterpark_entrance.json",
+            "desc": "3. Scramble back down the rickety stairs"
+        }
+    ]
+}

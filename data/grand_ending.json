@@ -1,0 +1,21 @@
+{
+    "title": "A New Horizon",
+    "image": "/images/hill.png",
+    "imageClass": "brightness-150 saturate-150 contrast-110 sepia-0 hue-rotate-[0deg]",
+    "type": "WIN",
+    "discoveryScore": 1000,
+    "sanityChange": 100,
+    "lines": [
+        "Against all odds, you have navigated the horrors of the village, the depths of the sewers, and the surreal reaches of the desert.",
+        "Your survival rating is perfect, and your knowledge of the bio-hazard threat is absolute.",
+        "On the far side of the mountains, a rescue helicopter finally descends from the clouds. You are the last survivor of the Stz incident, and your story will change the world.",
+        "The sun rises on a new beginning. You have conquered the madness."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Wake up in your tent—another cycle begins"
+        }
+    ]
+}

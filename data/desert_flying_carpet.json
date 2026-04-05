@@ -1,0 +1,21 @@
+{
+    "title": "Escape to the Skies",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[240deg] brightness-150 saturate-200 contrast-150",
+    "type": "WIN",
+    "discoveryScore": 500,
+    "sanityChange": 50,
+    "lines": [
+        "As you step onto the rug, it feels like stepping onto a cloud. The old man speaks a word you don't recognize, and the world below begins to tilt.",
+        "You rise above the palace, then the dunes. The entire desert stretches out beneath you, a shimmering void of violet and orange.",
+        "From this height, the zombies are nothing more than tiny, unmoving specks in the dust. You see a cluster of verdant mountains on the horizon.",
+        "You have escaped the hoard. You are free."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Return to the waking world"
+        }
+    ]
+}

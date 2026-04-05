@@ -1,25 +1,27 @@
 {
-    "title": "The Origin",
+    "title": "Sticky Sewers",
+    "image": "/images/sewer.png",
+    "imageClass": "hue-rotate-[100deg] brightness-75 saturate-200 contrast-125",
     "lines": [
-        "You follow the trail of glowing green goo deeper into the subterranean maze. The rats scurry alongside you, almost escorting you.",
-        "The tunnel finally ends at a massive, rusted storm drain leading vertically upward.",
-        "The goo is thickest here, dripping from the rusty grate above."
+        "The tunnels here are coated in a translucent, foul-smelling slime that seems to glow ever so slightly.",
+        "The air is thick and damp, and every drip of water echoes like a gunshot. You feel a rhythmic vibration under your boots.",
+        "There's a strange, pulsating light coming from the far end of the pipe."
     ],
     "options": [
         {
-            "id": "climb",
-            "link": "chemical_plant.json",
-            "desc": "1. Climb up through the storm drain grate"
-        },
-        {
             "id": "touch",
-            "link": "sewer_goo_death.json",
-            "desc": "2. Reach out and touch the glowing green goo"
+            "link": "sewer_ripple.json",
+            "desc": "1. Touch the glowing residue on the wall"
         },
         {
-            "id": "look",
-            "link": "sewer_goo.json",
-            "desc": "3. Examine the source of the dripping liquid"
+            "id": "continue",
+            "link": "sewer_goo_death.json",
+            "desc": "2. Move toward the pulsating light"
+        },
+        {
+            "id": "exit",
+            "link": "cave_lake.json",
+            "desc": "3. Search for an underwater opening"
         }
-    ]
+  ]
 }

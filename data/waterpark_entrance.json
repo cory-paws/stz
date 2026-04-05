@@ -1,0 +1,29 @@
+{
+    "title": "Ghoulish Waterpark",
+    "image": "/images/sewer.png",
+    "imageClass": "hue-rotate-[180deg] brightness-50 saturate-150 contrast-125",
+    "sanityChange": -20,
+    "discoveryScore": 100,
+    "lines": [
+        "You emerge from a slime-covered pipe into the ruins of 'Splash Mountain'—or what's left of it.",
+        "The pools are filled with a thick, neon-green sludge that glows with a sickly intensity. Abandoned tubes and slides lay scattered like the skeletons of giant snakes.",
+        "The sound of rhythmic, wet slapping comes from the base of the log flume ride."
+    ],
+    "options": [
+        {
+            "id": "explore",
+            "link": "waterpark_flume.json",
+            "desc": "1. Climb the rickety stairs to the top of the log flume"
+        },
+        {
+            "id": "hide",
+            "link": "waterpark_entrance.json",
+            "desc": "2. Hide inside a large, discarded donut float"
+        },
+        {
+            "id": "back",
+            "link": "sewer_right.json",
+            "desc": "3. Crawl back into the safety of the sewer pipe"
+        }
+    ]
+}

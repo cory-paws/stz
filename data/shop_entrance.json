@@ -15,7 +15,7 @@
         },
         {
             "id": "crowbar_held",
-            "link": "shop_entrance.json",
+            "link": "shop_counter_check.json",
             "with": "crowbar",
             "desc": "1. Run your hand over the dusty, cold metal counter"
         },
@@ -27,7 +27,7 @@
         },
         {
             "id": "matches_held",
-            "link": "shop_entrance.json",
+            "link": "shop_counter_check.json",
             "with": "matches",
             "desc": "2. Note the empty space where the matches were"
         },

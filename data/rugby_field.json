@@ -10,12 +10,12 @@
     "options": [
         {
             "id": "tackle",
-            "link": "rugby_field.json",
+            "link": "rugby_scrum.json",
             "desc": "1. Attempt a low tackle on the closest zombie"
         },
         {
             "id": "kick",
-            "link": "rugby_field.json",
+            "link": "rugby_scrum.json",
             "desc": "2. Grunt and kick the mud at them"
         },
         {

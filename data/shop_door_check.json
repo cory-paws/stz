@@ -1,0 +1,29 @@
+{
+    "title": "A Handle on Reality",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-50 saturate-10 contrast-125",
+    "sanityChange": 5,
+    "discoveryScore": 10,
+    "lines": [
+        "You press your weight against the heavy iron door at the end of the tunnel. It feels cold and solid, a stark contrast to the shifting shadows behind you.",
+        "Through the rusted keyhole, you see a sliver of violet sky. The Desert is just beyond this threshold, and it looks mercifully empty.",
+        "Your breathing slows as you prepare to step out into the open again."
+    ],
+    "options": [
+        {
+            "id": "open",
+            "link": "shop_door.json",
+            "desc": "1. Push the heavy door and step into the light"
+        },
+        {
+            "id": "listen",
+            "link": "tunnel_creak.json",
+            "desc": "2. Listen for any scuttling behind you"
+        },
+        {
+            "id": "death",
+            "link": "shop_door_death.json",
+            "desc": "3. Kick the door in frustration"
+        }
+    ]
+}
