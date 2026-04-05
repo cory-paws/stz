@@ -8,6 +8,7 @@ import { OptionsList } from '../components/OptionsList';
 import InventoryManager from '../components/InventoryManager';
 import VisualMap from '../components/VisualMap';
 import ScoreDisplay from '../components/ScoreDisplay';
+import AdvisorOverlay from '../components/AdvisorOverlay';
 
 export default function Game() {
   const [data, setData] = useState<GameData | null>(null);
@@ -21,6 +22,7 @@ export default function Game() {
   const [totalScore, setTotalScore] = useState<number>(0);
   const [sanity, setSanity] = useState<number>(100);
   const [isLoading, setIsLoading] = useState(true);
+  const [consecutiveLoopCount, setConsecutiveLoopCount] = useState<number>(0);
 
   const { playClickSound, playZombieSound } = useProceduralAudio();
 
@@ -61,6 +63,14 @@ export default function Game() {
 
       const jsonData: GameData = await response.json();
       setData(jsonData);
+      
+      // Update Loop Count
+      if (filename === currentLocation) {
+        setConsecutiveLoopCount(prev => prev + 1);
+      } else {
+        setConsecutiveLoopCount(0);
+      }
+
       setCurrentLocation(filename);
       save('current', filename);
 
@@ -280,6 +290,12 @@ export default function Game() {
       )}
 
       <VisualMap visitedLocations={visitedLocations} />
+
+      {/* Spectral Advisor System */}
+      <AdvisorOverlay 
+        loopCount={consecutiveLoopCount} 
+        onClose={() => setConsecutiveLoopCount(0)} 
+      />
     </main>
   );
 }
