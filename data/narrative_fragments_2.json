@@ -1,0 +1,86 @@
+{
+    "title": "A Dust-Caked Mystery",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-50 saturate-50 contrast-125",
+    "sanityChange": -15,
+    "lines": [
+        "Your flashlight beam cuts across the attic's clutter, but it's the sketches that draw your eye again. They aren't just drawings; they're obsessive.",
+        "Dozens of papers are pinned to the rafters, showing the same multi-eyed creature in various states of hunger.",
+        "You feel a cold sweat on your brow. Whoever lived here wasn't just hiding—they were documenting a nightmare."
+    ],
+    "options": [
+        {
+            "id": "examine",
+            "link": "shop_attic.json",
+            "desc": "1. Look closer at the dates on the papers"
+        },
+        {
+            "id": "wall",
+            "link": "shop_wallpaper.json",
+            "desc": "2. Step toward the peeling wallpaper"
+        },
+        {
+            "id": "trunk",
+            "link": "shop_trunk_death.json",
+            "desc": "3. Open the heavy trunk beneath the sketches"
+        }
+    ]
+}
+<!-- slide -->
+{
+    "title": "The Peel and the Pulse",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-50 saturate-50 contrast-125",
+    "sanityChange": -20,
+    "lines": [
+        "You press your palm against the loose wallpaper. It doesn't feel like paper; it feels like... skin.",
+        "A faint, rhythmic pulse thrums beneath your touch. The wall is breathing, or something behind it is.",
+        "A thin, translucent fluid begins to weep from the tears in the wallpaper. It smells like old copper."
+    ],
+    "options": [
+        {
+            "id": "pull",
+            "link": "shop_wallpaper.json",
+            "desc": "1. Pull a large strip of the paper away"
+        },
+        {
+            "id": "stare",
+            "link": "shop_wallpaper.json",
+            "desc": "2. Stare into the dark gaps and wait"
+        },
+        {
+            "id": "back",
+            "link": "shop_attic.json",
+            "desc": "3. Stumble back into the main attic"
+        }
+    ]
+}
+<!-- slide -->
+{
+    "title": "A Sense of Dread",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-25 saturate-50 contrast-125",
+    "sanityChange": -10,
+    "lines": [
+        "The air in the tunnel is stagnant, but you hear a faint, metallic scraping coming from deep ahead.",
+        "Your flashlight flickers once, then twice. The shadows here feel heavy, as if they're leaning in to listen to your heartbeat.",
+        "You realize with a start that the scraping sound is perfectly timed with your own breathing."
+    ],
+    "options": [
+        {
+            "id": "continue",
+            "link": "shop_tunnel.json",
+            "desc": "1. Move deeper into the dark"
+        },
+        {
+            "id": "creak",
+            "link": "shop_tunnel.json",
+            "desc": "2. Listen to the tunnel creaks"
+        },
+        {
+            "id": "exit",
+            "link": "shop_door.json",
+            "desc": "3. Reach for the handle of the far door"
+        }
+    ]
+}

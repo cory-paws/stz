@@ -238,18 +238,29 @@ export default function Game() {
         )}
 
         {corpses[currentLocation] && corpses[currentLocation].length > 0 && (
-          <div className="mt-8 mb-8 p-6 bg-[#ffde00]/10 border-2 border-dashed border-[#ffde00]/30 rounded-xl relative overflow-hidden group">
-            <h3 className="text-[#ffde00] font-bold uppercase tracking-wider mb-4 flex items-center gap-2">
-              <span className="text-xl">💀</span> Search Player Corpse
+          <div className="mt-8 mb-8 p-8 bg-[#ff3131]/5 border-2 border-dashed border-[#ff3131]/30 rounded-xl relative overflow-hidden group">
+            {/* Blood stain effect bg */}
+            <div className="absolute inset-0 bg-radial-gradient from-[#ff3131]/5 to-transparent pointer-events-none opacity-50" />
+            
+            <h3 className="text-[#ff3131] font-bold uppercase tracking-[0.3em] mb-4 flex items-center gap-3 relative z-10">
+              <span className="text-2xl animate-pulse">💀</span> 
+              <span>Disturbing Discovery</span>
             </h3>
-            <div className="flex flex-wrap gap-3">
+            
+            <p className="text-[#ff3131]/70 text-sm italic mb-6 leading-relaxed relative z-10">
+              You stumble upon the mangled remains of a previous survivor who didn't quite make it. 
+              The air around the body is thick with a metallic tang, but their gear is still miraculously intact. 
+              It would be a waste to leave it for the crows...
+            </p>
+
+            <div className="flex flex-wrap gap-4 relative z-10">
               {corpses[currentLocation].map((itemId, index) => (
                 <button
                   key={`${itemId}-${index}`}
                   onClick={() => pickupItem(itemId, 'corpse')}
-                  className="px-4 py-2 bg-[#ffde00]/20 hover:bg-[#ffde00]/40 border border-[#ffde00]/50 rounded text-[#ffde00] text-sm font-medium transition-all duration-300 hover:scale-105"
+                  className="px-6 py-3 bg-[#ff3131]/10 hover:bg-[#ff3131]/20 border border-[#ff3131]/40 rounded-lg text-[#ff3131] text-xs font-bold uppercase tracking-widest transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,49,49,0.2)] flex items-center gap-2"
                 >
-                  Retrieve {itemId}
+                  <span className="opacity-50">Salvage</span> {itemId}
                 </button>
               ))}
             </div>

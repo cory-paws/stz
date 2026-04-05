@@ -1,0 +1,27 @@
+{
+    "title": "Behind the Dust",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-125 saturate-50 contrast-125",
+    "sanityChange": 5,
+    "lines": [
+        "You step behind the heavy oak counter, your fingers tracing a thick layer of dust. For a brief moment, the shop feels like a shop again, not a battleground.",
+        "You find a faded photograph of a family picnic tucked under the register. The normalcy of it briefly calms your nerves."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "shop_entrance.json",
+            "desc": "1. Pocket the photo and return to the main floor"
+        },
+        {
+            "id": "drawer",
+            "link": "shop_counter_check.json",
+            "desc": "2. Rummage through the register drawers"
+        },
+        {
+            "id": "hide",
+            "link": "shop_hide_death.json",
+            "desc": "3. Hide under the counter"
+        }
+    ]
+}

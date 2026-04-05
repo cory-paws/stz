@@ -1,0 +1,29 @@
+{
+    "title": "A Dust-Caked Mystery",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-50 saturate-50 contrast-125",
+    "sanityChange": -15,
+    "discoveryScore": 25,
+    "lines": [
+        "Your flashlight beam cuts across the attic's clutter, but it's the sketches that draw your eye again. They aren't just drawings; they're obsessive.",
+        "Dozens of papers are pinned to the rafters, showing the same multi-eyed creature in various states of hunger.",
+        "You feel a cold sweat on your brow. Whoever lived here wasn't just hiding—they were documenting a nightmare."
+    ],
+    "options": [
+        {
+            "id": "examine",
+            "link": "shop_attic.json",
+            "desc": "1. Look closer at the dates on the papers"
+        },
+        {
+            "id": "wall",
+            "link": "shop_wallpaper.json",
+            "desc": "2. Step toward the peeling wallpaper"
+        },
+        {
+            "id": "trunk",
+            "link": "shop_trunk_death.json",
+            "desc": "3. Open the heavy trunk beneath the sketches"
+        }
+    ]
+}

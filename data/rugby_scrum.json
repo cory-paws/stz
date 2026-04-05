@@ -1,0 +1,27 @@
+{
+    "title": "A Grueling Match",
+    "image": "/images/hill.png",
+    "imageClass": "sepia brightness-75 contrast-125 saturate-50",
+    "sanityChange": -10,
+    "lines": [
+        "You dig your heels into the cold, sticky mud. The 'forwards' of the zombie pack are just feet away, their eyes glazed and their jerseys caked in blood.",
+        "Your breath comes in ragged gasps. The sheer physical pressure of the undead line is suffocating."
+    ],
+    "options": [
+        {
+            "id": "push",
+            "link": "rugby_field.json",
+            "desc": "1. Push back with all your weight"
+        },
+        {
+            "id": "kick",
+            "link": "rugby_field.json",
+            "desc": "2. Try to kick the mud into their eyes"
+        },
+        {
+            "id": "sprint",
+            "link": "pickup_bat.json",
+            "desc": "3. Sprint for the Equipment Shed"
+        }
+    ]
+}

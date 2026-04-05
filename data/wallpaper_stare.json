@@ -1,0 +1,29 @@
+{
+    "title": "The Peel and the Pulse",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-50 saturate-50 contrast-125",
+    "sanityChange": -20,
+    "discoveryScore": 30,
+    "lines": [
+        "You press your palm against the loose wallpaper. It doesn't feel like paper; it feels like... skin.",
+        "A faint, rhythmic thrum vibrates beneath your touch. The wall is breathing, or something behind it is.",
+        "A thin, translucent fluid begins to weep from the tears in the wallpaper. It smells like old copper."
+    ],
+    "options": [
+        {
+            "id": "pull",
+            "link": "shop_wallpaper.json",
+            "desc": "1. Pull a large strip of the paper away"
+        },
+        {
+            "id": "stare",
+            "link": "shop_wallpaper.json",
+            "desc": "2. Stare into the dark gaps and wait"
+        },
+        {
+            "id": "back",
+            "link": "shop_attic.json",
+            "desc": "3. Stumble back into the main attic"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "title": "A Sense of Dread",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] brightness-25 saturate-50 contrast-125",
+    "sanityChange": -10,
+    "discoveryScore": 15,
+    "lines": [
+        "The air in the tunnel is stagnant, but you hear a faint, metallic scraping coming from deep ahead.",
+        "Your flashlight flickers once, then twice. The shadows here feel heavy, as if they're leaning in to listen to your heartbeat.",
+        "You realize with a start that the scraping sound is perfectly timed with your own breathing."
+    ],
+    "options": [
+        {
+            "id": "continue",
+            "link": "shop_tunnel.json",
+            "desc": "1. Move deeper into the dark"
+        },
+        {
+            "id": "creak",
+            "link": "shop_tunnel.json",
+            "desc": "2. Listen to the tunnel creaks"
+        },
+        {
+            "id": "exit",
+            "link": "shop_door.json",
+            "desc": "3. Reach for the handle of the far door"
+        }
+    ]
+}
