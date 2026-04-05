@@ -1,0 +1,30 @@
+{
+    "title": "A Scorching Reality",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-150",
+    "sanityChange": -15,
+    "discoveryScore": 10,
+    "lines": [
+        "The sun is a relentless hammer. Every breath you take feels like inhaling hot glass. Your tongue is swollen, and your joints feel like they're grinding together.",
+        "You realize that without a constant source of water, the desert will consume you long before the zombies do.",
+        "A faint, rhythmic thrumming in your ears isn't just your heart; it's the beginning of a heat-stroke hallucination."
+    ],
+    "options": [
+        {
+            "id": "drink",
+            "link": "desert_intro.json",
+            "desc": "1. Search for a few drops of water in your gear",
+            "without": "canteen"
+        },
+        {
+            "id": "hallucinate",
+            "link": "desert_mirage.json",
+            "desc": "2. Try to focus on the shimmering lights ahead"
+        },
+        {
+            "id": "rest",
+            "link": "desert_thirst_death.json",
+            "desc": "3. Close your eyes and rest for a moment"
+        }
+    ]
+}
