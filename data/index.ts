@@ -33,6 +33,7 @@ import pickup_cheese from './pickup_cheese.json';
 import pickup_flashlight from './pickup_flashlight.json';
 import pickup_rod from './pickup_rod.json';
 import picnic from './picnic.json';
+import plant_shock_death from './plant_shock_death.json';
 import plant_desk from './plant_desk.json';
 import prod from './prod.json';
 import rat_death from './rat_death.json';
@@ -49,10 +50,12 @@ import sleep from './sleep.json';
 import talk from './talk.json';
 import village_death from './village_death.json';
 import village from './village.json';
+import wasp_death from './wasp_death.json';
 import wasp_factory from './wasp_factory.json';
 import shop_door_death from './shop_door_death.json';
 import shop_door from './shop_door.json';
 import shop_entrance from './shop_entrance.json';
+import shop_chase from './shop_chase.json';
 import shop_hide_death from './shop_hide_death.json';
 import shop_trunk_death from './shop_trunk_death.json';
 import shop_tunnel_death from './shop_tunnel_death.json';
@@ -104,6 +107,7 @@ export const allGameData: Record<string, GameData> = {
   'pickup_flashlight.json': pickup_flashlight as unknown as GameData,
   'pickup_rod.json': pickup_rod as unknown as GameData,
   'picnic.json': picnic as unknown as GameData,
+  'plant_shock_death.json': plant_shock_death as unknown as GameData,
   'plant_desk.json': plant_desk as unknown as GameData,
   'prod.json': prod as unknown as GameData,
   'rat_death.json': rat_death as unknown as GameData,
@@ -120,10 +124,12 @@ export const allGameData: Record<string, GameData> = {
   'talk.json': talk as unknown as GameData,
   'village_death.json': village_death as unknown as GameData,
   'village.json': village as unknown as GameData,
+  'wasp_death.json': wasp_death as unknown as GameData,
   'wasp_factory.json': wasp_factory as unknown as GameData,
   'shop_door_death.json': shop_door_death as unknown as GameData,
   'shop_door.json': shop_door as unknown as GameData,
   'shop_entrance.json': shop_entrance as unknown as GameData,
+  'shop_chase.json': shop_chase as unknown as GameData,
   'shop_hide_death.json': shop_hide_death as unknown as GameData,
   'shop_trunk_death.json': shop_trunk_death as unknown as GameData,
   'shop_tunnel_death.json': shop_tunnel_death as unknown as GameData,
