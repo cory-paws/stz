@@ -23,7 +23,7 @@ export function OptionsList({
     };
 
     return (
-        <div className="flex flex-col gap-8 mt-12">
+        <div className="flex flex-col gap-8 mt-8 pt-12 border-t border-[#00ff41]/5">
             <ul className="list-none flex flex-col gap-4">
                 {options.filter(opt => !shouldSkipOption(opt)).map((option, index) => (
                     <li

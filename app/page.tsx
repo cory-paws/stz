@@ -21,8 +21,14 @@ export default function Game() {
   const { playClickSound, playZombieSound } = useProceduralAudio();
 
   // Functional Storage Helpers
-  const save = (key: string, value: any) => localStorage.setItem(key, JSON.stringify(value));
+  const save = (key: string, value: any) => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(key, JSON.stringify(value));
+    }
+  };
+
   const load = (key: string, fallback: any) => {
+    if (typeof window === 'undefined') return fallback;
     try {
       const item = localStorage.getItem(key);
       return item ? JSON.parse(item) : fallback;
@@ -43,7 +49,7 @@ export default function Game() {
     setIsLoading(true);
     try {
       const response = await fetch(`/api/data/${filename}`);
-      
+
       if (!response.ok) {
         if (filename === 'error.json') throw new Error('Critical error: could not load error.json');
         return loadGameData('error.json');
@@ -174,7 +180,7 @@ export default function Game() {
   const currentDroppedItems = droppedItems[currentLocation] || [];
 
   return (
-    <main className="w-full max-w-[1500px] bg-[#0d1a0d]/70 backdrop-blur-md border border-[#00ff41]/20 rounded-xl p-8 md:p-16 shadow-[0_0_40px_rgba(0,255,65,0.1),inset_0_0_20px_rgba(0,255,65,0.05)] relative animate-[flicker_0.15s_infinite_alternate]">
+    <main className="w-full max-w-[1500px] bg-[#0d1a0d]/70 backdrop-blur-md border border-[#00ff41]/20 rounded-xl p-8 md:p-16 shadow-[0_0_40px_rgba(0,255,65,0.1),inset_0_0_20px_rgba(0,255,65,0.05)] relative animate-[flicker_0.15s_infinite_alternate] flex flex-col gap-16">
       <LocationDisplay data={data}>
         {data && data.options && (
           <OptionsList

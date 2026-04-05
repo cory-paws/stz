@@ -1,7 +1,12 @@
 {
     "title": "Meet the farmer",
+    "image": "/images/farmer.png",
     "type": "PICKEDUP",
-    "lines": [],
+    "lines": [
+        "As you approach the Old Crow Farm, you spot a lone figure standing by the massive barn doors.",
+        "The farmer stands stiffly, clutching a pitchfork, his eyes fixed on something in the distance you can't see.",
+        "He looks like he hasn't slept in weeks, and there's a strange, rhythmic ticking coming from somewhere inside the barn."
+    ],
     "options": [
         {
             "id": "back",

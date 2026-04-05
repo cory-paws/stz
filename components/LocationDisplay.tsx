@@ -38,8 +38,8 @@ export function LocationDisplay({ data, children }: LocationDisplayProps) {
                     </div>
                 )}
 
-                <div className={`flex flex-col ${data.image ? 'lg:w-1/2' : 'w-full'} pt-4`}>
-                    <div className="mb-24 text-[1.2rem] md:text-[1.4rem] leading-relaxed space-y-4">
+                <div className={`flex flex-col ${data.image ? 'lg:w-1/2' : 'w-full'} pt-4 gap-12`}>
+                    <div className="text-[1.2rem] md:text-[1.4rem] leading-relaxed space-y-4">
                         {data.lines.map((line, index) => (
                             <p
                                 key={index}
@@ -50,7 +50,6 @@ export function LocationDisplay({ data, children }: LocationDisplayProps) {
                             </p>
                         ))}
                     </div>
-
                     {children}
                 </div>
             </div>
