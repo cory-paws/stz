@@ -1,0 +1,30 @@
+{
+    "title": "A Shimmering Void",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-110",
+    "sanityChange": -5,
+    "discoveryScore": 5,
+    "lines": [
+        "The heat haze here is so thick it feels like a wall. You see a shimmer in the distance that looks like water, but as you move, it shifts further away.",
+        "Your own shadow seems to stretch at impossible angles, as if the sun itself is vibrating.",
+        "The silences here are louder than the screams back in the village."
+    ],
+    "options": [
+        {
+            "id": "stare",
+            "link": "desert_dunes.json",
+            "desc": "1. Stare into the heat haze until your eyes hurt"
+        },
+        {
+            "id": "walk",
+            "link": "desert_dunes.json",
+            "desc": "2. Walk toward the shimmering mirage"
+        },
+        {
+            "id": "palace",
+            "link": "desert_mirage_palace.json",
+            "desc": "3. Follow the hallucination deep into the shifting sands",
+            "with": "canteen"
+        }
+    ]
+}

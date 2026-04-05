@@ -1,0 +1,29 @@
+{
+    "title": "Sticky Surfaces",
+    "image": "/images/sewer.png",
+    "imageClass": "hue-rotate-[100deg] brightness-75 saturate-200 contrast-125",
+    "sanityChange": -20,
+    "discoveryScore": 10,
+    "lines": [
+        "You reach out to touch the residue on the wall. It's thick, like half-dried sap, but it's warm. Too warm for a sewer.",
+        "A faint, rhythmic ripple moves through the sludge at your feet. Something below is breathing, and it's massive.",
+        "Your hand comes away covered in a translucent, foul-smelling slime that won't easily rub off."
+    ],
+    "options": [
+        {
+            "id": "wipe",
+            "link": "sewer_goo.json",
+            "desc": "1. Wipe the slime on your trousers and move on"
+        },
+        {
+            "id": "examine",
+            "link": "sewer_goo.json",
+            "desc": "2. Examine the slime under your flashlight"
+        },
+        {
+            "id": "lake",
+            "link": "cave_lake.json",
+            "desc": "3. Search for a way toward the water"
+        }
+    ]
+}
