@@ -1,0 +1,22 @@
+{
+    "title": "The Cloud Ascent",
+    "image": "/images/hill.png",
+    "imageClass": "invert brightness-90 hue-rotate-[90deg]",
+    "lines": [
+        "Your hands burn from the coarse hemp of the rope. You are deep inside a cold, grey mist that tastes of ozone and stagnant lightning.",
+        "Every muscle in your body screams as you haul yourself upward, dangling thousands of feet over an invisible world.",
+        "Suddenly, the mist breaks. Above you, the sky transitions back into a deep, velvet violet. You see the massive, curved undersides of 10 gargantuan zeppelins, moored together with golden chains."
+    ],
+    "options": [
+        {
+            "id": "summit",
+            "link": "zeppelin_park.json",
+            "desc": "1. Haul yourself onto the main zeppelin deck"
+        },
+        {
+            "id": "rest",
+            "link": "sky_rope.json",
+            "desc": "2. Hang onto the rope and try to catch your breath"
+        }
+    ]
+}

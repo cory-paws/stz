@@ -19,9 +19,9 @@
             "desc": "2. Head toward the patch of green"
         },
         {
-            "id": "tracks",
-            "link": "desert_dunes.json",
-            "desc": "3. Look for footprints in the sand"
+            "id": "hangar",
+            "link": "desert_hangar.json",
+            "desc": "3. Head toward the gargantuan silhouette shimmer on the far north horizon"
         }
     ]
 }

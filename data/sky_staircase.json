@@ -1,0 +1,27 @@
+{
+    "title": "The Glass Staircase",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[280deg] brightness-125 contrast-110",
+    "lines": [
+        "You are climbing high above the desert now. The hangar is a mere toy below you, a rusted speck in the orange expanse.",
+        "The stairs are made of a material that feels like cold diamond. They are perfectly transparent, making you feel as if you are walking on the air itself.",
+        "Ahead, the staircase terminates abruptly in a thick, swirling cloud layer. Hanging blindly from the mist above is a ancient, knotted rope made of coarse hemp."
+    ],
+    "options": [
+        {
+            "id": "rope",
+            "link": "sky_rope.json",
+            "desc": "1. Grasp the knotted rope and continue the climb"
+        },
+        {
+            "id": "look",
+            "link": "sky_staircase.json",
+            "desc": "2. Peer down at the vanishing desert far below"
+        },
+        {
+            "id": "descend",
+            "link": "desert_hangar.json",
+            "desc": "3. Turn back and descend the long staircase"
+        }
+    ]
+}

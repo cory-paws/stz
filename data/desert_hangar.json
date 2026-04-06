@@ -1,0 +1,27 @@
+{
+    "title": "The Sky Hangar",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[180deg] saturate-50 brightness-110 contrast-150",
+    "lines": [
+        "At the very edge of the orange sands, a gargantuan structure of rusted steel looms out of the dunes. It is an ancient aircraft hangar, its great doors long since torn away.",
+        "Inside, the floor is buried under centuries of fine silt, but in the center, something impossible remains: a translucent, glowing staircase spiraling into the bruised-purple sky.",
+        "The stairs hum with a faint, low-frequency vibration that you can feel in your teeth."
+    ],
+    "options": [
+        {
+            "id": "staircase",
+            "link": "sky_staircase.json",
+            "desc": "1. Ascend the impossible sky staircase"
+        },
+        {
+            "id": "search",
+            "link": "desert_hangar.json",
+            "desc": "2. Search the rusted scaffolding for supplies"
+        },
+        {
+            "id": "back",
+            "link": "desert_dunes.json",
+            "desc": "3. Retreat back into the open desert"
+        }
+    ]
+}

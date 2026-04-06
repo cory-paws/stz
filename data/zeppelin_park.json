@@ -1,0 +1,20 @@
+{
+    "title": "The Zeppelin Skatepark",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[120deg] brightness-150 saturate-200",
+    "lines": [
+        "You collapse onto a deck made of polished chrome. Above you, 10 massive zeppelins with silken hulls form a protective umbrella against the eternal twilight.",
+        "In the center of this floating flotilla lies a miracle: a vast, transparent skateboarding park that seems to be carved from solid moonlight. Transitions and bowls of clear glass curve through the air, reflecting the neon-green lights of the airship fleet.",
+        "You have found the ultimate sanctuary. Here, high above the zombies and the dust, the only sound is the gentle hum of the zeppelin engines and the grind of wheels on glass.",
+        "You have earned your reward."
+    ],
+    "options": [
+        {
+            "id": "restart",
+            "link": "index.json",
+            "desc": "Restart Game (Discovery Score Saved)"
+        }
+    ],
+    "type": "WIN",
+    "discoveryScore": 250
+}
