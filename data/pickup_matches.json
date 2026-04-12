@@ -1,16 +1,19 @@
 {
-    "title": "You found Matches!",
-    "image": "/images/shop_interior.png",
-    "type": "PICKEDUP",
-    "objectName": "matches",
+    "title": "The Spark of Hope",
+    "image": "/images/hill.png",
+    "imageClass": "hue-rotate-[10deg] saturate-200 brightness-110 contrast-150",
     "lines": [
-        "A small, waterproof box of strike-anywhere matches. A vital tool for any survivor."
+        "You discover a small, wax-sealed box of long-stem matches. To those who lived in the before-time, this was a triviality. To you, it is the gift of fire.",
+        "The box is dry, the wood of the matches perfectly preserved within their red tips. A single strike could illuminate the darkest corner of the farm.",
+        "You carefully tuck the box away, protecting the precious spark from the damp night air."
     ],
     "options": [
         {
-            "id": "back",
-            "link": "shop_entrance.json",
-            "desc": "Continue searching the shop"
+            "id": "continue",
+            "link": "barn_hub.json",
+            "desc": "Return to the main floor of the barn"
         }
-    ]
+    ],
+    "type": "PICKEDUP",
+    "objectName": "Matches"
 }

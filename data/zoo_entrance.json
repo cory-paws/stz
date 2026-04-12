@@ -1,27 +1,27 @@
 {
-    "title": "The Abandoned Zoo",
+    "title": "The Overgrown Gates",
     "image": "/images/hill.png",
-    "imageClass": "hue-rotate-[140deg] brightness-75 saturate-150 contrast-125",
+    "imageClass": "hue-rotate-[140deg] saturate-200 brightness-50 contrast-150 drop-shadow-[0_0_20px_rgba(0,255,65,0.3)]",
     "lines": [
-        "The gates of the local wildlife park have been bent outward, and the roar from inside doesn't sound human.",
-        "Overgrown ivy chokes the snack bars, and several cages are shattered. The air is thick with a smell you recognize from the barn...",
-        "Something is pacing in the shadows of the Big Cat exhibit ahead."
+        "The massive steel gates of the city zoo loom out of the shadows, their once-proud archway now strangled by thick, bioluminescent vines that pulse with a rhythmic green light.",
+        "A flickering neon-green terminal kiosk greets you at the turnstile, its screen showing a static-distorted welcome message from a world that ended years ago.",
+        "Beyond the gates, the silence of the city is replaced by a high-frequency hum and the distant, impossible sounds of the wild."
     ],
     "options": [
         {
-            "id": "explore",
-            "link": "zoo_entrance.json",
-            "desc": "1. Search for items in the visitor center"
+            "id": "continue",
+            "link": "zoo_sounds.json",
+            "desc": "1. Step through the turnstile and enter the park"
         },
         {
-            "id": "listen",
+            "id": "search",
             "link": "zoo_entrance.json",
-            "desc": "2. Listen quietly to the sounds of the zoo"
+            "desc": "2. Search the ticket booths for supplies"
         },
         {
-            "id": "lion",
-            "link": "zoo_lion.json",
-            "desc": "3. Walk toward the Lion Exhibit"
+            "id": "back",
+            "link": "village.json",
+            "desc": "3. Retreat back toward the safety of the village square"
         }
     ]
 }

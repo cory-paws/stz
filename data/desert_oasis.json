@@ -1,28 +1,27 @@
 {
-    "title": "The Hidden Oasis",
-    "image": "/images/hill.png",
-    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
+    "title": "The Green Sanctuary",
+    "image": "/home/mick/.gemini/antigravity/brain/6941c0da-beb9-4151-b428-8d2cc23cce9a/desert_oasis_visual_v2_1775999022950.png",
+    "imageClass": "brightness-120 saturate-150 contrast-110 drop-shadow-[0_0_15px_rgba(0,255,65,0.2)]",
     "lines": [
-        "The violet light from your flashlight reflects off something real. The mirage shatters, revealing a small, hidden pool of water surrounded by black, twisted palms.",
-        "The water is dark and still, reflecting the bruised sky above.",
-        "There is a sense of ancient peace here, but the sand around the pool is covered in hundreds of tiny, bleached-white bones."
+        "The heat began to feel like a heavy blanket, but as you crested the final dune, the air suddenly cooled and tasted of sweet, damp earth.",
+        "Below you is a lush, vibrant basin. Tall palms with bioluminescent fronds mirror the bruised-purple sky in a black, glassy pool at the center.",
+        "It is beautiful, but the silence here is different. It is the silence of something waiting."
     ],
     "options": [
         {
-            "id": "fill",
-            "link": "desert_night.json",
-            "with": "canteen",
-            "desc": "1. Fill your canteen and rest"
+            "id": "drink",
+            "link": "desert_oasis_party.json",
+            "desc": "1. Descend to the water's edge and drink your fill"
         },
         {
-            "id": "run",
-            "link": "desert_dunes.json",
-            "desc": "2. This place feels wrong. Leave quickly."
-        },
-        {
-            "id": "bones",
+            "id": "watch",
             "link": "desert_oasis.json",
-            "desc": "3. Kneel and examine the tiny white bones"
+            "desc": "2. Stay on the ridge and watch for movement below"
+        },
+        {
+            "id": "back",
+            "link": "desert_dunes.json",
+            "desc": "3. Turn away from the sanctuary and head back to the dunes"
         }
     ]
 }

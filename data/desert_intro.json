@@ -1,7 +1,7 @@
 {
     "title": "The Zombie Desert",
-    "image": "/images/hill.png",
-    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
+    "image": "/images/desert_intro.png",
+    "imageClass": "brightness-110 contrast-110 antialiased saturate-125",
     "lines": [
         "You stumble out onto shifting, orange sand. The sky is a bruised, eternal twilight.",
         "You turn around to look at the door, but there is nothing but sand behind you. The wooden portal has vanished into thin air.",

@@ -1,28 +1,27 @@
 {
-    "title": "The Heat Mirage",
-    "image": "/images/hill.png",
-    "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
+    "title": "The Shimmering Mirage",
+    "image": "/home/mick/.gemini/antigravity/brain/6941c0da-beb9-4151-b428-8d2cc23cce9a/desert_mirage_palace_visual_v2_1775999206061.png",
+    "imageClass": "brightness-140 contrast-125 saturate-125 drop-shadow-[0_0_20px_rgba(255,255,255,0.1)]",
     "lines": [
-        "You walk for hours toward the patch of green, but it never gets any closer. It shimmers and shifts, mocking you.",
-        "The heat is intensified by the violet sky. You begin to hear voices on the wind—the voices of everyone you left behind in the village.",
-        "Your vision blurs. You realize you are walking in circles."
+        "The sand beneath your feet is no longer orange; it has turned to a fine, white powder that feels like ground glass.",
+        "Floating just inches above the shimmering horizon is a fortress of impossible beauty—a palace built from moonlight and prisms. Its towers spiral toward the twilight clouds like frozen lightning.",
+        "It looks fragile enough to shatter with a single breath, yet as solid as the mountain you left behind."
     ],
     "options": [
         {
-            "id": "focus",
+            "id": "enter",
+            "link": "desert_mirage_palace.json",
+            "desc": "1. Approach the shimmering gates of the moon-glass palace"
+        },
+        {
+            "id": "stare",
+            "link": "desert_mirage.json",
+            "desc": "2. Stare into the geometric patterns of the walls"
+        },
+        {
+            "id": "leave",
             "link": "desert_dunes.json",
-            "desc": "1. Blink and focus your mind (Go back)"
-        },
-        {
-            "id": "oasis",
-            "link": "desert_oasis.json",
-            "with": "flashlight",
-            "desc": "2. Use your flashlight's beam to cut through the haze"
-        },
-        {
-            "id": "thirst",
-            "link": "desert_thirst_death.json",
-            "desc": "3. Fall to your knees and try to drink the sand"
+            "desc": "3. Resist the mirage and head back toward the dunes"
         }
     ]
 }

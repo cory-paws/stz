@@ -1,16 +1,19 @@
 {
-    "title": "You found a Crowbar!",
-    "image": "/images/shop_interior.png",
-    "type": "PICKEDUP",
-    "objectName": "crowbar",
+    "title": "A Gritty Leverage",
+    "image": "/images/hill.png",
+    "imageClass": "brightness-50 grayscale contrast-200",
     "lines": [
-        "You find a heavy iron crowbar under a pile of newspapers. This should be useful for opening locked doors... or smashing heads."
+        "You pull the rusted crowbar from the rubble. It is a simple tool of iron and leverage, yet in this broken world, it feels like a legendary sword.",
+        "The cold metal bites into your palm, a reminder of the physical struggle required to survive. This is not a weapon of grace, but a key to doors that were meant to stay closed.",
+        "You weigh the tool in your hand, feeling the balance. It is enough."
     ],
     "options": [
         {
-            "id": "back",
-            "link": "shop_entrance.json",
-            "desc": "Continue searching the shop"
+            "id": "continue",
+            "link": "sewer_rubble.json",
+            "desc": "Head back out into the sewer tunnels"
         }
-    ]
+    ],
+    "type": "PICKEDUP",
+    "objectName": "Crowbar"
 }

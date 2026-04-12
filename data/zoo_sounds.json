@@ -1,29 +1,27 @@
 {
-    "title": "A Distant Roar",
+    "title": "The Ambient Wild",
     "image": "/images/hill.png",
-    "imageClass": "hue-rotate-[140deg] brightness-50 saturate-150 contrast-125",
-    "sanityChange": -15,
-    "discoveryScore": 20,
+    "imageClass": "sepia hue-rotate-[100deg] brightness-50 contrast-150 saturate-50",
     "lines": [
-        "In the silence between the gusts of wind, you hear it—a low, rhythmic rumble that isn't human. It's coming from the Big Cat exhibit.",
-        "Your skin crawls as you realize the sound isn't just a growl; it's a wet, rattle-heavy snarl of something that should be dead.",
-        "The air feels thick with the metallic scent of old blood..."
+        "Hidden speakers in the trees, long-abandoned by their human operators, continue to broadcast a distorted loop of jungle sounds.",
+        "The chirps of birds and the roars of predators are layered with the digital crackle of a dying terminal. It is a haunting, synthesized orchestra of a world that no longer exists.",
+        "The paths ahead fork into deep shadow. One leads toward the scent of ozone and heat, the other toward a cool, blue light."
     ],
     "options": [
         {
-            "id": "listen",
-            "link": "zoo_entrance.json",
-            "desc": "1. Keep listening for movement"
+            "id": "lion",
+            "link": "zoo_lion.json",
+            "desc": "1. Follow the scent of ozone and heat (To the Lion)"
+        },
+        {
+            "id": "capybara",
+            "link": "zoo_capybara.json",
+            "desc": "2. Follow the cool, blue light (To the Capybaras)"
         },
         {
             "id": "back",
             "link": "zoo_entrance.json",
-            "desc": "2. Step back toward the overgrown gate"
-        },
-        {
-            "id": "lion",
-            "link": "zoo_lion.json",
-            "desc": "3. Walk toward the exhibit anyway"
+            "desc": "3. Return to the main gate"
         }
     ]
 }

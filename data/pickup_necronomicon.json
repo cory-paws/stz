@@ -1,22 +1,19 @@
 {
-    "title": "Finding the forbidden Word",
-    "image": "/images/sewer.png",
-    "imageClass": "hue-rotate-[240deg] brightness-50 saturate-200 contrast-150 invert-[20%]",
-    "type": "PICKEDUP",
-    "objectName": "necronomicon",
-    "discoveryScore": 500,
-    "sanityChange": -50,
+    "title": "The Book of the Dead",
+    "image": "/images/necronomicon.png",
+    "imageClass": "brightness-50 contrast-150 sepia hue-rotate-[-30deg]",
     "lines": [
-        "You land in the bottom of the ride with a sickening splash, the black ichor clinging to your skin like tar.",
-        "Your fingers brush against something cold and solid in the sludge. It's a heavy tome, bound in what looks like human skin.",
-        "The symbols on the cover pulsate with a dark energy, and just looking at it makes your head ache.",
-        "You have found a fragment of the Necronomicon. The power of the word is yours, but it has a terrible price."
+        "The tome is bound in a material that feels uncomfortably like human skin, still warm to the touch. The silver clasps groan as you lift it from the altar.",
+        "As you hold the book, the static on your terminal seems to intensify, forming complex geometric patterns that hurt to look at.",
+        "A thousand whispered voices speak across the frequency, all begging you to open the pages. You have discovered something that was never meant to be found."
     ],
     "options": [
         {
-            "id": "back",
-            "link": "waterpark_entrance.json",
-            "desc": "1. Escape the waterpark with your prize"
+            "id": "continue",
+            "link": "cave_shrine.json",
+            "desc": "Step away from the altar"
         }
-    ]
+    ],
+    "type": "PICKEDUP",
+    "objectName": "Necronomicon"
 }

@@ -1,13 +1,19 @@
 {
-    "title": "You picked up the flashlight",
-    "type": "PICKEDUP",
-    "objectName": "flashlight",
-    "lines": [],
+    "title": "A Beacon of Light",
+    "image": "/images/flashlight.png",
+    "imageClass": "hue-rotate-[180deg] brightness-125 contrast-110",
+    "lines": [
+        "The cold, heavy weight of the tactical flashlight feels solid in your hand. Its metallic casing is scarred with use, but the glass lens remains clear.",
+        "You press the switch, and a sharp, brilliant beam of pure white light cuts through the eternal twilight of the village.",
+        "For the first time in hours, you can see exactly where you are standing. It is a small victory, but a victory nonetheless."
+    ],
     "options": [
         {
-            "id": "back",
-            "link": "sewer_entrance.json",
-            "desc": "Return to the tunnels with the flashlight"
+            "id": "continue",
+            "link": "village.json",
+            "desc": "Return to the Village Square"
         }
-    ]
+    ],
+    "type": "PICKEDUP",
+    "objectName": "Flashlight"
 }
