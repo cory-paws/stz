@@ -1,7 +1,7 @@
 {
     "title": "A Gritty End",
     "type": "DEAD",
-    "image": "/images/hill.png",
+    "image": "/images/desert_thirst_death.png",
     "imageClass": "hue-rotate-[220deg] saturate-200 brightness-50 contrast-150",
     "lines": [
         "The madness of the desert takes you. You fall to your knees, filling your mouth with dry, burning sand.",

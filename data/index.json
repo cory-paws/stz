@@ -1,6 +1,7 @@
 {
     "title": "An intense tent",
-    "image": "/images/index.png",
+    "image": "/images/tent.png",
+    "imageClass": "sepia brightness-[0.45] contrast-[1.3] saturate-50 blur-[0.5px]",
     "lines": [
         "So any way.......  ",
         "Around a week ago, you decided to go solo camping in the middle of nowhere.",

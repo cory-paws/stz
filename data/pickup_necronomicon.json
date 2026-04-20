@@ -1,6 +1,6 @@
 {
     "title": "The Book of the Dead",
-    "image": "/images/necronomicon.png",
+    "image": "/images/pickup_necronomicon.png",
     "imageClass": "brightness-50 contrast-150 sepia hue-rotate-[-30deg]",
     "lines": [
         "The tome is bound in a material that feels uncomfortably like human skin, still warm to the touch. The silver clasps groan as you lift it from the altar.",

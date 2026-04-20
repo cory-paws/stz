@@ -1,14 +1,15 @@
 {
-    "title": "Melted Keypad",
-    "lines": [
-        "You inspect the keypad. The intense heat from the ceiling lamps is already causing the plastic buttons to melt.",
-        "They have fused together into a lump of smoking plastic. It's completely useless."
-    ],
-    "options": [
-        {
-            "id": "back",
-            "link": "barn_hub.json",
-            "desc": "Keep looking around, it's getting hotter!"
-        }
-    ]
+  "title": "Melted Keypad",
+  "lines": [
+    "You inspect the keypad. The intense heat from the ceiling lamps is already causing the plastic buttons to melt.",
+    "They have fused together into a lump of smoking plastic. It's completely useless."
+  ],
+  "options": [
+    {
+      "id": "back",
+      "link": "barn_hub.json",
+      "desc": "Keep looking around, it's getting hotter!"
+    }
+  ],
+  "image": "/images/barn_keypad.png"
 }

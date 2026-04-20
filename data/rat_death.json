@@ -1,16 +1,17 @@
 {
-    "title": "A Swarm of Teeth",
-    "type": "DEAD",
-    "lines": [
-        "You yell and kick at the swarm, expecting them to scatter.",
-        "They don't scatter. They surge.",
-        "Before you can react, you are covered in hundreds of biting, clawing mutant rats. You fall to the floor."
-    ],
-    "options": [
-        {
-            "id": "restart",
-            "link": "index.json",
-            "desc": "Go back to the beginning"
-        }
-    ]
+  "title": "A Swarm of Teeth",
+  "type": "DEAD",
+  "lines": [
+    "You yell and kick at the swarm, expecting them to scatter.",
+    "They don't scatter. They surge.",
+    "Before you can react, you are covered in hundreds of biting, clawing mutant rats. You fall to the floor."
+  ],
+  "options": [
+    {
+      "id": "restart",
+      "link": "index.json",
+      "desc": "Go back to the beginning"
+    }
+  ],
+  "image": "/images/rat_death.png"
 }

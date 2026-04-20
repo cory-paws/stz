@@ -16,11 +16,14 @@ export const useGameEngine = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
-    const loadGameData = useCallback(async (filename: string, onDeath?: () => void) => {
+    const loadGameData = useCallback(async (
+        filename: string, 
+        callbacks?: { onDeath?: () => void; onPickup?: (item: string) => void }
+    ) => {
         setIsLoading(true);
         try {
             const response = await fetch(`/api/data/${filename}`);
-            if (!response.ok) return loadGameData('error.json');
+            if (!response.ok) return loadGameData('error.json', callbacks);
 
             const jsonData: GameData = await response.json();
             
@@ -44,12 +47,17 @@ export const useGameEngine = () => {
                 setSanity(prev => {
                     const next = calculateSanity(prev, jsonData.sanityChange);
                     save('sanity', next);
-                    if (next <= 0) loadGameData('cave_madness_death.json');
+                    if (next <= 0) loadGameData('cave_madness_death.json', callbacks);
                     return next;
                 });
             }
 
-            // 4. Handle Discovery & Death
+            // 4. Handle Items
+            if (jsonData.type === 'PICKEDUP' && jsonData.objectName) {
+                callbacks?.onPickup?.(jsonData.objectName);
+            }
+
+            // 5. Handle Discovery & Death
             if (jsonData.type === 'DEAD' || jsonData.type === 'WIN') {
                 const reward = getDiscoveryReward(filename, discoveredEndings, jsonData);
                 if (reward > 0) {
@@ -68,7 +76,7 @@ export const useGameEngine = () => {
                 if (jsonData.type === 'DEAD') {
                     setSanity(100); 
                     save('sanity', 100);
-                    onDeath?.();
+                    callbacks?.onDeath?.();
                 }
             }
         } catch (err) {

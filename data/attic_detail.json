@@ -1,6 +1,6 @@
 {
     "title": "A Dust-Caked Mystery",
-    "image": "/images/hill.png",
+    "image": "/images/attic_detail.png",
     "imageClass": "hue-rotate-[10deg] brightness-50 saturate-50 contrast-125",
     "sanityChange": -15,
     "discoveryScore": 25,

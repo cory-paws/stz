@@ -1,6 +1,6 @@
 {
     "title": "A Sense of Dread",
-    "image": "/images/hill.png",
+    "image": "/images/tunnel_creak.png",
     "imageClass": "hue-rotate-[10deg] brightness-25 saturate-50 contrast-125",
     "sanityChange": -10,
     "discoveryScore": 15,

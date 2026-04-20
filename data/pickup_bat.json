@@ -1,6 +1,6 @@
 {
     "title": "Barbed Wire Bat!",
-    "image": "/images/hill.png",
+    "image": "/images/pickup_bat.png",
     "imageClass": "hue-rotate-[10deg] brightness-125 saturate-150 contrast-125",
     "type": "PICKEDUP",
     "objectName": "baseball_bat",

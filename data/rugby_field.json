@@ -1,7 +1,7 @@
 {
     "title": "The Muddy Rugby Field",
-    "image": "/images/hill.png",
-    "imageClass": "sepia brightness-90 saturate-50 contrast-125 hue-rotate-[10deg]",
+    "image": "/images/rugby_field.png",
+    "imageClass": "grayscale brightness-[2.0] contrast-[5.0] invert-[0.1] opacity-70",
     "lines": [
         "Just outside the village lies a floodlit rugby field, though the lights have been shattered for weeks.",
         "A group of zombies in tattered, blood-stained jerseys stands between you and the far corner of the pitch.",

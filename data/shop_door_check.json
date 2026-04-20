@@ -1,6 +1,6 @@
 {
     "title": "A Handle on Reality",
-    "image": "/images/hill.png",
+    "image": "/images/shop_door_check.png",
     "imageClass": "hue-rotate-[10deg] brightness-50 saturate-10 contrast-125",
     "sanityChange": 5,
     "discoveryScore": 10,

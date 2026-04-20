@@ -1,6 +1,6 @@
 {
     "title": "A Beacon of Light",
-    "image": "/images/flashlight.png",
+    "image": "/images/pickup_flashlight.png",
     "imageClass": "hue-rotate-[180deg] brightness-125 contrast-110",
     "lines": [
         "The cold, heavy weight of the tactical flashlight feels solid in your hand. Its metallic casing is scarred with use, but the glass lens remains clear.",

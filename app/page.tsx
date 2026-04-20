@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useProceduralAudio } from '../hooks/useProceduralAudio';
 import { LocationDisplay } from '../components/LocationDisplay';
 import { OptionsList } from '../components/OptionsList';
@@ -14,6 +14,7 @@ import { useGameEngine } from '../hooks/useGameEngine';
 import { useInventory } from '../hooks/useInventory';
 
 export default function Game() {
+  const [mounted, setMounted] = useState(false);
   const { 
     data, currentLocation, totalScore, sanity, discoveredEndings, 
     visitedLocations, consecutiveLoopCount, isLoading, error, 
@@ -21,14 +22,18 @@ export default function Game() {
   } = useGameEngine();
 
   const { 
-    inventory, droppedItems, corpses, dropItem, pickupItem, dropAllToCorpse 
+    inventory, droppedItems, corpses, dropItem, pickupItem, addItem, dropAllToCorpse 
   } = useInventory(currentLocation);
 
   const { playClickSound, playZombieSound } = useProceduralAudio();
 
   // Initialization & Death Handling
   useEffect(() => {
-    if (!data) loadGameData(currentLocation);
+    setMounted(true);
+    if (!data) loadGameData(currentLocation, { 
+      onDeath, 
+      onPickup: (item) => addItem(item) 
+    });
   }, []);
 
   const onDeath = () => {
@@ -38,7 +43,10 @@ export default function Game() {
 
   const handleOptionClick = (link: string) => {
     playClickSound();
-    loadGameData(link, onDeath);
+    loadGameData(link, { 
+      onDeath, 
+      onPickup: (item) => addItem(item) 
+    });
   };
 
   // Guard: Loading State
@@ -75,7 +83,7 @@ export default function Game() {
             STZ: SURVIVE THE ZOMBIES
           </h1>
         )}
-        <ScoreDisplay score={totalScore} discoveredCount={discoveredEndings.length} sanity={sanity} />
+        {mounted && <ScoreDisplay score={totalScore} discoveredCount={discoveredEndings.length} sanity={sanity} />}
       </div>
 
       {/* 2. Narrative Engine */}
@@ -110,7 +118,7 @@ export default function Game() {
       </LocationDisplay>
 
       {/* 4. Equipment Management */}
-      {data?.type !== 'DEAD' && (
+      {mounted && data?.type !== 'DEAD' && (
         <InventoryManager inventory={inventory} onDropItem={(id) => { playClickSound(); dropItem(id); }} />
       )}
 

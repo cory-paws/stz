@@ -1,22 +1,23 @@
 {
-    "title": "Digging through the junk",
-    "lines": [
-        "You carefully dig through the foul-smelling garbage that washed down the pipe.",
-        "Among the soggy papers and bones, you find a heavy duty industrial flashlight.",
-        "Amazingly, it still works."
-    ],
-    "options": [
-        {
-            "id": "pickup",
-            "link": "pickup_flashlight.json",
-            "without": "flashlight",
-            "desc": "Pick up the flashlight"
-        },
-        {
-            "id": "back",
-            "link": "sewer_entrance.json",
-            "with": "flashlight",
-            "desc": "Go back to the tunnels"
-        }
-    ]
+  "title": "Digging through the junk",
+  "lines": [
+    "You carefully dig through the foul-smelling garbage that washed down the pipe.",
+    "Among the soggy papers and bones, you find a heavy duty industrial flashlight.",
+    "Amazingly, it still works."
+  ],
+  "options": [
+    {
+      "id": "pickup",
+      "link": "pickup_flashlight.json",
+      "without": "flashlight",
+      "desc": "Pick up the flashlight"
+    },
+    {
+      "id": "back",
+      "link": "sewer_entrance.json",
+      "with": "flashlight",
+      "desc": "Go back to the tunnels"
+    }
+  ],
+  "image": "/images/sewer_rubble.png"
 }

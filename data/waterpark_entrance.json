@@ -1,6 +1,6 @@
 {
     "title": "Ghoulish Waterpark",
-    "image": "/images/sewer.png",
+    "image": "/images/waterpark_entrance.png",
     "imageClass": "hue-rotate-[180deg] brightness-50 saturate-150 contrast-125",
     "sanityChange": -20,
     "discoveryScore": 100,

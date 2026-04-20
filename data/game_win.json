@@ -1,17 +1,18 @@
 {
-    "title": "Immune",
-    "lines": [
-        "A sudden, shocking realization hits you with the weight of concrete.",
-        "You haven't been affected by the airborne serum. You've breathed it for seven days, sleeping outside under the stars. Your vitals are perfect.",
-        "You are immune.",
-        "You grab the classified documents, shove them into your solitary camping backpack, and push open the heavy security doors.",
-        "The dawn sun greets you. You survived the horrors of this infected land. Now, you hold the cure."
-    ],
-    "options": [
-        {
-            "id": "play",
-            "link": "index.json",
-            "desc": "Play Again! You beat the game!"
-        }
-    ]
+  "title": "Immune",
+  "lines": [
+    "A sudden, shocking realization hits you with the weight of concrete.",
+    "You haven't been affected by the airborne serum. You've breathed it for seven days, sleeping outside under the stars. Your vitals are perfect.",
+    "You are immune.",
+    "You grab the classified documents, shove them into your solitary camping backpack, and push open the heavy security doors.",
+    "The dawn sun greets you. You survived the horrors of this infected land. Now, you hold the cure."
+  ],
+  "options": [
+    {
+      "id": "play",
+      "link": "index.json",
+      "desc": "Play Again! You beat the game!"
+    }
+  ],
+  "image": "/images/game_win.png"
 }

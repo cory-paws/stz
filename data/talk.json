@@ -1,15 +1,16 @@
 {
-    "title": "Trapped!",
-    "lines": [
-        "You approach the farmer. He slowly turns around, revealing dark, psychotic eyes. 'Welcome to the game,' he whispers.",
-        "Before you can react, he shoves you backward into the open doors of the Old Crow Farm barn.",
-        "The heavy steel doors slam shut and magnetic locks engage. You are trapped."
-    ],
-    "options": [
-        {
-            "id": "look",
-            "link": "barn_hub.json",
-            "desc": "Look around the barn"
-        }
-    ]
+  "title": "Trapped!",
+  "lines": [
+    "You approach the farmer. He slowly turns around, revealing dark, psychotic eyes. 'Welcome to the game,' he whispers.",
+    "Before you can react, he shoves you backward into the open doors of the Old Crow Farm barn.",
+    "The heavy steel doors slam shut and magnetic locks engage. You are trapped."
+  ],
+  "options": [
+    {
+      "id": "look",
+      "link": "barn_hub.json",
+      "desc": "Look around the barn"
+    }
+  ],
+  "image": "/images/talk.png"
 }

@@ -1,6 +1,6 @@
 {
     "title": "Maul in the Zoo",
-    "image": "/images/hill.png",
+    "image": "/images/zoo_lion_death.png",
     "imageClass": "hue-rotate-[140deg] brightness-25 saturate-200 contrast-150",
     "type": "DEAD",
     "discoveryScore": 100,

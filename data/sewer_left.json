@@ -1,25 +1,26 @@
 {
-    "title": "The Left Path",
-    "lines": [
-        "You turn down the left tunnel. It's incredibly dark here. You hear chittering sounds in the shadows."
-    ],
-    "options": [
-        {
-            "id": "light",
-            "link": "sewer_cheese.json",
-            "with": "flashlight",
-            "desc": "Turn on your flashlight to see what's ahead"
-        },
-        {
-            "id": "walk",
-            "link": "sewer_spider_death.json",
-            "without": "flashlight",
-            "desc": "Keep walking blindly into the darkness"
-        },
-        {
-            "id": "back",
-            "link": "sewer_entrance.json",
-            "desc": "Go back, this feels wrong"
-        }
-    ]
+  "title": "The Left Path",
+  "lines": [
+    "You turn down the left tunnel. It's incredibly dark here. You hear chittering sounds in the shadows."
+  ],
+  "options": [
+    {
+      "id": "light",
+      "link": "sewer_cheese.json",
+      "with": "flashlight",
+      "desc": "Turn on your flashlight to see what's ahead"
+    },
+    {
+      "id": "walk",
+      "link": "sewer_spider_death.json",
+      "without": "flashlight",
+      "desc": "Keep walking blindly into the darkness"
+    },
+    {
+      "id": "back",
+      "link": "sewer_entrance.json",
+      "desc": "Go back, this feels wrong"
+    }
+  ],
+  "image": "/images/sewer_left.png"
 }

@@ -1,6 +1,6 @@
 {
     "title": "A Scorching Reality",
-    "image": "/images/hill.png",
+    "image": "/images/desert_thirst.png",
     "imageClass": "hue-rotate-[220deg] saturate-150 brightness-150",
     "sanityChange": -15,
     "discoveryScore": 10,

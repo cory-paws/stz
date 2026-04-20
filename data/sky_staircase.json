@@ -1,6 +1,6 @@
 {
     "title": "The Glass Staircase",
-    "image": "/home/mick/.gemini/antigravity/brain/6941c0da-beb9-4151-b428-8d2cc23cce9a/sky_staircase_visual_v2_1775999291728.png",
+    "image": "/images/sky_staircase.png",
     "imageClass": "brightness-125 saturate-135 contrast-120 antialiased",
     "lines": [
         "You are climbing high above the desert now. The hangar is a mere toy below you, a rusted speck in the orange expanse.",
@@ -23,5 +23,5 @@
             "link": "desert_hangar.json",
             "desc": "3. Turn back and descend the long staircase"
         }
-  ]
+    ]
 }

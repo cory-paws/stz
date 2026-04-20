@@ -1,15 +1,16 @@
 {
-    "title": "A Strange Alliance",
-    "lines": [
-        "You carefully toss the vacuum-sealed block of cheese into the center of the rat swarm.",
-        "They swarm it instantly. But surprisingly, instead of attacking you, the largest rat looks at you, and gestures with its head down a side corridor.",
-        "They seem far too intelligent. The rats start moving, leaving a clear path. One points its nose toward a trail of strange, pulsing glowing goo on the floor."
-    ],
-    "options": [
-        {
-            "id": "follow",
-            "link": "sewer_goo.json",
-            "desc": "Follow the trail of glowing goo"
-        }
-    ]
+  "title": "A Strange Alliance",
+  "lines": [
+    "You carefully toss the vacuum-sealed block of cheese into the center of the rat swarm.",
+    "They swarm it instantly. But surprisingly, instead of attacking you, the largest rat looks at you, and gestures with its head down a side corridor.",
+    "They seem far too intelligent. The rats start moving, leaving a clear path. One points its nose toward a trail of strange, pulsing glowing goo on the floor."
+  ],
+  "options": [
+    {
+      "id": "follow",
+      "link": "sewer_goo.json",
+      "desc": "Follow the trail of glowing goo"
+    }
+  ],
+  "image": "/images/rat_friend.png"
 }

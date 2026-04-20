@@ -1,13 +1,14 @@
 {
-    "title": "You picked up the heavy metal rod",
-    "type": "PICKEDUP",
-    "objectName": "metalrod",
-    "lines": [],
-    "options": [
-        {
-            "id": "back",
-            "link": "barn_hub.json",
-            "desc": "Go back with the rod"
-        }
-    ]
+  "title": "You picked up the heavy metal rod",
+  "type": "PICKEDUP",
+  "objectName": "metalrod",
+  "lines": [],
+  "options": [
+    {
+      "id": "back",
+      "link": "barn_hub.json",
+      "desc": "Go back with the rod"
+    }
+  ],
+  "image": "/images/pickup_rod.png"
 }

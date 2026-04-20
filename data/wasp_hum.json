@@ -1,29 +1,22 @@
 {
-    "title": "The Hum of the Hive",
-    "image": "/images/factory.png",
-    "imageClass": "hue-rotate-[30deg] brightness-90 saturate-150 contrast-110",
-    "sanityChange": -25,
-    "discoveryScore": 30,
+    "title": "The Vibrating Darkness",
+    "image": "/images/wasp_hum.png",
+    "imageClass": "hue-rotate-[40deg] saturate-200 brightness-50 contrast-150 blur-[0.5px]",
     "lines": [
-        "The vibration in the air is constant here. It isn't just sound; it's a physical pressure on your chest.",
-        "As you stare into the dark vents, you see hundreds of tiny, glowing eyes. The wasps aren't just here; they've made this factory their palace.",
-        "You feel a sudden, sharp pain in your neck—a sensory warning from your lizard brain to get out now."
+        "The hum is deafening now, a physical force that vibrates in your chest and makes the terminal on your wrist flicker with static.",
+        "You see movement in the shadows—monstrous, iridescent wings beating against the steel beams. The 'workers' of this factory are returning to their hive.",
+        "The floor is covered in a slick, golden residue that makes every step a gamble. One slip could mean the end of your journey."
     ],
     "options": [
         {
+            "id": "hide",
+            "link": "wasp_death.json",
+            "desc": "1. Attempt to hide beneath a rusted conveyor belt"
+        },
+        {
             "id": "back",
             "link": "wasp_factory.json",
-            "desc": "1. Back away slowly"
-        },
-        {
-            "id": "stare",
-            "link": "wasp_factory.json",
-            "desc": "2. Try to track the movement in the vents"
-        },
-        {
-            "id": "death",
-            "link": "wasp_death.json",
-            "desc": "3. Peak inside a large, humming vat"
+            "desc": "2. Carefully retreat to the factory entrance"
         }
     ]
 }

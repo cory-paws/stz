@@ -1,15 +1,16 @@
 {
-    "title": "Roasted Alive",
-    "type": "DEAD",
-    "lines": [
-        "With no way to jumpstart the heavy door release, you can only watch as the temperature in the barn reaches fatal levels.",
-        "Your vision blurs, your skin blisters, and you collapse to the floor."
-    ],
-    "options": [
-        {
-            "id": "restart",
-            "link": "index.json",
-            "desc": "Go back to the beginning"
-        }
-    ]
+  "title": "Roasted Alive",
+  "type": "DEAD",
+  "lines": [
+    "With no way to jumpstart the heavy door release, you can only watch as the temperature in the barn reaches fatal levels.",
+    "Your vision blurs, your skin blisters, and you collapse to the floor."
+  ],
+  "options": [
+    {
+      "id": "restart",
+      "link": "index.json",
+      "desc": "Go back to the beginning"
+    }
+  ],
+  "image": "/images/barn_cook_death.png"
 }

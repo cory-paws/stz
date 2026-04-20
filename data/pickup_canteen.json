@@ -1,6 +1,6 @@
 {
     "title": "You found a Canteen!",
-    "image": "/images/hill.png",
+    "image": "/images/pickup_canteen.png",
     "type": "PICKEDUP",
     "objectName": "canteen",
     "lines": [

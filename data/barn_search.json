@@ -1,21 +1,22 @@
 {
-    "title": "Searching the Debris",
-    "lines": [
-        "You frantically dig through the pile of broken wood and rusted farm equipment.",
-        "Most of it is useless junk, but you spot a heavy, solid metal rod from a broken tractor axle.",
-        "It looks sturdy enough to smash something."
-    ],
-    "options": [
-        {
-            "id": "pickup",
-            "link": "pickup_rod.json",
-            "without": "metalrod",
-            "desc": "Pick up the heavy metal rod"
-        },
-        {
-            "id": "back",
-            "link": "barn_hub.json",
-            "desc": "Go back to the center of the room"
-        }
-    ]
+  "title": "Searching the Debris",
+  "lines": [
+    "You frantically dig through the pile of broken wood and rusted farm equipment.",
+    "Most of it is useless junk, but you spot a heavy, solid metal rod from a broken tractor axle.",
+    "It looks sturdy enough to smash something."
+  ],
+  "options": [
+    {
+      "id": "pickup",
+      "link": "pickup_rod.json",
+      "without": "metalrod",
+      "desc": "Pick up the heavy metal rod"
+    },
+    {
+      "id": "back",
+      "link": "barn_hub.json",
+      "desc": "Go back to the center of the room"
+    }
+  ],
+  "image": "/images/barn_search.png"
 }

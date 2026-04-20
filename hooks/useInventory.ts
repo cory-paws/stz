@@ -75,6 +75,14 @@ export const useInventory = (currentLocation: string) => {
         clearInventory();
     }, [inventory, clearInventory]);
 
+    const addItem = useCallback((itemId: string) => {
+        setInventory(prev => {
+            const next = { ...prev, [itemId]: true };
+            save('inventory', next);
+            return next;
+        });
+    }, []);
+
     return { 
         inventory, 
         droppedItems, 
@@ -82,6 +90,7 @@ export const useInventory = (currentLocation: string) => {
         updateInventory, 
         dropItem, 
         pickupItem, 
+        addItem,
         clearInventory,
         dropAllToCorpse 
     };

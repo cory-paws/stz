@@ -1,36 +1,37 @@
 {
-    "title": "The Right Path",
-    "lines": [
-        "You head down the right tunnel. The smell of mildew is strong.",
-        "You round a corner and freeze. A massive swarm of rats is blocking the entire tunnel.",
-        "They aren't zombified, but they are unnaturally large and intelligent-looking. They bare their teeth, hungry and defensive."
-    ],
-    "options": [
-        {
-            "id": "feed",
-            "link": "rat_friend.json",
-            "with": "cheese",
-            "desc": "Offer them the block of cheese you found"
-        },
-        {
-            "id": "push",
-            "link": "rat_death.json",
-            "desc": "Try to scare them away and push through"
-        },
-        {
-            "id": "explore",
-            "link": "sewer_rubble.json",
-            "desc": "2. Squeeze through the gap in the crumbling brickwork"
-        },
-        {
-            "id": "secret",
-            "link": "waterpark_entrance.json",
-            "desc": "3. Crawl through the wide, slime-covered ventilation pipe"
-        },
-        {
-            "id": "back",
-            "link": "sewer_entrance.json",
-            "desc": "Slowly back away to the entrance"
-        }
-    ]
+  "title": "The Right Path",
+  "lines": [
+    "You head down the right tunnel. The smell of mildew is strong.",
+    "You round a corner and freeze. A massive swarm of rats is blocking the entire tunnel.",
+    "They aren't zombified, but they are unnaturally large and intelligent-looking. They bare their teeth, hungry and defensive."
+  ],
+  "options": [
+    {
+      "id": "feed",
+      "link": "rat_friend.json",
+      "with": "cheese",
+      "desc": "Offer them the block of cheese you found"
+    },
+    {
+      "id": "push",
+      "link": "rat_death.json",
+      "desc": "Try to scare them away and push through"
+    },
+    {
+      "id": "explore",
+      "link": "sewer_rubble.json",
+      "desc": "2. Squeeze through the gap in the crumbling brickwork"
+    },
+    {
+      "id": "secret",
+      "link": "waterpark_entrance.json",
+      "desc": "3. Crawl through the wide, slime-covered ventilation pipe"
+    },
+    {
+      "id": "back",
+      "link": "sewer_entrance.json",
+      "desc": "Slowly back away to the entrance"
+    }
+  ],
+  "image": "/images/sewer_right.png"
 }

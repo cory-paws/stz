@@ -1,6 +1,6 @@
 {
     "title": "A Shimmering Void",
-    "image": "/images/hill.png",
+    "image": "/images/desert_glimmer.png",
     "imageClass": "hue-rotate-[220deg] saturate-150 brightness-110",
     "sanityChange": -5,
     "discoveryScore": 5,

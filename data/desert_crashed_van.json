@@ -1,6 +1,6 @@
 {
     "title": "The Crashed News Van",
-    "image": "/images/hill.png",
+    "image": "/images/desert_crashed_van.png",
     "imageClass": "hue-rotate-[220deg] saturate-150 brightness-90",
     "lines": [
         "You reach the shimmer. It's an old, overturned media van from the city, half-buried in a dune.",

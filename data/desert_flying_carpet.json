@@ -1,6 +1,6 @@
 {
     "title": "Escape to the Skies",
-    "image": "/images/hill.png",
+    "image": "/images/desert_flying_carpet.png",
     "imageClass": "hue-rotate-[240deg] brightness-150 saturate-200 contrast-150",
     "type": "WIN",
     "discoveryScore": 500,

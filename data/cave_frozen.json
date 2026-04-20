@@ -1,20 +1,21 @@
 {
-    "title": "The Frozen Legion",
-    "lines": [
-        "You navigate down a slick, icy tunnel. As your eyes adjust to the gloom, you freeze in terror.",
-        "Embedded in the glacial ice all around you are hundreds of zombie farmers.",
-        "They are frozen in varying states of decay, their milky eyes staring back at you. Suddenly, you hear the sharp CRACK of splitting ice."
-    ],
-    "options": [
-        {
-            "id": "sneak",
-            "link": "cave_lake.json",
-            "desc": "Carefully sneak past before the ice shatters"
-        },
-        {
-            "id": "attack",
-            "link": "cave_break_death.json",
-            "desc": "Try to smash a zombie's head while it's trapped"
-        }
-    ]
+  "title": "The Frozen Legion",
+  "lines": [
+    "You navigate down a slick, icy tunnel. As your eyes adjust to the gloom, you freeze in terror.",
+    "Embedded in the glacial ice all around you are hundreds of zombie farmers.",
+    "They are frozen in varying states of decay, their milky eyes staring back at you. Suddenly, you hear the sharp CRACK of splitting ice."
+  ],
+  "options": [
+    {
+      "id": "sneak",
+      "link": "cave_lake.json",
+      "desc": "Carefully sneak past before the ice shatters"
+    },
+    {
+      "id": "attack",
+      "link": "cave_break_death.json",
+      "desc": "Try to smash a zombie's head while it's trapped"
+    }
+  ],
+  "image": "/images/cave_frozen.png"
 }

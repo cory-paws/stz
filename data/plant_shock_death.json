@@ -1,16 +1,17 @@
 {
-    "title": "Voltage Overload",
-    "type": "DEAD",
-    "lines": [
-        "You flip a heavy industrial switch on the console. A deep hum vibrates through the floor.",
-        "Suddenly, a violent blue arc of electricity jumps from the control panel directly into your chest.",
-        "The smell of ozone and burning fabric is the last thing you experience."
-    ],
-    "options": [
-        {
-            "id": "restart",
-            "link": "index.json",
-            "desc": "Wake up back at the tent"
-        }
-    ]
+  "title": "Voltage Overload",
+  "type": "DEAD",
+  "lines": [
+    "You flip a heavy industrial switch on the console. A deep hum vibrates through the floor.",
+    "Suddenly, a violent blue arc of electricity jumps from the control panel directly into your chest.",
+    "The smell of ozone and burning fabric is the last thing you experience."
+  ],
+  "options": [
+    {
+      "id": "restart",
+      "link": "index.json",
+      "desc": "Wake up back at the tent"
+    }
+  ],
+  "image": "/images/plant_shock_death.png"
 }

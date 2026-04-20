@@ -1,6 +1,6 @@
 {
     "title": "An Impossible Gathering",
-    "image": "/images/hill.png",
+    "image": "/images/desert_oasis_party.png",
     "imageClass": "hue-rotate-[240deg] brightness-110 saturate-150 contrast-110",
     "sanityChange": 40,
     "discoveryScore": 150,

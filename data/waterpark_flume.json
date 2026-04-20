@@ -1,6 +1,6 @@
 {
     "title": "The Infinite Descent",
-    "image": "/images/sewer.png",
+    "image": "/images/waterpark_flume.png",
     "imageClass": "hue-rotate-[180deg] brightness-25 saturate-200 contrast-150",
     "sanityChange": -30,
     "lines": [

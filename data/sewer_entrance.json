@@ -1,25 +1,27 @@
 {
-    "title": "The Dank Sewers",
+    "title": "The Sewer Network",
+    "image": "/images/sewer.png",
+    "imageClass": "hue-rotate-[80deg] saturate-150 brightness-60 contrast-125",
     "lines": [
-        "With the twisted villagers closing in, you pry open a heavy iron manhole cover and drop into the darkness.",
-        "The smell is awful, and you can't see much. The tunnel splits in two directions.",
-        "There's also a pile of garbage and rubble near the pipe you dropped out of."
+        "The air in the sewers is surprisingly cold, carrying the faint, chemical tang of old machinery and stagnant water.",
+        "The brick walls are slick with a bioluminescent emerald moss that provides just enough light to see the ripples in the dark water below.",
+        "From the darkness ahead, you hear the rhythmic *thrum-thrum* of a massive pump that should have died years ago."
     ],
     "options": [
         {
-            "id": "rubble",
-            "link": "sewer_rubble.json",
-            "desc": "Search the rubble"
-        },
-        {
             "id": "left",
             "link": "sewer_left.json",
-            "desc": "Take the left tunnel"
+            "desc": "1. Follow the narrow walkway to the left"
         },
         {
             "id": "right",
             "link": "sewer_right.json",
-            "desc": "Take the right tunnel"
+            "desc": "2. Wades through the shallow water to the right"
+        },
+        {
+            "id": "back",
+            "link": "village.json",
+            "desc": "3. Climb back up the ladder to the square"
         }
     ]
 }

@@ -1,16 +1,17 @@
 {
-    "title": "The Terrible Truth",
-    "lines": [
-        "You brush off the dust and read the top file. It details the 'AI Synthesis Serum', a highly experimental biological agent meant to fuse consciousness and machine learning.",
-        "The notes end abruptly. 'CRITICAL FAILURE: SERUM HAS GONE AIRBORNE. IT CAUSES IMMEDIATE NECROSIS AND LOSS OF HIGHER FUNCTION IN 99.9% OF SUBJECTS.'",
-        "It mutated the villagers into zombies and the farmer into a psychopath. And worse... it's airborne.",
-        "Wait. You've been camping right above this facility for an entire week."
-    ],
-    "options": [
-        {
-            "id": "realize",
-            "link": "game_win.json",
-            "desc": "You should be dead... why aren't you?"
-        }
-    ]
+  "title": "The Terrible Truth",
+  "lines": [
+    "You brush off the dust and read the top file. It details the 'AI Synthesis Serum', a highly experimental biological agent meant to fuse consciousness and machine learning.",
+    "The notes end abruptly. 'CRITICAL FAILURE: SERUM HAS GONE AIRBORNE. IT CAUSES IMMEDIATE NECROSIS AND LOSS OF HIGHER FUNCTION IN 99.9% OF SUBJECTS.'",
+    "It mutated the villagers into zombies and the farmer into a psychopath. And worse... it's airborne.",
+    "Wait. You've been camping right above this facility for an entire week."
+  ],
+  "options": [
+    {
+      "id": "realize",
+      "link": "game_win.json",
+      "desc": "You should be dead... why aren't you?"
+    }
+  ],
+  "image": "/images/plant_desk.png"
 }

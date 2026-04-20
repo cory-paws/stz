@@ -1,16 +1,17 @@
 {
-    "title": "Broken Mind",
-    "type": "DEAD",
-    "lines": [
-        "You stare too long at the horrible, twisting geometry inscribed on the walls.",
-        "The symbols aren't just shapes—they are truths. Horrible, cosmic truths about the insignificance of humanity and the Great Old Ones that slumber beneath us.",
-        "Your fragile human mind simply shatters like glass under the weight of such knowledge."
-    ],
-    "options": [
-        {
-            "id": "restart",
-            "link": "index.json",
-            "desc": "Go back to the beginning"
-        }
-    ]
+  "title": "Broken Mind",
+  "type": "DEAD",
+  "lines": [
+    "You stare too long at the horrible, twisting geometry inscribed on the walls.",
+    "The symbols aren't just shapes—they are truths. Horrible, cosmic truths about the insignificance of humanity and the Great Old Ones that slumber beneath us.",
+    "Your fragile human mind simply shatters like glass under the weight of such knowledge."
+  ],
+  "options": [
+    {
+      "id": "restart",
+      "link": "index.json",
+      "desc": "Go back to the beginning"
+    }
+  ],
+  "image": "/images/cave_madness_death.png"
 }

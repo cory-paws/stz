@@ -1,6 +1,6 @@
 {
     "title": "Violent Realization",
-    "image": "/images/hill.png",
+    "image": "/images/village_shred_death.png",
     "imageClass": "hue-rotate-[10deg] brightness-50 saturate-200 contrast-150",
     "type": "DEAD",
     "discoveryScore": 50,

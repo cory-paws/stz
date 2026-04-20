@@ -1,20 +1,21 @@
 {
-    "title": "The Gateway",
-    "lines": [
-        "You approach the floating tear in reality behind the altar.",
-        "It radiates unnatural, impossible colors that make your eyes ache. The humming sound vibrating from it shakes your very bones.",
-        "You can feel a freezing, ancient wind blowing from the other side. This is no earthly portal."
-    ],
-    "options": [
-        {
-            "id": "step",
-            "link": "mountains_of_madness.json",
-            "desc": "Step blindly through the portal"
-        },
-        {
-            "id": "run",
-            "link": "cave_escape.json",
-            "desc": "Turn around and flee toward the surface"
-        }
-    ]
+  "title": "The Gateway",
+  "lines": [
+    "You approach the floating tear in reality behind the altar.",
+    "It radiates unnatural, impossible colors that make your eyes ache. The humming sound vibrating from it shakes your very bones.",
+    "You can feel a freezing, ancient wind blowing from the other side. This is no earthly portal."
+  ],
+  "options": [
+    {
+      "id": "step",
+      "link": "mountains_of_madness.json",
+      "desc": "Step blindly through the portal"
+    },
+    {
+      "id": "run",
+      "link": "cave_escape.json",
+      "desc": "Turn around and flee toward the surface"
+    }
+  ],
+  "image": "/images/cave_portal.png"
 }

@@ -1,15 +1,16 @@
 {
-    "title": "Short Circuit!",
-    "lines": [
-        "BZZZZT! You thrust the cattle prod into the massive coils.",
-        "The surge of electricity overloads the system. Sparks fly from the ceiling, the heat lamps shatter, and the main steel doors pop open with a heavy clank!",
-        "You stumble out into the moonlit fields, gasping for the freezing night air. You survived the Oven Room!"
-    ],
-    "options": [
-        {
-            "id": "walk",
-            "link": "fields_safe.json",
-            "desc": "Continue forward into the fields"
-        }
-    ]
+  "title": "Short Circuit!",
+  "lines": [
+    "BZZZZT! You thrust the cattle prod into the massive coils.",
+    "The surge of electricity overloads the system. Sparks fly from the ceiling, the heat lamps shatter, and the main steel doors pop open with a heavy clank!",
+    "You stumble out into the moonlit fields, gasping for the freezing night air. You survived the Oven Room!"
+  ],
+  "options": [
+    {
+      "id": "walk",
+      "link": "fields_safe.json",
+      "desc": "Continue forward into the fields"
+    }
+  ],
+  "image": "/images/barn_escape.png"
 }

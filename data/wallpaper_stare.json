@@ -1,6 +1,6 @@
 {
     "title": "The Peel and the Pulse",
-    "image": "/images/hill.png",
+    "image": "/images/wallpaper_stare.png",
     "imageClass": "hue-rotate-[10deg] brightness-50 saturate-50 contrast-125",
     "sanityChange": -20,
     "discoveryScore": 30,

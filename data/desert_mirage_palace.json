@@ -1,6 +1,6 @@
 {
     "title": "The Glimmering Palace",
-    "image": "/images/hill.png",
+    "image": "/images/desert_mirage_palace.png",
     "imageClass": "hue-rotate-[240deg] brightness-125 saturate-200 contrast-125",
     "sanityChange": 10,
     "discoveryScore": 100,

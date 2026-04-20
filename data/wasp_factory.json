@@ -1,27 +1,27 @@
 {
-    "title": "Humming Vats",
-    "image": "/images/factory.png",
-    "imageClass": "hue-rotate-[30deg] brightness-90 saturate-150 contrast-110",
+    "title": "The Wasp Factory",
+    "image": "/images/wasp_factory.png",
+    "imageClass": "hue-rotate-[20deg] saturate-150 brightness-75 contrast-135 drop-shadow-[0_0_25px_rgba(255,215,0,0.3)]",
     "lines": [
-        "The interior of the factory is a maze of copper vats and humming machinery. The sound here isn't just noise; it's a vibration you feel in your teeth.",
-        "Yellow-striped blurs zip through the high rafters. You're in the heart of the hive now.",
-        "A thick, sweet smell of mutated nectar hangs in the air."
+        "The air here is thick with the scent of ozone and something sweet, like rotting nectar. Massive, rusted industrial machines grind and hiss in the darkness.",
+        "High above, the ceiling is a lattice of golden geometric patterns that seem to vibrate with an intense, low-frequency hum. This is no longer a human factory.",
+        "Vast, translucent honeycombs are draped over the steel rafters, dripping a thick, glowing amber fluid onto the concrete floor."
     ],
     "options": [
         {
-            "id": "listen",
-            "link": "wasp_hum.json",
-            "desc": "1. Listen to the rhythmic hum of the machinery"
-        },
-        {
             "id": "continue",
-            "link": "wasp_factory.json",
-            "desc": "2. Move carefully toward the loading docks"
+            "link": "wasp_hum.json",
+            "desc": "1. Venture deeper into the golden hum"
         },
         {
-            "id": "death",
-            "link": "wasp_death.json",
-            "desc": "3. Investigate a leaking vat"
+            "id": "search",
+            "link": "wasp_factory.json",
+            "desc": "2. Search the industrial ruins for loot"
+        },
+        {
+            "id": "back",
+            "link": "village.json",
+            "desc": "3. Retreat to the village square"
         }
     ]
 }

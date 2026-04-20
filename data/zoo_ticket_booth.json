@@ -1,0 +1,18 @@
+{
+    "title": "The Ruined Ticket Booth",
+    "image": "/images/zoo_entrance.png",
+    "imageClass": "hue-rotate-[140deg] saturate-100 brightness-40 contrast-150 drop-shadow-[0_0_10px_rgba(0,255,65,0.1)]",
+    "sanityChange": -5,
+    "lines": [
+        "You pry open the rusted door of the ticket booth.",
+        "Inside, you find nothing but dust, shattered glass, and the skeletal remains of what might have been the ticket vendor.",
+        "There are no supplies left here. Only the creeping feeling that you are being watched from the enclosures."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "zoo_entrance.json",
+            "desc": "Step back out to the main entrance"
+        }
+    ]
+}

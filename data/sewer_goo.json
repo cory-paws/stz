@@ -1,6 +1,6 @@
 {
     "title": "Sticky Sewers",
-    "image": "/images/sewer.png",
+    "image": "/images/sewer_goo.png",
     "imageClass": "hue-rotate-[100deg] brightness-75 saturate-200 contrast-125",
     "lines": [
         "The tunnels here are coated in a translucent, foul-smelling slime that seems to glow ever so slightly.",
@@ -23,5 +23,5 @@
             "link": "cave_lake.json",
             "desc": "3. Search for an underwater opening"
         }
-  ]
+    ]
 }

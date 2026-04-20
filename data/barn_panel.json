@@ -1,27 +1,28 @@
 {
-    "title": "High Voltage",
-    "lines": [
-        "You smash the remaining ice and pry open the hatch. Inside is an electrical box with two massive conductor coils.",
-        "Smeared in red paint on the inside of the hatch are the words: JUMPSTART ME.",
-        "The heat in the room is becoming unbearable. Your vision is starting to blur."
-    ],
-    "options": [
-        {
-            "id": "prod",
-            "link": "barn_escape.json",
-            "with": "cattleprod",
-            "desc": "Jam the cattle prod against the coils to surge the system!"
-        },
-        {
-            "id": "hands",
-            "link": "barn_shock_death.json",
-            "desc": "Grab the coils and try to bridge the connection with your hands"
-        },
-        {
-            "id": "wait",
-            "link": "barn_cook_death.json",
-            "without": "cattleprod",
-            "desc": "Wait, praying for a miracle as you slowly cook"
-        }
-    ]
+  "title": "High Voltage",
+  "lines": [
+    "You smash the remaining ice and pry open the hatch. Inside is an electrical box with two massive conductor coils.",
+    "Smeared in red paint on the inside of the hatch are the words: JUMPSTART ME.",
+    "The heat in the room is becoming unbearable. Your vision is starting to blur."
+  ],
+  "options": [
+    {
+      "id": "prod",
+      "link": "barn_escape.json",
+      "with": "cattleprod",
+      "desc": "Jam the cattle prod against the coils to surge the system!"
+    },
+    {
+      "id": "hands",
+      "link": "barn_shock_death.json",
+      "desc": "Grab the coils and try to bridge the connection with your hands"
+    },
+    {
+      "id": "wait",
+      "link": "barn_cook_death.json",
+      "without": "cattleprod",
+      "desc": "Wait, praying for a miracle as you slowly cook"
+    }
+  ],
+  "image": "/images/barn_panel.png"
 }

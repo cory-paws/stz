@@ -1,6 +1,6 @@
 {
     "title": "Behind the Dust",
-    "image": "/images/hill.png",
+    "image": "/images/shop_counter_check.png",
     "imageClass": "hue-rotate-[10deg] brightness-125 saturate-50 contrast-125",
     "sanityChange": 5,
     "lines": [
