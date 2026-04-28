@@ -2,16 +2,16 @@
     "title": "Abandoned Shop",
     "image": "/images/shop_entrance.png",
     "lines": [
-        "You slide into a dark, dusty general store and bolt the door behind you. The village square is filled with the groans of the approaching dead.",
-        "The air inside is stale, smelling of dry rot and old canned goods. Moonlight filters through the grimy windows, revealing ransacked shelves.",
-        "You take a breath, scanning the shadows for anything useful."
+        "You slip through the heavy oak door of the general store, the cold iron bolt sliding home with a finality that vibrates in your very marrow. Outside, the square is a choir of wet, rhythmic groans—a discordant symphony of the grey-skinned inhabitants.",
+        "The interior is a lightless tomb, the air heavy with the cloying scent of dry rot and the metallic tang of rusted tin. Moonlight, filtered through decades of soot and grime, casts distorted shadows across the ransacked shelves, making them look like the skeletal ribs of some prehistoric beast.",
+        "You stand in the oppressive silence, your heart hammered against your ribs as you scan the shadows. The store feels... expectant, as if the very walls are holding their breath."
     ],
     "options": [
         {
             "id": "crowbar",
             "link": "pickup_crowbar.json",
             "without": "crowbar",
-            "desc": "1. Search near the counter for a tool"
+            "desc": "1. Search near the jagged silhouette of the counter"
         },
         {
             "id": "crowbar_held",
@@ -23,18 +23,18 @@
             "id": "matches",
             "link": "pickup_matches.json",
             "without": "matches",
-            "desc": "2. Rummage through the survival shelf"
+            "desc": "2. Rummage through the survival shelf in the corner"
         },
         {
             "id": "matches_held",
             "link": "shop_counter_check.json",
             "with": "matches",
-            "desc": "2. Note the empty space where the matches were"
+            "desc": "2. Note the empty space where the matches once rested"
         },
         {
             "id": "stay",
             "link": "shop_chase.json",
-            "desc": "3. Explore the upper storage area"
+            "desc": "3. Ascend to the lightless upper storage area"
         }
     ]
 }

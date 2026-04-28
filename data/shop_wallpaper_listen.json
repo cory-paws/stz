@@ -1,0 +1,16 @@
+{
+    "title": "A Cosmic Vibration",
+    "image": "/images/shop_wallpaper.png",
+    "lines": [
+        "You lean in closer. The hum isn't just a sound; it's a vibration that resonates in your skull, synchronized with the pulsing violet light.",
+        "It sounds like a thousand voices chanting in a language of pure mathematics, a low, tectonic drone that speaks of collapsing stars and the birth of void-gods.",
+        "The longer you listen, the more the attic around you feels like a thin, crumbling facade."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "shop_wallpaper.json",
+            "desc": "Shake off the vibration and focus"
+        }
+    ]
+}

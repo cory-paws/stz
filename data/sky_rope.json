@@ -3,9 +3,9 @@
     "image": "/images/sky_rope.png",
     "imageClass": "invert brightness-90 hue-rotate-[90deg]",
     "lines": [
-        "Your hands burn from the coarse hemp of the rope. You are deep inside a cold, grey mist that tastes of ozone and stagnant lightning.",
-        "Every muscle in your body screams as you haul yourself upward, dangling thousands of feet over an invisible world.",
-        "Suddenly, the mist breaks. Above you, the sky transitions back into a deep, velvet violet. You see the massive, curved undersides of 10 gargantuan zeppelins, moored together with golden chains."
+        "Your hands burn from the coarse hemp of the rope. You are deep within a swirling, Stygian mist that tastes of ozone and stagnant lightning.",
+        "Every muscle in your body screams as you haul yourself upward, dangling thousands of feet above a world that has likely forgotten your existence.",
+        "Suddenly, the mist breaks. Above you, the sky transitions into a deep, velvet violet. You see the massive, curved undersides of gargantuan, obsidian zeppelins, moored together with chains of cold iron."
     ],
     "options": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "id": "rest",
-            "link": "sky_rope.json",
+            "link": "sky_rope_rest.json",
             "desc": "2. Hang onto the rope and try to catch your breath"
         }
     ]

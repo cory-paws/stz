@@ -3,9 +3,9 @@
     "image": "/images/desert_mirage.png",
     "imageClass": "brightness-140 contrast-125 saturate-125 drop-shadow-[0_0_20px_rgba(255,255,255,0.1)]",
     "lines": [
-        "The sand beneath your feet is no longer orange; it has turned to a fine, white powder that feels like ground glass.",
-        "Floating just inches above the shimmering horizon is a fortress of impossible beauty—a palace built from moonlight and prisms. Its towers spiral toward the twilight clouds like frozen lightning.",
-        "It looks fragile enough to shatter with a single breath, yet as solid as the mountain you left behind."
+        "The sand beneath your feet has lost its warmth, turning into a fine, white powder that feels like ground bone. It doesn't crunch; it whispers.",
+        "Floating above the shimmering horizon is an impossible fortress—a palace constructed from moonlight, prisms, and shadows that shouldn't exist. Its towers spiral toward the bruised-purple clouds like frozen black lightning.",
+        "It is a monument to a geometry that defies the laws of man, yet its beauty is as intoxicating as a deadly poison."
     ],
     "options": [
         {
@@ -15,13 +15,18 @@
         },
         {
             "id": "stare",
-            "link": "desert_mirage.json",
+            "link": "desert_mirage_stare.json",
             "desc": "2. Stare into the geometric patterns of the walls"
+        },
+        {
+            "id": "oasis",
+            "link": "desert_oasis.json",
+            "desc": "3. Ignore the palace and head toward the nearby green basin"
         },
         {
             "id": "leave",
             "link": "desert_dunes.json",
-            "desc": "3. Resist the mirage and head back toward the dunes"
+            "desc": "4. Resist the mirage and head back toward the dunes"
         }
     ]
 }

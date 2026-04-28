@@ -1,0 +1,16 @@
+{
+    "title": "A Vertiginous View",
+    "image": "/images/sky_staircase.png",
+    "lines": [
+        "You peer over the edge of the transparent stairs. The desert below is no longer a vast wasteland; it is a complex, geometric tapestry of orange and white, its patterns shifting and undulating as if viewed through a liquid lens.",
+        "The hangar from which you ascended is a minuscule, rusted scar on the face of an alien world. You feel the crushing weight of the heights, a cold, absolute vertigo that threatens to steal the breath from your lungs.",
+        "The silence up here is deafening, broken only by the faint, rhythmic humming of the crystalline stairs beneath your feet."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "sky_staircase.json",
+            "desc": "Pull your gaze away and focus on the climb"
+        }
+    ]
+}

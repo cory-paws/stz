@@ -2,25 +2,25 @@
     "title": "A Dust-Caked Attic",
     "image": "/images/shop_attic.png",
     "lines": [
-        "You scramble up a rickety ladder into a low-ceilinged storage space. The smell of cedar and stale air is thick here.",
-        "Your flashlight beam catches dust motes dancing in the dark. Piles of boxes and old furniture create a labyrinth of shadows.",
-        "On the wall, several frantic, charcoal sketches show silhouettes of creatures that look nothing like humans."
+        "You scramble up a rickety, spider-webbed ladder into a low-ceilinged storage space that feels like the claustrophobic interior of a coffin. The air is a thick, cloying soup of ancient cedar, stale dust, and a faint, metallic vibration that resonates in your teeth.",
+        "Your flashlight beam carves a path through the oppressive dark, catching dust motes that dance like tiny, frantic ghosts. Piles of warped boxes and skeletal furniture create a labyrinth of shifting, predatory shadows that seem to move just outside the edge of your vision.",
+        "On the far wall, several frantic charcoal sketches depict silhouettes that defy all biological classification—limbs that bend at non-Euclidean angles and eyes that seem to pulse with a low, violet light from within the paper."
     ],
     "options": [
         {
             "id": "examine",
             "link": "attic_detail.json",
-            "desc": "1. Examine the dust-caked sketches"
+            "desc": "1. Examine the frantic, charcoal-smeared sketches"
         },
         {
             "id": "wall",
             "link": "shop_wallpaper.json",
-            "desc": "2. Step toward the peeling wallpaper"
+            "desc": "2. Step toward the peeling, pulsating wallpaper"
         },
         {
             "id": "trunk",
             "link": "shop_trunk_death.json",
-            "desc": "3. Open the heavy trunk beneath the sketches"
+            "desc": "3. Open the heavy iron trunk beneath the sketches"
         }
     ]
 }

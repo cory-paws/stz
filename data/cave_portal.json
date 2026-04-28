@@ -1,20 +1,20 @@
 {
   "title": "The Gateway",
   "lines": [
-    "You approach the floating tear in reality behind the altar.",
-    "It radiates unnatural, impossible colors that make your eyes ache. The humming sound vibrating from it shakes your very bones.",
-    "You can feel a freezing, ancient wind blowing from the other side. This is no earthly portal."
+    "You approach the jagged, floating tear in reality that hovers behind the pulsating altar like a festering wound in the very fabric of the universe.",
+    "It radiates unnatural, impossible colors—hues that should not exist in the human spectrum—that sear your retinas and ignite a primal, existential fear. The humming vibration is a physical weight, a tectonic drone that shakes your very bones and threatens to dissolve your physical form into the void.",
+    "You can feel a freezing, primordial wind blowing from the abyss on the other side, carrying the scent of cosmic dust and the dry, rattling whispers of dead stars. This is no earthly gateway; it is a path to the absolute outside."
   ],
   "options": [
     {
       "id": "step",
       "link": "mountains_of_madness.json",
-      "desc": "Step blindly through the portal"
+      "desc": "Step blindly through the jagged portal and into the unknown"
     },
     {
       "id": "run",
       "link": "cave_escape.json",
-      "desc": "Turn around and flee toward the surface"
+      "desc": "Turn your back on the abyss and flee toward the surface"
     }
   ],
   "image": "/images/cave_portal.png"

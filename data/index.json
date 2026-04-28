@@ -3,25 +3,25 @@
     "image": "/images/tent.png",
     "imageClass": "sepia brightness-[0.45] contrast-[1.3] saturate-50 blur-[0.5px]",
     "lines": [
-        "So any way.......  ",
-        "Around a week ago, you decided to go solo camping in the middle of nowhere.",
-        "The week is at it's end. Time to go back to civilizations."
+        "The week has reached its unnatural conclusion, or perhaps time has simply ceased to function in the way you once understood. Seven days ago, you sought the absolute solitude of these desolate hills, fleeing the frantic noise of a world that felt increasingly fragile and hollow.",
+        "The silence outside your meager canvas shelter is now absolute—a cold, heavy weight that presses against the fabric like a physical presence. The 'civilization' you once called home now feels like a half-remembered fever dream from a life that no longer belongs to you.",
+        "It is time to emerge and face whatever has replaced the world you knew."
     ],
     "options": [
         {
             "id": "cake",
             "link": "cake.json",
-            "desc": "1. Eat chocolate cake"
+            "desc": "1. Consume the last of the chocolate cake"
         },
         {
             "id": "sleep",
             "link": "sleep.json",
-            "desc": "2. Go Back to sleep"
+            "desc": "2. Retreat into the safety of dreamless sleep"
         },
         {
             "id": "hill",
             "link": "hill.json",
-            "desc": "3. Pack up the tent and leave"
+            "desc": "3. Dismantle your shelter and face the valley"
         }
     ]
 }

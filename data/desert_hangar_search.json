@@ -1,0 +1,16 @@
+{
+    "title": "The Scaffolding Shadows",
+    "image": "/images/barn_search.png",
+    "lines": [
+        "You climb into the rusted scaffolding, the metal groaning like a dying beast beneath your weight.",
+        "Among the twisted girders and ancient silt, you find traces of those who came before: strange, oily glyphs etched into the steel, and a small, leather-bound pouch.",
+        "Inside the pouch is a handful of dried, bitter herbs that smell of ozone and old earth."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "desert_hangar.json",
+            "desc": "Return to the center of the hangar"
+        }
+    ]
+}

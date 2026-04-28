@@ -2,24 +2,24 @@
     "title": "The Desert Door",
     "image": "/images/shop_door.png",
     "lines": [
-        "At last, the tunnel ends in a simple, heavy wooden door. It stands in the middle of the darkness, anchored to nothing.",
-        "You can hear the sound of wind—real wind—blowing on the other side."
+        "The tunnel terminates abruptly at a simple, heavy wooden door of weathered oak. It stands alone in the absolute, stygian darkness, anchored to nothing but the void itself—a solitary portal between disparate and dying realities.",
+        "Through the keyhole, you hear the howl of a cyclopean wind—a freezing, primordial gale—that carries the scent of ancient, sun-scorched sand and the dry, rattling whisper of an endless, orange desert."
     ],
     "options": [
         {
             "id": "open",
             "link": "desert_intro.json",
-            "desc": "1. Open the simple wooden door and step through"
+            "desc": "1. Turn the cold brass handle and step through the door"
         },
         {
             "id": "listen",
-            "link": "shop_door.json",
-            "desc": "2. Press your ear against the keyhole"
+            "link": "shop_door_listen.json",
+            "desc": "2. Press your ear against the keyhole and listen to the void"
         },
         {
             "id": "kick",
             "link": "shop_door_death.json",
-            "desc": "3. Kick the door open with all your strength"
+            "desc": "3. Kick the door open with all your desperate strength"
         }
     ]
 }

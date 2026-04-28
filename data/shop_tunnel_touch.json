@@ -1,0 +1,16 @@
+{
+    "title": "Jagged Memories",
+    "image": "/images/shop_tunnel.png",
+    "lines": [
+        "Your fingers graze the jagged wooden walls. The surface is unnaturally cold and feels less like wood and more like petrified bone.",
+        "As you touch it, you feel a faint, pulsing warmth from within the walls, and for a moment, you see a flash of a vast, star-swept desert that you've never visited.",
+        "The wood seems to be drinking in the heat from your fingertips."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "shop_tunnel.json",
+            "desc": "Keep your hands close and keep moving"
+        }
+    ]
+}

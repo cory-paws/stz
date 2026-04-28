@@ -3,9 +3,9 @@
     "image": "/images/wasp_factory.png",
     "imageClass": "hue-rotate-[20deg] saturate-150 brightness-75 contrast-135 drop-shadow-[0_0_25px_rgba(255,215,0,0.3)]",
     "lines": [
-        "The air here is thick with the scent of ozone and something sweet, like rotting nectar. Massive, rusted industrial machines grind and hiss in the darkness.",
-        "High above, the ceiling is a lattice of golden geometric patterns that seem to vibrate with an intense, low-frequency hum. This is no longer a human factory.",
-        "Vast, translucent honeycombs are draped over the steel rafters, dripping a thick, glowing amber fluid onto the concrete floor."
+        "The air here is a thick, suffocating soup of ozone and the cloying scent of rotting nectar. Massive, rusted industrial titans grind and hiss in the gloom, their movements rhythmic and uncaring.",
+        "High above, the ceiling is a complex lattice of golden geometric patterns that vibrate with an intense, low-frequency hum. This is a temple to a cold, insectile god.",
+        "Vast, translucent honeycombs are draped over the steel rafters like internal organs, dripping a thick, glowing amber ichor onto the cold concrete floor."
     ],
     "options": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "id": "search",
-            "link": "wasp_factory.json",
+            "link": "wasp_factory_search.json",
             "desc": "2. Search the industrial ruins for loot"
         },
         {

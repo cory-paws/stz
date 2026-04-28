@@ -1,0 +1,16 @@
+{
+    "title": "A Fragile Defense",
+    "image": "/images/shop_chase.png",
+    "lines": [
+        "You heave a heavy, rotting shelf across the base of the stairs. It shudders as the first of the grey-skinned villagers slams into it, their inhuman strength nearly toppling your defense.",
+        "The wood groans and splinters, and pale, elongated fingers reach through the gaps, grasping blindly at your ankles.",
+        "The barricade won't hold for long. You must move now!"
+    ],
+    "options": [
+        {
+            "id": "up",
+            "link": "shop_attic.json",
+            "desc": "Scramble up the stairs while you still can"
+        }
+    ]
+}

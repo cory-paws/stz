@@ -3,9 +3,9 @@
     "image": "/images/desert_oasis.png",
     "imageClass": "brightness-120 saturate-150 contrast-110 drop-shadow-[0_0_15px_rgba(0,255,65,0.2)]",
     "lines": [
-        "The heat began to feel like a heavy blanket, but as you crested the final dune, the air suddenly cooled and tasted of sweet, damp earth.",
-        "Below you is a lush, vibrant basin. Tall palms with bioluminescent fronds mirror the bruised-purple sky in a black, glassy pool at the center.",
-        "It is beautiful, but the silence here is different. It is the silence of something waiting."
+        "The heat was a suffocating shroud, but as you crest the final dune, the air suddenly turns frigid and tastes of damp, iron-rich earth.",
+        "Below lies a lush, vibrant basin that shouldn't exist in this wasteland. Tall palms with pulsing, bioluminescent fronds mirror the bruised-purple firmament in a black, glassy pool that looks like a pool of obsidian.",
+        "It is a beautiful sanctuary, but the silence here is heavy and expectant. It is the silence of a predator holding its breath."
     ],
     "options": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "id": "watch",
-            "link": "desert_oasis.json",
+            "link": "desert_oasis_watch.json",
             "desc": "2. Stay on the ridge and watch for movement below"
         },
         {

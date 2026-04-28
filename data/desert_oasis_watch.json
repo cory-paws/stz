@@ -1,0 +1,16 @@
+{
+    "title": "Unseen Observers",
+    "image": "/images/desert_oasis.png",
+    "lines": [
+        "You crouch on the ridge, scanning the verdant basin. The silence is absolute, save for the occasional, wet slap of something moving beneath the glassy surface of the pool.",
+        "As you watch, the bioluminescent fronds of the palms seem to pulse in unison, a slow, biological strobe light that reveals half-seen shapes darting between the trunks.",
+        "They are small, pale, and move with a fluid, insectile grace. They do not see you yet, but they are numerous."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "desert_oasis.json",
+            "desc": "Take a deep breath and decide your next move"
+        }
+    ]
+}

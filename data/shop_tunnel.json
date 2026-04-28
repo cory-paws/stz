@@ -2,24 +2,24 @@
     "title": "The Narrow Tunnel",
     "image": "/images/shop_tunnel.png",
     "lines": [
-        "The tunnel is impossibly narrow. You can barely move your arms. The air is cold and smells of dry sand.",
-        "As you crawl, the wooden walls press closer and closer against your shoulders. You can't turn back now."
+        "The tunnel is an impossibly narrow throat of petrified wood, pressing against your ribs with a cold, absolute weight that defies the laws of physical space. The air is frigid and carries the cloying scent of desiccated bone and ancient, sun-scorched sand from a world you do not recognize.",
+        "As you crawl, the walls—textured like petrified, fibrous flesh—seem to contract and expand with a slow, tectonic pulse that vibrates in your skull. You are deep within the anatomy of something vast, ancient, and uncaring. There is no retreat; the amethyst glow ahead is your only path."
     ],
     "options": [
         {
             "id": "forward",
             "link": "shop_door.json",
-            "desc": "1. Continue pushing forward through the dark"
+            "desc": "1. Continue crawling forward into the pulsing dark"
         },
         {
             "id": "panic",
             "link": "shop_tunnel_death.json",
-            "desc": "2. Try to force your way through faster"
+            "desc": "2. Succumb to panic and try to force your way through faster"
         },
         {
             "id": "touch",
-            "link": "shop_tunnel.json",
-            "desc": "3. Feel along the jagged wooden walls"
+            "link": "shop_tunnel_touch.json",
+            "desc": "3. Feel along the jagged, pulsing wooden walls"
         }
     ]
 }

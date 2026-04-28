@@ -1,0 +1,16 @@
+{
+    "title": "Fractured Geometry",
+    "image": "/images/desert_mirage.png",
+    "lines": [
+        "As you stare into the walls, the geometric patterns begin to shift and pulse. They aren't static designs; they are complex, interlocking equations written in light.",
+        "You feel a strange pulling sensation in your mind, as if your thoughts are being reorganized by the mathematical perfection of the palace.",
+        "For a brief moment, you understand the secret language of the stars, but the knowledge is too vast to hold, and it slips away like water through your fingers."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "desert_mirage.json",
+            "desc": "Blink and refocus your vision"
+        }
+    ]
+}

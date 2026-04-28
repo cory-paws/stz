@@ -3,25 +3,25 @@
     "image": "/images/zoo_entrance.png",
     "imageClass": "hue-rotate-[140deg] saturate-200 brightness-50 contrast-150 drop-shadow-[0_0_20px_rgba(0,255,65,0.3)]",
     "lines": [
-        "The massive steel gates of the city zoo loom out of the shadows, their once-proud archway now strangled by thick, bioluminescent vines that pulse with a rhythmic green light.",
-        "A flickering neon-green terminal kiosk greets you at the turnstile, its screen showing a static-distorted welcome message from a world that ended years ago.",
-        "Beyond the gates, the silence of the city is replaced by a high-frequency hum and the distant, impossible sounds of the wild."
+        "The cyclopean steel gates of the city zoo loom out of the Stygian shadows, their once-proud archway now strangled by thick, bioluminescent vines that pulse with a rhythmic, sickly green light—a slow, biological strobe that illuminates the decay.",
+        "A flickering neon-green terminal kiosk, caked in crystalline frost and strange, organic slime, greets you at the turnstile. Its screen depicts a static-distorted welcome from a civilization that has been erased from the memory of the stars.",
+        "Beyond the threshold, the silence of the dead city is swallowed by a high-frequency, electronic hum and the distant, impossible roars of beasts that should not exist in this or any other reality. The air tastes of ozone and rotting nectar."
     ],
     "options": [
         {
             "id": "continue",
             "link": "zoo_sounds.json",
-            "desc": "1. Step through the turnstile and enter the park"
+            "desc": "1. Step through the rusted turnstile and enter the neon-drenched park"
         },
         {
             "id": "search",
             "link": "zoo_ticket_booth.json",
-            "desc": "2. Search the ticket booths for supplies"
+            "desc": "2. Search the ticket booths for relics of the old world"
         },
         {
             "id": "back",
             "link": "village.json",
-            "desc": "3. Retreat back toward the safety of the village square"
+            "desc": "3. Retreat back toward the fog-shrouded village square"
         }
     ]
 }

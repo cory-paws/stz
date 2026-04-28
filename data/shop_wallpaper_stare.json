@@ -1,0 +1,16 @@
+{
+    "title": "Blinding Radiance",
+    "image": "/images/shop_wallpaper.png",
+    "lines": [
+        "You stare into the amethyst light. It burns with a cold, absolute intensity that sears your retinas, leaving floating, geometric after-images in your vision.",
+        "The light seems to reveal the 'under-structure' of the world—the chaotic, writhing patterns that lie beneath the illusion of reality.",
+        "Your eyes sting, but for a moment, you see the truth of the void, and it is more beautiful than anything you have ever known."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "shop_wallpaper.json",
+            "desc": "Rub your eyes and step back"
+        }
+    ]
+}

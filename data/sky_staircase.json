@@ -3,9 +3,9 @@
     "image": "/images/sky_staircase.png",
     "imageClass": "brightness-125 saturate-135 contrast-120 antialiased",
     "lines": [
-        "You are climbing high above the desert now. The hangar is a mere toy below you, a rusted speck in the orange expanse.",
-        "The stairs are made of a material that feels like cold diamond. They are perfectly transparent, making you feel as if you are walking on the air itself.",
-        "Ahead, the staircase terminates abruptly in a thick, swirling cloud layer. Hanging blindly from the mist above is a ancient, knotted rope made of coarse hemp."
+        "You are ascending high above the orange desolation. The hangar is a mere toy below you, a rusted, geometric speck in a sun-scorched expanse.",
+        "The stairs are constructed from a material that feels like cold, absolute diamond. They are perfectly transparent, anchored by a geometry that defies the laws of physical space.",
+        "Ahead, the staircase terminates abruptly in a swirling, Stygian cloud layer. Hanging blindly from the mist is an ancient, knotted rope that smells of salt and old earth."
     ],
     "options": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "id": "look",
-            "link": "sky_staircase.json",
+            "link": "sky_staircase_look.json",
             "desc": "2. Peer down at the vanishing desert far below"
         },
         {

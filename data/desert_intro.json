@@ -3,10 +3,10 @@
     "image": "/images/desert_intro.png",
     "imageClass": "brightness-110 contrast-110 antialiased saturate-125",
     "lines": [
-        "You stumble out onto shifting, orange sand. The sky is a bruised, eternal twilight.",
-        "You turn around to look at the door, but there is nothing but sand behind you. The wooden portal has vanished into thin air.",
-        "In the distance, you see a lone silhouette stumbling across a dune. You are no longer in the village.",
-        "Your adventure in the desert has begun."
+        "You stumble out onto shifting, orange sand that feels like ground bone. The sky is a bruised, eternal twilight, thick with stars that don't belong to any known constellation.",
+        "You turn around to look at the door, but there is nothing but an endless expanse of dunes. The wooden portal has been swallowed by the desert, or perhaps it never existed at all.",
+        "In the distance, you see a lone, distorted silhouette stumbling across a dune. You are no longer in the world you knew.",
+        "The air is heavy with the scent of ancient ozone. Your journey through this alien wasteland has begun."
     ],
     "options": [
         {
@@ -16,7 +16,7 @@
         },
         {
             "id": "listen",
-            "link": "desert_intro.json",
+            "link": "desert_intro_listen.json",
             "desc": "2. Pause and listen to the haunting desert wind"
         },
         {

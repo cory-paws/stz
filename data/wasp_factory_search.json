@@ -1,0 +1,16 @@
+{
+    "title": "Industrial Relics",
+    "image": "/images/wasp_factory.png",
+    "lines": [
+        "You scavenge through the rusted ruins of the machinery. Among the gears and twisted pistons, you find things that were never meant to be manufactured: delicate, metallic wings that pulse with a faint light, and cylinders of a glass-like substance filled with a swirling, violet gas.",
+        "Everything here is a fusion of the industrial and the biological. You find a small, brass device that looks like a compass, but the needle points upward, toward the golden lattice on the ceiling.",
+        "The deeper you search, the more you feel the vibration of the factory in your very bones."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "wasp_factory.json",
+            "desc": "Return to the main factory floor"
+        }
+    ]
+}

@@ -3,25 +3,25 @@
     "image": "/images/zoo_sounds.png",
     "imageClass": "sepia hue-rotate-[100deg] brightness-50 contrast-150 saturate-50",
     "lines": [
-        "Hidden speakers in the trees, long-abandoned by their human operators, continue to broadcast a distorted loop of jungle sounds.",
-        "The chirps of birds and the roars of predators are layered with the digital crackle of a dying terminal. It is a haunting, synthesized orchestra of a world that no longer exists.",
-        "The paths ahead fork into deep shadow. One leads toward the scent of ozone and heat, the other toward a cool, blue light."
+        "Hidden speakers nestled within the gargantuan, pulsing trees—long-abandoned by their human operators—continue to broadcast a distorted, skipping loop of synthesized jungle sounds that sound more like a mechanical death-rattle.",
+        "The artificial chirps of birds and the tectonic roars of predators are layered with the digital crackle and low-frequency hum of a dying terminal. It is a haunting, synthesized orchestra of a civilization that has been consumed by the absolute outside.",
+        "The winding concrete paths ahead fork into deep, expectant shadow. One path carries the metallic tang of ozone and the oppressive scent of heat; the other leads toward a cold, rhythmic blue light that pulses like a dying star."
     ],
     "options": [
         {
             "id": "lion",
             "link": "zoo_lion.json",
-            "desc": "1. Follow the scent of ozone and heat (To the Lion)"
+            "desc": "1. Follow the oppressive scent of ozone and heat"
         },
         {
             "id": "capybara",
             "link": "zoo_capybara.json",
-            "desc": "2. Follow the cool, blue light (To the Capybaras)"
+            "desc": "2. Follow the cold, rhythmic blue light"
         },
         {
             "id": "back",
             "link": "zoo_entrance.json",
-            "desc": "3. Return to the main gate"
+            "desc": "3. Return to the cyclopean main gate"
         }
     ]
 }

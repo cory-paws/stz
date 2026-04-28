@@ -1,25 +1,25 @@
 {
   "title": "The Abyss Lake",
   "lines": [
-    "You inch past the cracking ice monoliths, breathing a sigh of relief as you arrive in an absolutely massive, unlit cavern.",
-    "Stretching before you is an inky, black underground lake. Massive, unseen creatures are causing huge, rhythmic ripples in the slick water.",
-    "There is a very narrow, dangerous-looking stone ledge encircling the water's edge."
+    "You slip past the groaning ice monoliths, your breath hitching as you emerge into a cyclopean, unlit cavern that seems to actively swallow the meager light from your torch. The scale of this space defies the laws of geology.",
+    "Stretching into the lightless gloom is an inky, obsidian lake. Massive, unseen entities move beneath the glassy surface, causing huge, rhythmic ripples that pulse with a slow, biological cadence—like the heartbeat of a sleeping, aquatic god.",
+    "A treacherous, narrow stone ledge—slick with ancient, bioluminescent slime—clings to the jagged cavern wall, encircling the black water like the rim of a gargantuan sacrificial bowl."
   ],
   "options": [
     {
       "id": "shrine",
       "link": "cave_shrine.json",
-      "desc": "1. Step carefully around the ledge to the shrine"
+      "desc": "1. Inch carefully around the ledge toward the distant, pulsing shrine"
     },
     {
       "id": "escape",
       "link": "cave_escape.json",
-      "desc": "2. Retreat back toward the surface"
+      "desc": "2. Attempt to find a path back toward the surface"
     },
     {
       "id": "toss",
       "link": "cave_stone_death.json",
-      "desc": "3. Toss a stone into the center of the lake"
+      "desc": "3. Toss a stone into the center of the obsidian lake"
     }
   ],
   "image": "/images/cave_lake.png"

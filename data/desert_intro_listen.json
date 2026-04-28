@@ -1,0 +1,16 @@
+{
+    "title": "Whispers in the Wind",
+    "image": "/images/desert_intro.png",
+    "lines": [
+        "You close your eyes and listen. The wind doesn't just howl; it whispers in a language that predates mankind.",
+        "Among the shifting sands, you hear the faint, rhythmic scratching of thousands of unseen legs, and a distant, mournful chime that resonates in the empty air.",
+        "The desert is alive, and it is watching."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "desert_intro.json",
+            "desc": "Focus back on your surroundings"
+        }
+    ]
+}

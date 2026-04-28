@@ -1,16 +1,16 @@
 {
   "title": "The Abyss",
   "lines": [
-    "You land hard, bruised but unbroken.",
-    "The air down here is unnervingly cold. A thick, unnatural frost covers the cavern walls.",
-    "Looking up, the hole you fell through is far too high to climb back out of.",
-    "The only way forward is deeper into the freezing cave system."
+    "You plummet into the lightless abyss, landing hard on a floor of cold, jagged stone that feels like the ribs of some subterranean god. The impact rattles your teeth and leaves your vision swimming with amethyst sparks, but by some dark miracle, you remain unbroken.",
+    "The air here is a freezing shroud, tasting of ozone and ancient, stagnant ice. A thick, unnatural frost—crystalline and pulsating with a faint, geometric rhythm—carpets the cavern walls, reflecting a sickly light from deep within the earth.",
+    "High above, the jagged maw of the hole you fell through is a distant, fading eye of bruising-purple sky. It is far beyond your desperate reach; you have been swallowed by the world's deep places.",
+    "The only path forward leads deeper into the freezing, lightless labyrinth of the cave system."
   ],
   "options": [
     {
       "id": "walk",
       "link": "cave_frozen.json",
-      "desc": "Walk deeper into the icy darkness"
+      "desc": "Ventures deeper into the crystalline, icy darkness"
     }
   ],
   "image": "/images/cave_drop.png"

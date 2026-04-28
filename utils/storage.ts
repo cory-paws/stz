@@ -21,11 +21,4 @@ export const load = <T>(key: string, fallback: T): T => {
     }
 };
 
-export const clearGame = (): void => {
-    if (typeof window === 'undefined') return;
-    localStorage.removeItem('current');
-    localStorage.removeItem('inventory');
-    localStorage.removeItem('droppedItems');
-    localStorage.removeItem('corpses');
-    localStorage.removeItem('sanity');
-};
+

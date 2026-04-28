@@ -2,21 +2,21 @@
     "title": "The Mad Shrine",
     "image": "/images/cosmic_shrine.png",
     "lines": [
-        "You hug the cavern wall and step off the ledge into a vast chamber with twisted, non-Euclidean geometry. The angles make your eyes hurt.",
-        "In the center of the room sits an abandoned stone altar.",
-        "Engraved deeply into the green stone below horrible, alien symbols reads exactly this: 'He that sleeps will never die.'",
-        "Behind the altar, a swirling tear in reality hums with an unnerving, amethyst light."
+        "You hug the weeping stone of the cavern wall and step off the ledge into a cyclopean chamber of twisted, non-Euclidean geometry. The architecture is a nightmare of acute angles and impossible, nauseating curves that sear your retinas and defy the laws of earthly construction.",
+        "In the geometric center of the room sits a monolithic altar of porous, green stone that feels warm and slightly elastic to the touch, pulsing with a slow, tectonic rhythm.",
+        "Engraved deeply into the stone beneath a series of profane, shifting symbols is a single sentence carved in an archaic script: 'He that sleeps will never die, and with strange aeons even death may die.'",
+        "Behind the altar, a jagged, swirling tear in the very fabric of reality hums with a cold, absolute intensity—an amethyst light that reveals the chaotic, writhing 'under-structure' of the world."
     ],
     "options": [
         {
             "id": "read",
             "link": "cave_madness_death.json",
-            "desc": "Stand and try to decipher the alien symbols on the walls"
+            "desc": "Stand and try to decipher the profane, shifting symbols"
         },
         {
             "id": "portal",
             "link": "cave_portal.json",
-            "desc": "Approach the swirling amethyst tear in reality"
+            "desc": "Approach the jagged, swirling amethyst tear in reality"
         }
     ]
 }

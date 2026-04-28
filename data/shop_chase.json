@@ -2,25 +2,25 @@
     "title": "Shattering Glass!",
     "image": "/images/shop_chase.png",
     "lines": [
-        "CRASH! The front window explodes inward as a group of pale, grey-skinned villagers smashes through.",
-        "They scramble over the counter, their fingers clawing at the air. There are too many of them to fight.",
-        "Your only escape is the narrow staircase leading to the floor above!"
+        "CRASH! The front window shatters into a thousand crystalline teeth as several pale, grey-skinned figures burst through the grime, their movements a horrifying, jerky fusion of the human and the insectile.",
+        "They scramble over the splintered counter with a fluid, liquid speed, their fingers elongated into translucent, chitinous claws that scrape against the metal. Their eyes are milky cataracts, reflecting an absolute void where humanity once resided.",
+        "The air is filled with their wet, rhythmic hissing. Your only hope of survival is the narrow, rotting staircase that ascends into the lightless gloom of the storage loft!"
     ],
     "options": [
         {
             "id": "up",
             "link": "shop_attic.json",
-            "desc": "1. Run upstairs toward the attic"
+            "desc": "1. Scramble up the rotting stairs toward the attic"
         },
         {
             "id": "hide",
             "link": "shop_hide_death.json",
-            "desc": "2. Duck behind the heavy wooden counter"
+            "desc": "2. Duck into the suffocating shadows behind the heavy counter"
         },
         {
             "id": "barricade",
-            "link": "shop_chase.json",
-            "desc": "3. Attempt to push a shelf against the stairs"
+            "link": "shop_chase_barricade.json",
+            "desc": "3. Attempt to heave a rusted shelf against the stairwell"
         }
     ]
 }

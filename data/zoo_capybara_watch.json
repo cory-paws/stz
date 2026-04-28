@@ -1,0 +1,16 @@
+{
+    "title": "Indifferent Observers",
+    "image": "/images/zoo_capybara.png",
+    "lines": [
+        "You sit by the neon-blue basin, watching the ethereal capybaras. Their movements are fluid and eerily precise, a slow-motion dance of transparent flesh and glowing bone.",
+        "As you watch, one of the creatures pauses and turns its head toward you. Its eyes are not eyes at all, but small, swirling pools of the same violet gas you saw in the factory.",
+        "It doesn't blink; it simply stares, a silent witness to a world that no longer belongs to you. The silence of the basin is absolute, broken only by the rhythmic lapping of the bioluminescent water."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "zoo_capybara.json",
+            "desc": "Stand up and move along"
+        }
+    ]
+}

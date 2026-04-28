@@ -2,36 +2,36 @@
     "title": "The Village Square",
     "image": "/images/village.png",
     "lines": [
-        "The once-familiar village square is now a labyrinth of barricades and abandoned cars. You can hear the groans of the undead echoing off the buildings.",
-        "To the north, the neon sign of a general store flickers fitfully. To the south, a large tunnel entrance marks the descent into the sewers.",
-        "The air is thick with the smell of smoke and fear. You must move quickly."
+        "The village square, once the heart of this community, is now a nightmare labyrinth of rusted barricades and abandoned vehicles that look like the charred carcasses of prehistoric insects.",
+        "The air is thick with a cloying fog that tastes of copper and old wet earth. You can hear the wet, rhythmic groans of the grey-skinned inhabitants echoing off the crumbling brickwork, a profane choir that sounds like nothing human.",
+        "To the north, the neon sign of the general store flickers with a sickly, violet light. To the south, the gaping maw of a tunnel leads into the lightless depths of the sewers."
     ],
     "options": [
         {
             "id": "shop",
             "link": "shop_entrance.json",
-            "desc": "1. Run for the general store"
+            "desc": "1. Seek refuge in the flickering light of the general store"
         },
         {
             "id": "sewer",
             "link": "sewer_entrance.json",
-            "desc": "2. Descend into the sewers"
+            "desc": "2. Descend into the lightless maw of the sewers"
         },
         {
             "id": "talk",
             "link": "village_death.json",
-            "desc": "3. Attempt to help a huddle of survivors"
+            "desc": "3. Attempt to reach the huddle of survivors in the shadows"
         },
         {
             "id": "rugby",
             "link": "rugby_field.json",
-            "desc": "4. Hike toward the lights of the local rugby pitch"
+            "desc": "4. Hike toward the unnatural lights of the rugby pitch"
         },
         {
             "id": "restricted",
             "link": "grand_ending.json",
             "scoreRequirement": 1000,
-            "desc": "5. Enter the Restricted Zone"
+            "desc": "5. Enter the Restricted Zone (Requires 1000 Sanity)"
         }
     ]
 }

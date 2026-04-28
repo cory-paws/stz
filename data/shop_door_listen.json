@@ -1,0 +1,16 @@
+{
+    "title": "Echoes of the Void",
+    "image": "/images/shop_door.png",
+    "lines": [
+        "You press your ear against the cold, rough wood of the keyhole. At first, there is only the howling wind, but then you hear it—a low, rhythmic thumping, like the heartbeat of a titan.",
+        "Between the thumps, you hear a voice, or perhaps many voices, whispering your name in a tongue that sounds like dry leaves skittering over stone.",
+        "Whatever is on the other side, it is vast, and it is ancient."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "shop_door.json",
+            "desc": "Pull away from the door, your heart racing"
+        }
+    ]
+}

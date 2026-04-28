@@ -1,20 +1,20 @@
 {
   "title": "The Frozen Legion",
   "lines": [
-    "You navigate down a slick, icy tunnel. As your eyes adjust to the gloom, you freeze in terror.",
-    "Embedded in the glacial ice all around you are hundreds of zombie farmers.",
-    "They are frozen in varying states of decay, their milky eyes staring back at you. Suddenly, you hear the sharp CRACK of splitting ice."
+    "You descend further into a slick, obsidian-dark tunnel. As your vision adjusts to the oppressive gloom, you are gripped by a cold, primordial terror that freezes the breath in your lungs.",
+    "Suspended within the translucent glacial ice—like insects in ancient amber—are hundreds of the grey-skinned inhabitants. Their bodies are warped, their limbs elongated at impossible angles, as if the ice itself is slowly rewriting their very anatomy into something non-human.",
+    "Their milky, cataract-ridden eyes stare back at you from the frozen deep, a silent legion of indifferent witnesses. Suddenly, the deathly silence is shattered by the sharp, echoing CRACK of shifting, splitting ice."
   ],
   "options": [
     {
       "id": "sneak",
       "link": "cave_lake.json",
-      "desc": "Carefully sneak past before the ice shatters"
+      "desc": "Move with agonizing care before the glacial tomb shatters"
     },
     {
       "id": "attack",
       "link": "cave_break_death.json",
-      "desc": "Try to smash a zombie's head while it's trapped"
+      "desc": "Try to smash a frozen skull before it can reanimate"
     }
   ],
   "image": "/images/cave_frozen.png"

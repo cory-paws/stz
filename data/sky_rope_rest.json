@@ -1,0 +1,16 @@
+{
+    "title": "A Precarious Rest",
+    "image": "/images/sky_rope.png",
+    "lines": [
+        "You wrap your legs tightly around the coarse hemp and close your eyes. The world is a silent, grey void, and you are a tiny speck suspended between the earth and the heavens.",
+        "The rope sways rhythmically, a slow, hypnotic motion that feels like the breathing of a colossal beast. You feel the vibration of the zeppelins above—a deep, metallic thrum that speaks of immense power and ancient machinery.",
+        "Your breath comes in ragged gasps, each one clouding in the freezing air, before being swallowed by the absolute silence of the heights."
+    ],
+    "options": [
+        {
+            "id": "back",
+            "link": "sky_rope.json",
+            "desc": "Tighten your grip and continue the ascent"
+        }
+    ]
+}

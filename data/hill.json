@@ -2,26 +2,25 @@
     "title": "The Hill",
     "image": "/images/hill.png",
     "lines": [
-        "You have packed up your tent in your backpack and you're looking down the hill.",
-        "There is a path down to the village to the left, you can also see a farmer acting",
-        "strangely on his mobile phone to the field to the right. It also looks like a good",
-        "spot for a picnic."
+        "You have dismantled your meager shelter and stand upon the windswept crest of the hill, gazing down into the valley that seems to warp and stretch before your eyes.",
+        "To the left, a jagged path winds toward the fog-shrouded village. To the right, a solitary figure—a farmer—gestures frantically at a slab of black glass in his hand, his movements jerky and alien against the backdrop of the swaying, golden wheat.",
+        "The grass beneath your feet is a sickly, vibrant green, and the air carries a metallic tang that makes your teeth ache. It is an ideal spot for a final meal before you descend into the unknown."
     ],
     "options": [
         {
             "id": "picnic",
             "link": "picnic.json",
-            "desc": "1. Have a picnic"
+            "desc": "1. Have a picnic upon the sickly grass"
         },
         {
             "id": "village",
             "link": "village.json",
-            "desc": "2. Go to the village"
+            "desc": "2. Descend toward the fog-shrouded village"
         },
         {
             "id": "farmer",
             "link": "farmer.json",
-            "desc": "3. See what's up with the farmer"
+            "desc": "3. Investigate the frantic farmer in the fields"
         }
     ]
 }

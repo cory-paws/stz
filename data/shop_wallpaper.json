@@ -2,8 +2,8 @@
     "title": "Beyond the Wall",
     "image": "/images/shop_wallpaper.png",
     "lines": [
-        "You tear away the wallpaper. Behind it, the attic wall has been replaced by a rough-hewn wooden tunnel that shouldn't exists.",
-        "The violet light pulses from deep within the tunnel. It's alien, terrifying, but it's your only way out."
+        "You tear away the peeling wallpaper. Behind it, the attic wall has been replaced by a rough-hewn wooden tunnel that defies the laws of physical space.",
+        "A sickly violet light pulses from deep within the abyss. It is alien, terrifying, and pulses with a rhythm that matches the beating of your own terrified heart."
     ],
     "options": [
         {
@@ -13,12 +13,12 @@
         },
         {
             "id": "listen",
-            "link": "shop_wallpaper.json",
+            "link": "shop_wallpaper_listen.json",
             "desc": "2. Listen to the low hum coming from the wall"
         },
         {
             "id": "stare",
-            "link": "shop_wallpaper.json",
+            "link": "shop_wallpaper_stare.json",
             "desc": "3. Stare into the amethyst light until it hurts"
         }
     ]

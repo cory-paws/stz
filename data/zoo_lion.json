@@ -3,20 +3,20 @@
     "image": "/images/zoo_lion.png",
     "imageClass": "hue-rotate-[20deg] saturate-150 brightness-75 contrast-125 drop-shadow-[0_0_15px_rgba(255,165,0,0.2)]",
     "lines": [
-        "The air here is thick with the scent of ozone and dry grass. You stand before a massive, geometric enclosure made of reinforced glass and glowing orange moss.",
-        "In the center of the artificial savannah, a majestic lion sits motionless. It is not a beast of bone and fur, but a shimmering golden silhouette that seems to be carved from the desert sunset itself.",
-        "Its eyes are two tiny, glowing terminal-green lights, watching your every move with predatory calculation."
+        "The air here is a heavy, suffocating shroud of ozone and sun-scorched grass. You stand before a cyclopean, geometric enclosure of reinforced obsidian-glass and pulsing orange moss that seems to breathe with a slow, tectonic rhythm.",
+        "In the center of the artificial savannah, a majestic entity sits in absolute stillness. It is not a beast of bone and fur, but a shimmering golden silhouette—a construct of light and shadow that looks as if it were carved from the very essence of a dying desert sun.",
+        "Its eyes are not eyes, but two tiny, intensely glowing terminal-green lights that watch your every movement with a cold, absolute, and predatory calculation. It is a sentinel of the void."
     ],
     "options": [
         {
             "id": "move",
             "link": "zoo_lion_death.json",
-            "desc": "1. Tap on the glass to get the creature's attention"
+            "desc": "1. Tap on the reinforced glass to challenge the golden sentinel"
         },
         {
             "id": "back",
             "link": "zoo_entrance.json",
-            "desc": "2. Carefully back away from the enclosure"
+            "desc": "2. Carefully back away from the enclosure and its glowing gaze"
         }
     ]
 }
